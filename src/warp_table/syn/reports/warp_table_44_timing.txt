@@ -1,0 +1,65 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : warp_table_WT_WIDTH44_FIFO_DEPTH128_LOG2_FIFO_DEPTH7
+Version: F-2011.09-SP4-1
+Date   : Fri Feb 16 08:29:55 2018
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: tail_ptr_reg[5]
+              (rising edge-triggered flip-flop clocked by my_clock)
+  Endpoint: FIFO_reg[1][1]
+            (rising edge-triggered flip-flop clocked by my_clock)
+  Path Group: my_clock
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock my_clock (rise edge)               0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  tail_ptr_reg[5]/CLK (DFFPOSX1)           0.00 #     0.00 r
+  tail_ptr_reg[5]/Q (DFFPOSX1)             0.64       0.64 r
+  U32000/Y (XNOR2X1)                       0.13       0.77 r
+  U32003/Y (NAND3X1)                       0.03       0.80 f
+  U23137/Y (BUFX2)                         0.03       0.84 f
+  U12531/Y (OR2X1)                         0.05       0.88 f
+  U23136/Y (INVX1)                         0.00       0.88 r
+  U12705/Y (AND2X1)                        0.04       0.93 r
+  U23135/Y (INVX1)                         0.02       0.95 f
+  U12390/Y (NAND3X1)                       0.03       0.98 r
+  U21722/Y (BUFX2)                         0.04       1.02 r
+  U26231/Y (INVX1)                         0.06       1.07 f
+  U1881/Y (NAND3X1)                        0.05       1.13 r
+  U12715/Y (BUFX2)                         0.03       1.16 r
+  U26236/Y (INVX1)                         0.09       1.25 f
+  U24559/Y (AND2X1)                        0.06       1.30 f
+  U24560/Y (INVX1)                         0.01       1.31 r
+  U12575/Y (OR2X1)                         0.25       1.56 r
+  U26265/Y (INVX1)                         0.10       1.66 f
+  U25981/Y (INVX1)                         0.50       2.16 r
+  U587/Y (OAI21X1)                         0.14       2.31 f
+  FIFO_reg[1][1]/D (DFFPOSX1)              0.00       2.31 f
+  data arrival time                                   2.31
+
+  clock my_clock (rise edge)              10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  FIFO_reg[1][1]/CLK (DFFPOSX1)            0.00       9.80 r
+  library setup time                      -0.10       9.70
+  data required time                                  9.70
+  -----------------------------------------------------------
+  data required time                                  9.70
+  data arrival time                                  -2.31
+  -----------------------------------------------------------
+  slack (MET)                                         7.40
+
+
+1

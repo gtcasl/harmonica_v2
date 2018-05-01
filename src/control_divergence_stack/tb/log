@@ -1,0 +1,51 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Mar  2 09:00 2018
+ Reset Check : Stack is empty after reset
+-------------------------------------Sequence 1-----------------------------------------
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+Error: "random_control_divergence_test.sv", 75: tb: at time 76
+ Popped data is not same as expected data: Vld 0, Expected Data 24c0895e818484d609, Actual Data 24c0895e818484d609
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+Error: "random_control_divergence_test.sv", 75: tb: at time 196
+ Popped data is not same as expected data: Vld 0, Expected Data 658937521200f3e301, Actual Data 658937521200f3e301
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+Error: "random_control_divergence_test.sv", 75: tb: at time 316
+ Popped data is not same as expected data: Vld 0, Expected Data ed462df78c7cfde9f9, Actual Data ed462df78c7cfde9f9
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+Error: "random_control_divergence_test.sv", 75: tb: at time 436
+ Popped data is not same as expected data: Vld 0, Expected Data e5bbd272778932d612, Actual Data e5bbd272778932d612
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+Error: "random_control_divergence_test.sv", 75: tb: at time 556
+ Popped data is not same as expected data: Vld 0, Expected Data e8e2ca4ec52e58495c, Actual Data e8e2ca4ec52e58495c
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+Error: "random_control_divergence_test.sv", 75: tb: at time 676
+ Popped data is not same as expected data: Vld 0, Expected Data 630573870ac03b2280, Actual Data 630573870ac03b2280
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+Error: "random_control_divergence_test.sv", 75: tb: at time 796
+ Popped data is not same as expected data: Vld 0, Expected Data 968983b81386bc380d, Actual Data 968983b81386bc380d
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+Error: "random_control_divergence_test.sv", 75: tb: at time 916
+ Popped data is not same as expected data: Vld 0, Expected Data 02d7563eae0effe91d, Actual Data 02d7563eae0effe91d
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+Error: "random_control_divergence_test.sv", 75: tb: at time 1036
+ Popped data is not same as expected data: Vld 0, Expected Data ca9e314c3c7968bdf2, Actual Data ca9e314c3c7968bdf2
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+Error: "random_control_divergence_test.sv", 75: tb: at time 1156
+ Popped data is not same as expected data: Vld 0, Expected Data 78c48a128975c50deb, Actual Data 78c48a128975c50deb
+$finish called from file "random_control_divergence_test.sv", line 83.
+$finish at simulation time                 1205
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1205
+CPU Time:      0.470 seconds;       Data structure size:   0.0Mb
+Fri Mar  2 09:00:11 2018

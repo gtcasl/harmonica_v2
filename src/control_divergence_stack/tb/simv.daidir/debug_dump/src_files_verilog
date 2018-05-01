@@ -1,0 +1,3 @@
+/nethome/pdas36/harmonica_v2.0/src/control_divergence_stack/rtl/control_divergence_stack.v
+/nethome/pdas36/harmonica_v2.0/src/control_divergence_stack/rtl/stack.v
+/nethome/pdas36/harmonica_v2.0/src/control_divergence_stack/tb/random_control_divergence_test.sv

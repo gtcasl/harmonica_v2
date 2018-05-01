@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : register_file_DATA_WIDTH32
+Version: F-2011.09-SP4-1
+Date   : Wed Jan 31 08:52:19 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/harmonica_v2.0/src/register_file/syn/gscl45nm.db)
+
+Number of ports:                          113
+Number of nets:                          3375
+Number of cells:                         3326
+Number of combinational cells:           2814
+Number of sequential cells:               512
+Number of macros:                           0
+Number of buf/inv:                        707
+Number of references:                       7
+
+Combinational area:       7598.905518
+Noncombinational area:    4084.787109
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          11683.692628
+Total area:                 undefined
+1

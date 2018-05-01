@@ -1,0 +1,366 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+               Version L-2016.03-SP5 for linux64 - Oct 14, 2016 
+
+                    Copyright (c) 1988 - 2016 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /nethome/pdas36/.synopsys_dv_prefs.tcl
+# Read the verilog design files
+read_verilog ../verilog/common/rtl_v/half_precision_queue.v
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/dw_foundation.sldb'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/gtech.db'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/standard.sldb'
+  Loading link library 'gscl45nm'
+  Loading link library 'gtech'
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/half_precision_queue.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/half_precision_queue.v
+
+Inferred memory devices in process
+	in routine half_precision_queue line 50 in file
+		'/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/half_precision_queue.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  data_valid_2_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|  data_valid_1_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   data_out_1_reg    | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|      tail_reg       | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|      head_reg       | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|   data_out_2_reg    | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|      queue_reg      | Flip-flop |  68   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+=============================================================
+|    block name/line      | Inputs | Outputs | # sel inputs |
+=============================================================
+| half_precision_queue/74 |   4    |   17    |      2       |
+| half_precision_queue/76 |   4    |   16    |      2       |
+| half_precision_queue/77 |   4    |    1    |      2       |
+=============================================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/half_precision_queue.db:half_precision_queue'
+Loaded 1 design.
+Current design is 'half_precision_queue'.
+half_precision_queue
+# Create user defined variables 
+set CLK_PORT [get_ports clk]
+{clk}
+set CLK_PERIOD 5.00 
+5.00
+set CLK_SKEW 0.20
+0.20
+#set WC_OP_CONDS typ_0_1.98
+#set WIRELOAD_MODEL 10KGATES
+#fanout of 4
+#set DRIVE_CELL buf1a4
+#set DRIVE_PIN {Y}
+#set MAX_OUTPUT_LOAD [load_of ssc_core/buf1a2/A]
+#set INPUT_DELAY 2.0
+#set OUTPUT_DELAY 0.5
+#set MAX_AREA 380000
+# Time Budget 
+create_clock -period $CLK_PERIOD -name my_clock $CLK_PORT
+1
+#set_dont_touch_network my_clock
+set_clock_uncertainty $CLK_SKEW [get_clocks my_clock]
+1
+#set_input_delay $INPUT_DELAY -max -clock my_clock [remove_from_collection [all_inputs] $CLK_PORT]
+#set_output_delay $OUTPUT_DELAY -max -clock my_clock [all_outputs]
+#  Area Constraint
+#set_max_area $MAX_AREA
+# Operating Environment 
+#set_operating_conditions -max $WC_OP_CONDS
+#set_wire_load_model -name $WIRELOAD_MODEL 
+#set_driving_cell -cell $DRIVE_CELL -pin $DRIVE_PIN [remove_from_collection [all_inputs] $CLK_PORT]
+#set_load  $MAX_OUTPUT_LOAD [all_outputs]
+link
+
+  Linking design 'half_precision_queue'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  gscl45nm (library)          /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db
+  dw_foundation.sldb (library) /tools/synopsys/synthesis/l201603sp5/libraries/syn/dw_foundation.sldb
+
+1
+#set_flatten true -effort high
+compile 
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | L-2016.03-DWBB_201603.5 |     *     |
+| Licensed DW Building Blocks        | L-2016.03-DWBB_201603.5 |     *     |
+============================================================================
+
+
+Information: There are 1 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'half_precision_queue'
+Information: Added key list 'DesignWare' to design 'half_precision_queue'. (DDB-72)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01    2003.9      0.00       0.0       0.6                          
+    0:00:01    2003.9      0.00       0.0       0.6                          
+    0:00:01    2003.9      0.00       0.0       0.6                          
+    0:00:01    2003.9      0.00       0.0       0.6                          
+    0:00:01    2003.9      0.00       0.0       0.6                          
+    0:00:01    1909.1      0.00       0.0       0.5                          
+    0:00:01    1909.1      0.00       0.0       0.5                          
+    0:00:01    1909.1      0.00       0.0       0.5                          
+    0:00:01    1909.1      0.00       0.0       0.5                          
+    0:00:01    1909.1      0.00       0.0       0.5                          
+    0:00:01    1951.3      0.00       0.0       0.5                          
+    0:00:02    1986.5      0.00       0.0       0.4                          
+    0:00:02    2028.3      0.00       0.0       0.4                          
+    0:00:02    2067.3      0.00       0.0       0.4                          
+    0:00:02    2100.6      0.00       0.0       0.3                          
+    0:00:02    2133.4      0.00       0.0       0.3                          
+    0:00:02    2162.1      0.00       0.0       0.3                          
+    0:00:02    2190.7      0.00       0.0       0.3                          
+    0:00:03    2219.3      0.00       0.0       0.3                          
+    0:00:03    2219.3      0.00       0.0       0.3                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:03    2219.3      0.00       0.0       0.3                          
+    0:00:03    2219.3      0.00       0.0       0.3                          
+    0:00:03    2219.3      0.00       0.0       0.3                          
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:03    2219.3      0.00       0.0       0.3                          
+    0:00:03    2400.9      0.00       0.0       0.2 alt142/net1611           
+    0:00:03    2540.3      0.00       0.0       0.2 alt145/net1738           
+    0:00:05    2629.5      0.00       0.0       0.2                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:05    2629.5      0.00       0.0       0.2                          
+    0:00:05    2629.5      0.00       0.0       0.2                          
+    0:00:05    2461.0      0.00       0.0       0.2                          
+    0:00:05    2423.0      0.00       0.0       0.2                          
+    0:00:05    2385.0      0.00       0.0       0.2                          
+    0:00:05    2372.3      0.00       0.0       0.2                          
+    0:00:05    2370.9      0.00       0.0       0.2                          
+    0:00:05    2370.9      0.00       0.0       0.2                          
+    0:00:05    2370.9      0.00       0.0       0.2                          
+    0:00:05    2352.1      0.00       0.0       0.2                          
+    0:00:05    2352.1      0.00       0.0       0.2                          
+    0:00:05    2352.1      0.00       0.0       0.2                          
+    0:00:05    2352.1      0.00       0.0       0.2                          
+    0:00:05    2352.1      0.00       0.0       0.2                          
+    0:00:05    2352.1      0.00       0.0       0.2                          
+    0:00:05    2352.1      0.00       0.0       0.2                          
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+#compile -map_effort high 
+#-incremental_mapping
+report_area 
+ 
+****************************************
+Report : area
+Design : half_precision_queue
+Version: L-2016.03-SP5
+Date   : Thu Nov 30 12:47:25 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db)
+
+Number of ports:                           57
+Number of nets:                           769
+Number of cells:                          748
+Number of combinational cells:            640
+Number of sequential cells:               108
+Number of macros/black boxes:               0
+Number of buf/inv:                        312
+Number of references:                      13
+
+Combinational area:               1490.496769
+Buf/Inv area:                      558.466985
+Noncombinational area:             861.634781
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  2352.131550
+Total area:                 undefined
+1
+report_timing
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : half_precision_queue
+Version: L-2016.03-SP5
+Date   : Thu Nov 30 12:47:26 2017
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: head_reg[0]
+              (rising edge-triggered flip-flop clocked by my_clock)
+  Endpoint: data_out_2_reg[0]
+            (rising edge-triggered flip-flop clocked by my_clock)
+  Path Group: my_clock
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock my_clock (rise edge)               0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  head_reg[0]/CLK (DFFPOSX1)               0.00       0.00 r
+  head_reg[0]/Q (DFFPOSX1)                 0.13       0.13 f
+  U286/Y (XOR2X1)                          0.09       0.22 r
+  U651/Y (OR2X1)                           0.05       0.28 r
+  U652/Y (INVX1)                           0.10       0.38 f
+  U762/Y (AOI22X1)                         0.07       0.45 r
+  U367/Y (BUFX2)                           0.04       0.49 r
+  U287/Y (AND2X1)                          0.04       0.53 r
+  U629/Y (INVX1)                           0.02       0.55 f
+  U220/Y (AOI22X1)                         0.03       0.58 r
+  U628/Y (BUFX2)                           0.03       0.62 r
+  U672/Y (INVX1)                           0.01       0.63 f
+  data_out_2_reg[0]/D (DFFPOSX1)           0.00       0.63 f
+  data arrival time                                   0.63
+
+  clock my_clock (rise edge)               5.00       5.00
+  clock network delay (ideal)              0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  data_out_2_reg[0]/CLK (DFFPOSX1)         0.00       4.80 r
+  library setup time                      -0.06       4.74
+  data required time                                  4.74
+  -----------------------------------------------------------
+  data required time                                  4.74
+  data arrival time                                  -0.63
+  -----------------------------------------------------------
+  slack (MET)                                         4.11
+
+
+1
+#compile_ultra -retime
+report_power
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : half_precision_queue
+Version: L-2016.03-SP5
+Date   : Thu Nov 30 12:47:26 2017
+****************************************
+
+
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db)
+
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 339.1163 uW   (93%)
+  Net Switching Power  =  24.0537 uW    (7%)
+                         ---------
+Total Dynamic Power    = 363.1700 uW  (100%)
+
+Cell Leakage Power     =  12.2003 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.3135        2.3744e-03        5.9376e+03            0.3218  (  85.73%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  2.5640e-02        2.1679e-02        6.2627e+03        5.3582e-02  (  14.27%)
+--------------------------------------------------------------------------------------------------
+Total              0.3391 mW     2.4054e-02 mW     1.2200e+04 nW         0.3754 mW
+1
+quit
+
+Thank you...

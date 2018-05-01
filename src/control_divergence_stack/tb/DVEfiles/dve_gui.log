@@ -1,0 +1,228 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Apr 26 16:33 2018
+VCD+ Writer I-2014.03 Copyright (c) 1991-2014 by Synopsys Inc.
+The file '/nethome/pdas36/harmonica_v2.0/src/control_divergence_stack/tb/inter.vpd' was opened successfully.
+dve> dump -add { tb }  -depth 0 -aggregates -scope "."
+1
+ Reset Check : Stack is empty after reset
+-------------------------------------Sequence 1-----------------------------------------
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+-------------------------------------Sequence 2-----------------------------------------
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+-------------------------------------Sequence 3-----------------------------------------
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ New branch Data Arriving : Stack will be filled !
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+ Popped Data same as expected data 
+$finish called from file "random_control_divergence_test.sv", line 369.
+$finish at simulation time                 9705
+Simulation complete, time is 9705.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 9705
+CPU Time:      0.120 seconds;       Data structure size:   0.0Mb
+Thu Apr 26 16:33:32 2018

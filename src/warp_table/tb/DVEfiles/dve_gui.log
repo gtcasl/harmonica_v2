@@ -1,0 +1,18 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Apr 26 16:24 2018
+VCD+ Writer I-2014.03 Copyright (c) 1991-2014 by Synopsys Inc.
+The file '/nethome/pdas36/harmonica_v2.0/src/warp_table/tb/inter.vpd' was opened successfully.
+dve> dump -add { tb }  -depth 0 -aggregates -scope "."
+1
+===================================Warp Table Overflow Test===================================
+
+================================== Writing FIFO entries ===================================
+
+$finish called from file "warp_table_write_read_entry.sv", line 62.
+$finish at simulation time                 8060
+Simulation complete, time is 8060.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 8060
+CPU Time:      0.080 seconds;       Data structure size:   0.0Mb
+Thu Apr 26 16:24:20 2018

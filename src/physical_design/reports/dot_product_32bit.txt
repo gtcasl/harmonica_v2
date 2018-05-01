@@ -1,0 +1,1160 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+               Version L-2016.03-SP5 for linux64 - Oct 14, 2016 
+
+                    Copyright (c) 1988 - 2016 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /nethome/pdas36/.synopsys_dv_prefs.tcl
+# Read the verilog design files
+read_verilog ../verilog/booth_32bit/rtl_v/partial_product_generator.v
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/dw_foundation.sldb'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/gtech.db'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/standard.sldb'
+  Loading link library 'gscl45nm'
+  Loading link library 'gtech'
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/partial_product_generator.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/partial_product_generator.v
+Warning:  /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/partial_product_generator.v:33: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 31 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/partial_product_generator.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            33            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/partial_product_generator.db:partial_product_generator'
+Loaded 1 design.
+Current design is 'partial_product_generator'.
+partial_product_generator
+read_verilog ../verilog/booth_32bit/rtl_v/sign_ext_shift.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/sign_ext_shift.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/sign_ext_shift.v
+
+Statistics for case statements in always block at line 30 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/sign_ext_shift.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            32            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/sgn_ext_shift.db:sgn_ext_shift'
+Loaded 1 design.
+Current design is 'sgn_ext_shift'.
+sgn_ext_shift
+read_verilog ../verilog/booth_32bit/rtl_v/pprod_sgn_extd_shfd.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/pprod_sgn_extd_shfd.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/pprod_sgn_extd_shfd.v
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/pprod_sgn_extd_shfd.db:pprod_sgn_extd_shfd'
+Loaded 1 design.
+Current design is 'pprod_sgn_extd_shfd'.
+pprod_sgn_extd_shfd
+read_verilog ../verilog/booth_32bit/rtl_v/ppg_adders_wrapper.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/ppg_adders_wrapper.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/ppg_adders_wrapper.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/ppg_adders_wrapper.db:ppg_adders_wrapper'
+Loaded 1 design.
+Current design is 'ppg_adders_wrapper'.
+ppg_adders_wrapper
+read_verilog ../verilog/booth_32bit/rtl_v/normalize_32bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/normalize_32bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/normalize_32bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/normalize_32bit.db:normalize_32bit'
+Loaded 1 design.
+Current design is 'normalize_32bit'.
+normalize_32bit
+read_verilog ../verilog/booth_32bit/rtl_v/compute_mantissa.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/compute_mantissa.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/compute_mantissa.v
+
+Statistics for case statements in always block at line 18 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/compute_mantissa.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            20            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/compute_mantissa.db:compute_mantissa'
+Loaded 1 design.
+Current design is 'compute_mantissa'.
+compute_mantissa
+read_verilog ../verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v
+
+Statistics for case statements in always block at line 123 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           125            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine booth_multiplier_32bit line 95 in file
+		'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| unbias_exp_res_reg  | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|     sgn_res_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   curr_state_reg    | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|    adder_ff_reg     | Flip-flop |  48   |  Y  | N  | N  | N  | N  | N  | N  |
+|   sfcand_res_reg    | Flip-flop |  23   |  Y  | N  | N  | N  | N  | N  | N  |
+|   leading_bit_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     exp_res_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine booth_multiplier_32bit line 123 in file
+		'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|   next_state_reg    | Latch |   3   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.db:booth_multiplier_32bit'
+Loaded 1 design.
+Current design is 'booth_multiplier_32bit'.
+booth_multiplier_32bit
+read_verilog ../verilog/common/rtl_v/twos_comp_24bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/twos_comp_24bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/twos_comp_24bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/twos_comp_24bit.db:twos_comp_24bit'
+Loaded 1 design.
+Current design is 'twos_comp_24bit'.
+twos_comp_24bit
+read_verilog ../verilog/adder/rtl_v/align_and_add_32bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/adder/rtl_v/align_and_add_32bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/adder/rtl_v/align_and_add_32bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/adder/rtl_v/align_and_add_32bit.db:align_and_add_32bit'
+Loaded 1 design.
+Current design is 'align_and_add_32bit'.
+align_and_add_32bit
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.db:nibble_local_count'
+Loaded 1 design.
+Current design is 'nibble_local_count'.
+nibble_local_count
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/binary_nibble_encoder.db:binary_nibble_encoder'
+Loaded 1 design.
+Current design is 'binary_nibble_encoder'.
+binary_nibble_encoder
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.db:leading_zeros_counter'
+Loaded 1 design.
+Current design is 'leading_zeros_counter'.
+leading_zeros_counter
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_64bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_64bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_64bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_64bit.db:leading_zeros_counter_64bit'
+Loaded 1 design.
+Current design is 'leading_zeros_counter_64bit'.
+leading_zeros_counter_64bit
+read_verilog ../verilog/common/rtl_v/extract_mantissa_32bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_32bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_32bit.v
+
+Statistics for case statements in always block at line 18 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_32bit.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            20            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_32bit.db:extract_mantissa_32bit'
+Loaded 1 design.
+Current design is 'extract_mantissa_32bit'.
+extract_mantissa_32bit
+read_verilog ../verilog/dot_product/rtl_v/dot_product_32bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/dot_product/rtl_v/dot_product_32bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/dot_product/rtl_v/dot_product_32bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/dot_product/rtl_v/dot_product_32bit.db:dot_product_32bit'
+Loaded 1 design.
+Current design is 'dot_product_32bit'.
+dot_product_32bit
+# Create user defined variables 
+set CLK_PORT [get_ports clk]
+{clk}
+set CLK_PERIOD 5.00 
+5.00
+set CLK_SKEW 0.20
+0.20
+#set WC_OP_CONDS typ_0_1.98
+#set WIRELOAD_MODEL 10KGATES
+#fanout of 4
+#set DRIVE_CELL buf1a4
+#set DRIVE_PIN {Y}
+#set MAX_OUTPUT_LOAD [load_of ssc_core/buf1a2/A]
+#set INPUT_DELAY 2.0
+#set OUTPUT_DELAY 0.5
+#set MAX_AREA 380000
+# Time Budget 
+create_clock -period $CLK_PERIOD -name my_clock $CLK_PORT
+1
+#set_dont_touch_network my_clock
+set_clock_uncertainty $CLK_SKEW [get_clocks my_clock]
+1
+#set_input_delay $INPUT_DELAY -max -clock my_clock [remove_from_collection [all_inputs] $CLK_PORT]
+#set_output_delay $OUTPUT_DELAY -max -clock my_clock [all_outputs]
+#  Area Constraint
+#set_max_area $MAX_AREA
+# Operating Environment 
+#set_operating_conditions -max $WC_OP_CONDS
+#set_wire_load_model -name $WIRELOAD_MODEL 
+#set_driving_cell -cell $DRIVE_CELL -pin $DRIVE_PIN [remove_from_collection [all_inputs] $CLK_PORT]
+#set_load  $MAX_OUTPUT_LOAD [all_outputs]
+link
+
+  Linking design 'dot_product_32bit'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  gscl45nm (library)          /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db
+  dw_foundation.sldb (library) /tools/synopsys/synthesis/l201603sp5/libraries/syn/dw_foundation.sldb
+
+1
+compile -map_effort high
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | L-2016.03-DWBB_201603.5 |     *     |
+| Licensed DW Building Blocks        | L-2016.03-DWBB_201603.5 |     *     |
+============================================================================
+
+
+Information: There are 119 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'extract_mantissa_32bit'
+  Processing 'binary_nibble_encoder_0'
+  Processing 'nibble_local_count_0'
+  Processing 'leading_zeros_counter_0'
+  Processing 'twos_comp_24bit_0'
+  Processing 'align_and_add_32bit'
+Information: Added key list 'DesignWare' to design 'align_and_add_32bit'. (DDB-72)
+  Processing 'compute_mantissa_0'
+  Processing 'leading_zeros_counter_64bit_0'
+  Processing 'normalize_32bit_0'
+  Processing 'sgn_ext_shift_0'
+  Processing 'partial_product_generator_0'
+  Processing 'pprod_sgn_extd_shfd_0'
+  Processing 'ppg_adders_wrapper_0'
+  Processing 'booth_multiplier_32bit_0'
+  Processing 'dot_product_32bit'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'dot_product_32bit_DW01_add_0'
+  Processing 'align_and_add_32bit_DW01_sub_0'
+  Processing 'align_and_add_32bit_DW01_add_0'
+  Mapping 'DW_rightsh'
+  Mapping 'align_and_add_32bit_DW_cmp_0'
+  Processing 'align_and_add_32bit_DW01_sub_1'
+  Processing 'align_and_add_32bit_DW01_sub_2'
+  Processing 'booth_multiplier_32bit_1_DW01_add_0'
+  Processing 'booth_multiplier_32bit_1_DW01_add_1'
+  Processing 'booth_multiplier_32bit_1_DW01_inc_0'
+  Processing 'booth_multiplier_32bit_1_DW01_sub_0'
+  Processing 'normalize_32bit_1_DW01_sub_0'
+  Processing 'normalize_32bit_1_DW01_sub_1'
+  Processing 'booth_multiplier_32bit_0_DW01_add_0'
+  Processing 'booth_multiplier_32bit_0_DW01_add_1'
+  Processing 'booth_multiplier_32bit_0_DW01_inc_0'
+  Processing 'booth_multiplier_32bit_0_DW01_sub_0'
+  Processing 'normalize_32bit_0_DW01_sub_0'
+  Processing 'normalize_32bit_0_DW01_sub_1'
+  Processing 'booth_multiplier_32bit_0_DW01_add_2'
+  Processing 'booth_multiplier_32bit_0_DW01_sub_1'
+  Processing 'booth_multiplier_32bit_0_DW01_sub_2'
+  Processing 'booth_multiplier_32bit_1_DW01_add_2'
+  Processing 'booth_multiplier_32bit_1_DW01_sub_1'
+  Processing 'booth_multiplier_32bit_1_DW01_sub_2'
+  Processing 'ppg_adders_wrapper_0_DW01_add_0'
+  Processing 'ppg_adders_wrapper_0_DW01_add_1'
+  Processing 'ppg_adders_wrapper_0_DW01_add_2'
+  Processing 'ppg_adders_wrapper_0_DW01_add_3'
+  Processing 'ppg_adders_wrapper_1_DW01_add_0'
+  Processing 'ppg_adders_wrapper_1_DW01_add_1'
+  Processing 'ppg_adders_wrapper_1_DW01_add_2'
+  Processing 'ppg_adders_wrapper_1_DW01_add_3'
+  Processing 'booth_multiplier_32bit_0_DW01_add_3'
+  Processing 'booth_multiplier_32bit_0_DW01_sub_3'
+  Processing 'booth_multiplier_32bit_1_DW01_add_3'
+  Processing 'booth_multiplier_32bit_1_DW01_sub_3'
+  Processing 'align_and_add_32bit_DW01_inc_0'
+  Processing 'align_and_add_32bit_DW01_sub_3'
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:19   35008.4      0.00       0.0      32.3                          
+    0:00:19   35008.4      0.00       0.0      32.3                          
+    0:00:23   32646.4      0.03       0.1      21.6                          
+    0:00:23   32646.4      0.03       0.1      21.6                          
+    0:00:23   32646.4      0.03       0.1      21.6                          
+    0:00:23   32645.4      0.03       0.1      21.6                          
+    0:00:23   32645.4      0.03       0.1      21.6                          
+    0:00:26   30153.5      0.21       9.4      18.8                          
+    0:00:27   30208.4      0.05       1.8      18.8                          
+    0:00:28   30167.1      0.08       1.5      18.8                          
+    0:00:28   30191.5      0.00       0.0      18.8                          
+    0:00:29   30176.5      0.06       2.4      18.8                          
+    0:00:29   30198.0      0.00       0.0      18.8                          
+    0:00:29   30187.7      0.04       1.2      18.8                          
+    0:00:29   30189.6      0.02       0.2      18.8                          
+    0:00:30   30196.2      0.00       0.0      18.8                          
+    0:00:30   30196.2      0.00       0.0      18.8                          
+    0:00:30   30196.2      0.00       0.0      18.8                          
+    0:00:30   30196.2      0.00       0.0      18.8                          
+    0:00:30   30196.2      0.00       0.0      18.8                          
+    0:00:37   30596.5      0.11       2.6      17.5                          
+    0:00:44   31004.8      0.14       4.6      16.4                          
+    0:00:51   31302.8      0.23       8.4      15.7                          
+    0:00:56   31554.3      0.26      10.0      15.1                          
+    0:01:00   31752.8      0.26      10.1      14.7                          
+    0:01:04   31862.7      0.26      10.1      14.5                          
+    0:01:05   31963.1      0.26      10.4      14.4                          
+    0:01:06   32020.3      0.26      10.4      14.3                          
+    0:01:07   32049.4      0.26      10.5      14.3                          
+    0:01:07   32049.4      0.26      10.5      14.3                          
+    0:01:08   32089.8      0.11       1.3      14.3 BM1/exp_res_reg[7]/D     
+    0:01:08   32094.0      0.08       0.4      14.3 BM1/exp_res_reg[7]/D     
+    0:01:09   32102.5      0.04       0.1      14.3 BM1/exp_res_reg[7]/D     
+    0:01:09   32100.6      0.01       0.0      14.3 BM0/exp_res_reg[7]/D     
+    0:01:09   32094.0      0.00       0.0      14.3                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:09   32094.0      0.00       0.0      14.3                          
+    0:01:09   32094.0      0.00       0.0      14.3                          
+    0:01:09   32094.0      0.00       0.0      14.3                          
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:09   32094.0      0.00       0.0      14.3                          
+    0:01:10   32187.4      0.00       0.0      14.2 BM0/PPGAW/add_0_root_add_0_root_add_94/n110
+    0:01:10   32268.1      0.00       0.0      14.0 BM1/PPGAW/add_0_root_add_0_root_add_94/n134
+    0:01:10   32344.6      0.00       0.0      13.9 BM1/PPGAW/add_1_root_add_0_root_add_94/n100
+    0:01:11   32421.1      0.00       0.0      13.8 BM0/PPGAW/add_2_root_add_0_root_add_94/n164
+    0:01:11   32502.8      0.00       0.0      13.7 BM1/PPGAW/add_2_root_add_0_root_add_94/n76
+    0:01:11   32582.6      0.00       0.0      13.5 BM1/PPGAW/add_3_root_add_0_root_add_94/n148
+    0:01:12   32685.3      0.00       0.0      13.4 BM0/PPGAW/PPSESD3/SEXTSHF/sesd_partial_prod[28]
+    0:01:12   32918.1      0.00       0.0      13.3 BM1/PPGAW/PPSESD2/SEXTSHF/sesd_partial_prod[0]
+    0:01:12   33031.2      0.00       0.0      13.2 BM0/PPGAW/add_1_root_add_0_root_add_94/n180
+    0:01:12   33035.4      0.00       0.0      13.2 BM0/NORM/LZA/LZC_L/NLC0/z[1]
+    0:01:12   33196.9      0.00       0.0      13.0 BM0/PPGAW/add_3_root_add_0_root_add_94/n82
+    0:01:13   33333.4      0.00       0.0      12.9 BM0/PPGAW/add_0_root_add_0_root_add_94/n148
+    0:01:13   33485.0      0.00       0.0      12.7 BM1/PPGAW/add_3_root_add_0_root_add_94/n98
+    0:01:14   33631.0      0.00       0.0      12.6 BM1/PPGAW/add_0_root_add_0_root_add_94/n180
+    0:01:14   33735.2      0.00       0.0      12.5 BM0/PPGAW/PPSESD2/SEXTSHF/sesd_partial_prod[23]
+    0:01:14   33910.7      0.00       0.0      12.4 BM0/PPGAW/add_3_root_add_0_root_add_94/n163
+    0:01:14   34060.9      0.00       0.0      12.3 BM1/PPGAW/add_2_root_add_0_root_add_94/n51
+    0:01:14   34220.4      0.00       0.0      12.1 BM1/PPGAW/add_1_root_add_0_root_add_94/n91
+    0:01:14   34381.9      0.00       0.0      12.0 BM0/PPGAW/add_0_root_add_0_root_add_94/n181
+    0:01:14   34532.0      0.00       0.0      11.9 BM0/PPGAW/add_1_root_add_0_root_add_94/n96
+    0:01:14   34677.0      0.00       0.0      11.8 BM1/PPGAW/add_3_root_add_0_root_add_94/n96
+    0:01:14   34832.4      0.00       0.0      11.6 BM1/PPGAW/add_0_root_add_0_root_add_94/n186
+    0:01:15   34973.6      0.00       0.0      11.5 BM0/PPGAW/add_1_root_add_0_root_add_94/n191
+    0:01:15   35112.6      0.00       0.0      11.5 BM1/PPGAW/add_1_root_add_0_root_add_94/n127
+    0:01:15   35264.6      0.00       0.0      11.3 BM0/PPGAW/add_2_root_add_0_root_add_94/n24
+    0:01:15   35441.5      0.00       0.0      11.1 BM1/PPGAW/add_2_root_add_0_root_add_94/n18
+    0:01:15   35613.3      0.00       0.0      10.9 BM0/PPGAW/add_2_root_add_0_root_add_94/n3
+    0:01:15   35788.3      0.00       0.0      10.7 BM0/PPGAW/add_0_root_add_0_root_add_94/n35
+    0:01:15   35959.6      0.00       0.0      10.5 BM1/PPGAW/add_0_root_add_0_root_add_94/n33
+    0:01:15   36129.1      0.00       0.0      10.3 BM0/PPGAW/PPSESD0/SEXTSHF/sesd_partial_prod[47]
+    0:01:16   36239.8      0.00       0.0      10.2 BM0/PPGAW/add_0_root_add_0_root_add_94/n17
+    0:01:16   36386.7      0.00       0.0      10.0 BM1/PPGAW/PPSESD0/PPG0/partial_prod[3]
+    0:01:16   36555.2      0.00       0.0       9.9 BM0/NORM/GEN_MAN/net36597
+    0:01:16   36821.7      0.00       0.0       9.8 BM0/NORM/GEN_MAN/net36730
+    0:01:16   37051.2      0.00       0.0       9.7 BM0/n145                 
+    0:01:16   37298.6      0.00       0.0       9.6 BM0/NORM/GEN_MAN/net36193
+    0:01:16   37498.0      0.00       0.0       9.6 BM0/NORM/GEN_MAN/net36798
+    0:01:16   37684.3      0.00       0.0       9.5 BM1/NORM/GEN_MAN/net34001
+    0:01:16   37860.3      0.00       0.0       9.5 BM1/NORM/GEN_MAN/net34555
+    0:01:16   38142.4      0.00       0.0       9.4 BM0/PPGAW/PPSESD2/SEXTSHF/net37572
+    0:01:16   38506.1      0.00       0.0       9.3 BM1/PPGAW/PPSESD2/SEXTSHF/net35274
+    0:01:17   38715.4      0.00       0.0       9.3 BM0/PPGAW/PPSESD3/SEXTSHF/n81
+    0:01:17   38853.8      0.00       0.0       9.2 ALIGN_ADD/EXM/n214       
+    0:01:17   38982.9      0.00       0.0       9.2 BM0/NORM/GEN_MAN/net36608
+    0:01:17   39111.9      0.00       0.0       9.1 BM1/NORM/GEN_MAN/net34226
+    0:01:17   39241.0      0.00       0.0       9.1 BM0/PPGAW/PPSESD0/SEXTSHF/net38166
+    0:01:17   39370.0      0.00       0.0       9.1 BM0/PPGAW/PPSESD1/SEXTSHF/net38017
+    0:01:17   39499.1      0.00       0.0       9.0 BM0/PPGAW/PPSESD3/SEXTSHF/net37380
+    0:01:17   39628.2      0.00       0.0       9.0 BM1/PPGAW/PPSESD1/SEXTSHF/net35675
+    0:01:17   39757.2      0.00       0.0       9.0 BM1/PPGAW/PPSESD3/SEXTSHF/net35045
+    0:01:18   39906.9      0.00       0.0       8.9 BM0/PPGAW/PPSESD2/SEXTSHF/n312
+    0:01:18   40249.5      0.00       0.0       8.8 BM1/PPGAW/PPSESD0/SEXTSHF/n294
+    0:01:18   40511.9      0.00       0.0       8.8 BM0/NORM/GEN_MAN/net36510
+    0:01:18   40680.3      0.00       0.0       8.7 BM0/NORM/GEN_MAN/net36989
+    0:01:18   40843.6      0.00       0.0       8.6 BM1/NORM/GEN_MAN/net34394
+    0:01:18   41012.1      0.00       0.0       8.5 BM0/PPGAW/PPSESD2/SEXTSHF/net37688
+    0:01:18   41182.0      0.00       0.0       8.4 BM1/PPGAW/PPSESD1/SEXTSHF/net35695
+    0:01:18   41337.4      0.00       0.0       8.3 BM0/PPGAW/PPSESD3/SEXTSHF/n137
+    0:01:18   41471.6      0.00       0.0       8.2 BM0/NORM/GEN_MAN/net36859
+    0:01:19   41600.6      0.00       0.0       8.2 BM0/PPGAW/PPSESD2/SEXTSHF/net37517
+    0:01:19   41740.0      0.00       0.0       8.2 BM0/PPGAW/PPSESD2/SEXTSHF/net37712
+    0:01:19   41900.0      0.00       0.0       8.1 BM0/PPGAW/PPSESD0/SEXTSHF/net38309
+    0:01:19   42029.1      0.00       0.0       8.1 BM0/PPGAW/PPSESD1/SEXTSHF/n144
+    0:01:19   42168.5      0.00       0.0       8.0 BM1/PPGAW/PPSESD1/SEXTSHF/n293
+    0:01:19   42311.1      0.00       0.0       8.0 BM1/PPGAW/PPSESD2/SEXTSHF/n243
+    0:01:19   42448.2      0.00       0.0       7.9 BM0/PPGAW/PPSESD2/SEXTSHF/n69
+    0:01:19   42597.0      0.00       0.0       7.9 BM0/PPGAW/PPSESD2/SEXTSHF/n74
+    0:01:19   42727.9      0.00       0.0       7.8 BM1/PPGAW/PPSESD0/SEXTSHF/n149
+    0:01:20   42867.3      0.00       0.0       7.8 ALIGN_ADD/EXM/n306       
+    0:01:20   43001.5      0.00       0.0       7.8 BM0/NORM/GEN_MAN/net36674
+    0:01:20   43130.5      0.00       0.0       7.8 BM1/NORM/GEN_MAN/net34213
+    0:01:20   43259.6      0.00       0.0       7.7 BM1/NORM/GEN_MAN/net34400
+    0:01:20   43388.7      0.00       0.0       7.7 BM0/PPGAW/PPSESD0/SEXTSHF/net38238
+    0:01:20   43517.7      0.00       0.0       7.7 BM0/PPGAW/PPSESD2/SEXTSHF/net37506
+    0:01:20   43646.8      0.00       0.0       7.7 BM0/PPGAW/PPSESD3/SEXTSHF/n128
+    0:01:20   43775.8      0.00       0.0       7.6 BM1/PPGAW/PPSESD0/SEXTSHF/net35989
+    0:01:20   43904.9      0.00       0.0       7.6 BM1/PPGAW/PPSESD2/SEXTSHF/n103
+    0:01:20   44033.9      0.00       0.0       7.6 BM1/PPGAW/PPSESD3/SEXTSHF/net35057
+    0:01:21   44209.9      0.00       0.0       7.5 BM1/NORM/LZA/LZC_L/n14   
+    0:01:21   44344.6      0.00       0.0       7.5 BM0/NORM/GEN_MAN/net36750
+    0:01:21   44489.6      0.00       0.0       7.5 BM0/NORM/GEN_MAN/net36712
+    0:01:21   44645.0      0.00       0.0       7.4 BM0/NORM/GEN_MAN/net36576
+    0:01:21   44779.7      0.00       0.0       7.4 BM1/n147                 
+    0:01:21   44918.6      0.00       0.0       7.4 BM0/NORM/GEN_MAN/net36208
+    0:01:21   45048.1      0.00       0.0       7.3 BM0/NORM/GEN_MAN/net36441
+    0:01:21   45187.5      0.00       0.0       7.3 BM0/NORM/GEN_MAN/net36934
+    0:01:21   45314.7      0.00       0.0       7.3 BM1/NORM/GEN_MAN/net34039
+    0:01:22   45451.7      0.00       0.0       7.3 BM1/NORM/GEN_MAN/net34243
+    0:01:22   45588.7      0.00       0.0       7.3 BM0/net38422             
+    0:01:22   45728.1      0.00       0.0       7.3 BM0/PPGAW/PPSESD0/PPG0/net38385
+    0:01:22   45842.6      0.00       0.0       7.3 BM0/PPGAW/PPSESD1/PPG0/net38106
+    0:01:22   45964.6      0.00       0.0       7.2 BM0/PPGAW/PPSESD2/PPG0/net37797
+    0:01:22   46086.2      0.00       0.0       7.2 BM1/PPGAW/PPSESD0/PPG0/net36040
+    0:01:22   46205.4      0.00       0.0       7.2 BM1/PPGAW/PPSESD1/PPG0/net35761
+    0:01:22   46330.2      0.00       0.0       7.2 BM1/PPGAW/PPSESD2/PPG0/net35450
+    0:01:23   46454.6      0.00       0.0       7.2 BM1/PPGAW/PPSESD3/PPG0/net35148
+    0:01:23   46606.7      0.00       0.0       7.1 BM0/NORM/GEN_MAN/net36563
+    0:01:23   46790.1      0.00       0.0       7.1 BM0/net38421             
+    0:01:23   46934.2      0.00       0.0       7.0 BM1/NORM/GEN_MAN/net34651
+    0:01:23   47051.5      0.00       0.0       7.0 BM0/PPGAW/PPSESD1/PPG0/net38069
+    0:01:23   47183.4      0.00       0.0       7.0 BM0/PPGAW/PPSESD2/PPG0/net37758
+    0:01:24   47317.6      0.00       0.0       7.0 BM0/PPGAW/PPSESD3/PPG0/net37452
+    0:01:24   47449.5      0.00       0.0       7.0 BM1/PPGAW/PPSESD0/PPG0/net36049
+    0:01:24   47564.0      0.00       0.0       7.0 BM1/PPGAW/PPSESD1/PPG0/net35770
+    0:01:24   47698.7      0.00       0.0       6.9 BM1/PPGAW/PPSESD2/PPG0/net35457
+    0:01:24   47833.4      0.00       0.0       6.9 BM1/PPGAW/PPSESD3/PPG0/net35151
+    0:01:24   47984.5      0.00       0.0       6.9 BM0/PPGAW/PPSESD3/SEXTSHF/net37432
+    0:01:24   48155.3      0.00       0.0       6.8 BM0/NORM/GEN_MAN/net36384
+    0:01:25   48297.5      0.00       0.0       6.8 ALIGN_ADD/EXM/n153       
+    0:01:25   48442.1      0.00       0.0       6.8 BM0/NORM/GEN_MAN/net36272
+    0:01:25   48584.3      0.00       0.0       6.8 BM0/NORM/GEN_MAN/net36454
+    0:01:25   48726.5      0.00       0.0       6.7 BM0/NORM/GEN_MAN/net37006
+    0:01:25   48871.0      0.00       0.0       6.7 BM1/NORM/GEN_MAN/net33995
+    0:01:25   49010.9      0.00       0.0       6.7 BM1/NORM/GEN_MAN/net34194
+    0:01:25   49155.4      0.00       0.0       6.7 BM1/NORM/GEN_MAN/net34743
+    0:01:25   49300.0      0.00       0.0       6.7 BM0/PPGAW/PPSESD0/SEXTSHF/net38323
+    0:01:26   49439.3      0.00       0.0       6.7 BM0/PPGAW/PPSESD1/SEXTSHF/net38034
+    0:01:26   49583.9      0.00       0.0       6.7 BM0/PPGAW/PPSESD2/SEXTSHF/net37715
+    0:01:26   49728.4      0.00       0.0       6.7 BM0/PPGAW/PPSESD3/SEXTSHF/net37392
+    0:01:26   49873.0      0.00       0.0       6.6 BM1/PPGAW/PPSESD0/SEXTSHF/net35987
+    0:01:26   50012.4      0.00       0.0       6.6 BM1/PPGAW/PPSESD1/SEXTSHF/net35702
+    0:01:26   50156.9      0.00       0.0       6.6 BM1/PPGAW/PPSESD2/SEXTSHF/net35378
+    0:01:26   50301.5      0.00       0.0       6.6 BM1/PPGAW/PPSESD3/SEXTSHF/net35030
+    0:01:26   50372.8      0.00       0.0       6.6 BM0/NORM/LZA/LZC_H/net37147
+    0:01:26   50478.8      0.00       0.0       6.6 BM0/NORM/GEN_MAN/net36741
+    0:01:27   50601.3      0.00       0.0       6.6 BM0/NORM/GEN_MAN/net36893
+    0:01:27   50715.8      0.00       0.0       6.6 BM1/NORM/GEN_MAN/net34484
+    0:01:27   50840.7      0.00       0.0       6.6 BM0/PPGAW/PPSESD0/SEXTSHF/n124
+    0:01:27   50980.1      0.00       0.0       6.6 BM0/PPGAW/PPSESD1/SEXTSHF/net37848
+    0:01:27   51119.4      0.00       0.0       6.5 BM0/PPGAW/PPSESD3/SEXTSHF/n106
+    0:01:27   51258.8      0.00       0.0       6.5 BM1/PPGAW/PPSESD0/SEXTSHF/net35814
+    0:01:27   51398.2      0.00       0.0       6.5 BM1/PPGAW/PPSESD1/SEXTSHF/net35683
+    0:01:27   51537.6      0.00       0.0       6.5 BM1/PPGAW/PPSESD3/SEXTSHF/n240
+    0:01:27   51686.4      0.00       0.0       6.5 BM0/NORM/GEN_MAN/mantissa_out[7]
+    0:01:28   51762.4      0.00       0.0       6.5 BM1/NORM/GEN_MAN/mantissa_out[22]
+    0:01:28   51862.8      0.00       0.0       6.5 BM0/PPGAW/PPSESD0/SEXTSHF/net38230
+    0:01:28   52002.2      0.00       0.0       6.5 BM0/PPGAW/PPSESD2/SEXTSHF/n119
+    0:01:28   52141.6      0.00       0.0       6.5 BM1/PPGAW/PPSESD0/SEXTSHF/n102
+    0:01:28   52281.0      0.00       0.0       6.4 BM1/PPGAW/PPSESD1/SEXTSHF/net35613
+    0:01:28   52420.3      0.00       0.0       6.4 BM1/PPGAW/PPSESD3/SEXTSHF/n318
+    0:01:28   52544.2      0.00       0.0       6.4 BM0/NORM/GEN_MAN/net36677
+    0:01:28   52678.9      0.00       0.0       6.4 BM0/NORM/GEN_MAN/net36854
+    0:01:29   52816.0      0.00       0.0       6.4 BM1/NORM/GEN_MAN/net34433
+    0:01:29   52948.3      0.00       0.0       6.4 BM1/NORM/GEN_MAN/net34591
+    0:01:29   53087.7      0.00       0.0       6.4 BM0/PPGAW/PPSESD1/SEXTSHF/net37814
+    0:01:29   53227.1      0.00       0.0       6.4 BM0/PPGAW/PPSESD3/SEXTSHF/n216
+    0:01:29   53366.4      0.00       0.0       6.4 BM1/PPGAW/PPSESD1/SEXTSHF/n110
+    0:01:29   53505.8      0.00       0.0       6.4 BM1/PPGAW/PPSESD2/SEXTSHF/net35392
+    0:01:29   53614.2      0.00       0.0       6.4 ALIGN_ADD/EXM/net53298   
+    0:01:29   53663.5      0.00       0.0       6.3 BM0/NORM/GEN_MAN/net52551
+    0:01:29   53708.6      0.00       0.0       6.3 BM0/NORM/GEN_MAN/net53587
+    0:01:29   53741.4      0.00       0.0       6.2 BM1/NORM/GEN_MAN/net52716
+    0:01:30   53786.5      0.00       0.0       6.2 BM1/NORM/GEN_MAN/net53980
+    0:01:30   53829.6      0.00       0.0       6.2 BM0/PPGAW/PPSESD0/SEXTSHF/net56508
+    0:01:30   53887.8      0.00       0.0       6.1 BM0/PPGAW/PPSESD2/SEXTSHF/net37549
+    0:01:30   53944.6      0.00       0.0       6.0 BM0/PPGAW/PPSESD3/SEXTSHF/net37258
+    0:01:30   54007.0      0.00       0.0       6.0 BM1/PPGAW/PPSESD0/SEXTSHF/net35963
+    0:01:30   54061.0      0.00       0.0       5.9 BM1/PPGAW/PPSESD1/SEXTSHF/net54666
+    0:01:30   54120.6      0.00       0.0       5.9 BM1/PPGAW/PPSESD2/SEXTSHF/net54797
+    0:01:30   54177.9      0.00       0.0       5.8 BM1/PPGAW/PPSESD3/SEXTSHF/net56984
+    0:01:30   54203.7      0.00       0.0       5.8 BM0/PPGAW/add_0_root_add_0_root_add_94/n42
+    0:01:32   54214.5      0.00       0.0       5.8 BM0/NORM/GEN_MAN/net36435
+    0:01:32   54228.6      0.00       0.0       5.8 BM0/NORM/GEN_MAN/net37039
+    0:01:32   54245.0      0.00       0.0       5.8 BM1/NORM/GEN_MAN/net34718
+    0:01:33   54301.8      0.00       0.0       5.7 BM0/PPGAW/PPSESD1/PPG0/partial_prod[12]
+    0:01:33   54366.1      0.00       0.0       5.7 BM0/PPGAW/PPSESD3/PPG0/partial_prod[23]
+    0:01:33   54438.8      0.00       0.0       5.6 BM1/PPGAW/PPSESD1/PPG0/partial_prod[24]
+    0:01:33   54507.3      0.00       0.0       5.6 BM1/PPGAW/PPSESD2/PPG0/partial_prod[9]
+    0:01:43   54563.2      0.00       0.0       5.5 BM0/N158                 
+    0:01:44   54566.4      0.00       0.0       5.5 BM0/PPGAW/add_1_root_add_0_root_add_94/net47991
+    0:01:44   54577.7      0.00       0.0       5.5 BM0/PPGAW/PPSESD0/PPG0/net38395
+    0:01:44   54597.4      0.00       0.0       5.5 BM0/NORM/GEN_MAN/net36610
+    0:01:45   54619.0      0.00       0.0       5.5 BM1/PPGAW/PPSESD3/SEXTSHF/net34937
+    0:01:45   54622.8      0.00       0.0       5.5 BM0/PPGAW/add_0_root_add_0_root_add_94/n146
+    0:01:47   54625.1      0.00       0.0       5.5 BM0/NORM/GEN_MAN/net36434
+    0:01:47   54629.3      0.00       0.0       5.5 BM1/PPGAW/PPSESD3/SEXTSHF/net35069
+    0:01:57   54636.4      0.00       0.0       5.5 BM0/PPGAW/add_1_root_add_0_root_add_94/n37
+    0:01:57   54637.3      0.00       0.0       5.5 BM1/PPGAW/PPSESD0/PPG0/net36033
+    0:01:58   54642.5      0.00       0.0       5.5 BM0/PPGAW/PPSESD1/PPG0/net38071
+    0:01:58   54641.5      0.00       0.0       5.5 BM1/PPGAW/add_2_root_add_0_root_add_94/n185
+    0:02:01   54637.8      0.00       0.0       5.5 BM0/PPGAW/PPSESD1/PPG0/partial_prod[6]
+    0:02:14   54642.0      0.02       0.3       5.5 BM0/PPGAW/add_1_root_add_0_root_add_94/n38
+    0:02:15   54710.1      0.17       5.5       5.3 BM0/PPGAW/add_0_root_add_0_root_add_94/n174
+    0:02:15   54755.1      0.23      12.4       5.3 BM1/PPGAW/add_0_root_add_0_root_add_94/n204
+    0:02:16   54814.7      0.29      17.5       5.2 BM0/PPGAW/PPSESD0/SEXTSHF/net38346
+    0:02:17   54925.0      0.38      22.0       5.2 BM1/NORM/LZA/LZC_H/net34829
+    0:02:17   55032.9      0.39      22.6       5.1 BM1/NORM/GEN_MAN/mantissa_out[6]
+    0:02:17   55139.0      0.41      24.3       5.1 BM0/PPGAW/PPSESD3/SEXTSHF/net47723
+    0:02:18   55234.3      0.46      27.5       5.0 BM0/PPGAW/add_0_root_add_0_root_add_94/n209
+    0:02:23   55275.1      0.46      28.9       5.0 BM0/NORM/GEN_MAN/net36525
+    0:02:23   55366.6      0.49      29.3       4.9 BM1/NORM/GEN_MAN/net34032
+    0:02:23   55472.2      0.52      30.7       4.8 BM1/PPGAW/PPSESD2/PPG0/partial_prod[1]
+    0:02:23   55489.6      0.51      30.7       4.8 BM1/NORM/LZA/LZC_H/BNE/net34803
+    0:02:26   55490.0      0.51      30.7       4.8 BM1/PPGAW/add_3_root_add_0_root_add_94/n198
+    0:02:27   55490.5      0.51      30.7       4.8 BM0/NORM/GEN_MAN/net36606
+    0:02:28   55492.4      0.51      30.7       4.8 BM1/NORM/GEN_MAN/net33927
+    0:02:39   55495.2      0.49      29.8       4.8 BM1/sfcand_res_reg[1]/D  
+    0:02:40   55546.8      0.41      25.6       4.8 BM0/sfcand_res_reg[3]/D  
+    0:02:41   55559.5      0.38      24.1       4.8 BM0/exp_res_reg[7]/D     
+    0:02:42   55565.1      0.37      23.6       4.8 BM1/sfcand_res_reg[1]/D  
+    0:02:42   55564.6      0.36      22.0       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:43   55577.8      0.33      19.9       4.8 BM0/exp_res_reg[7]/D     
+    0:02:43   55577.8      0.32      19.3       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:43   55588.6      0.31      18.5       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:44   55602.2      0.30      17.9       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:44   55619.6      0.29      17.5       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:45   55620.0      0.28      16.8       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:45   55625.2      0.27      15.8       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:45   55611.1      0.26      15.1       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:46   55605.5      0.26      14.9       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:46   55597.5      0.25      14.4       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:46   55588.1      0.25      14.1       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:47   55581.1      0.24      13.8       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:47   55621.0      0.23      13.2       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:47   55632.2      0.23      12.8       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:48   55655.2      0.22      12.3       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:48   55654.8      0.22      12.1       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:48   55663.7      0.22      12.0       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:49   55682.9      0.21      11.2       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:49   55691.8      0.20      10.8       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:49   55689.5      0.19      10.6       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:50   55683.4      0.19      10.0       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:50   55676.3      0.19      10.0       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:51   55684.8      0.19       9.9       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:51   55692.3      0.18       9.8       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:51   55699.8      0.18       9.7       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:52   55698.9      0.18       9.3       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:52   55703.6      0.17       9.0       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:53   55756.1      0.17       8.7       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:53   55753.8      0.16       8.3       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:53   55760.3      0.16       8.0       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:54   55772.1      0.15       7.7       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:54   55772.1      0.15       7.5       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:54   55841.5      0.14       7.2       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:55   55830.3      0.14       7.1       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:55   55822.3      0.14       6.9       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:55   55871.6      0.13       6.7       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:56   55873.0      0.13       6.4       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:56   55872.5      0.12       6.0       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:56   55872.0      0.12       5.8       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:57   55878.6      0.11       5.5       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:58   55895.0      0.10       5.0       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:58   55899.7      0.10       4.8       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:58   55903.5      0.10       4.7       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:58   55911.9      0.10       4.5       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:02:59   55912.4      0.10       4.5       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:59   55928.4      0.10       4.5       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:59   55931.6      0.10       4.4       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:02:59   55934.9      0.09       4.3       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:00   55931.6      0.09       4.2       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:03:00   55938.2      0.09       4.1       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:00   55944.3      0.09       3.3       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:03:01   55947.6      0.09       3.2       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:03:01   55951.4      0.08       3.1       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:03:01   55956.5      0.07       2.9       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:01   55962.1      0.07       2.8       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:02   55951.4      0.06       2.4       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:03:02   55955.1      0.06       2.3       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:03:02   55958.9      0.05       2.0       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:03   55955.1      0.05       1.9       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:03   55957.0      0.05       1.9       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:03   55955.1      0.05       1.9       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:03:04   55952.8      0.05       1.7       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:04   55952.8      0.05       1.7       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:04   55952.3      0.05       1.7       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:04   55957.0      0.04       1.6       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:03:05   55969.2      0.04       1.1       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:03:05   55982.8      0.03       0.7       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:05   55987.5      0.02       0.2       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:05   56002.0      0.01       0.1       4.8 BM0/unbias_exp_res_reg[7]/D
+    0:03:13   56004.9      0.00       0.0       4.8 BM0/NORM/GEN_MAN/net36384
+    0:03:13   56003.4      0.00       0.0       4.8 BM0/NORM/GEN_MAN/net36898
+    0:03:15   55998.3      0.00       0.0       4.8 BM0/NORM/GEN_MAN/net36198
+    0:03:16   55993.6      0.00       0.0       4.8 BM0/NORM/GEN_MAN/net36469
+    0:03:17   55988.4      0.00       0.0       4.8 BM0/NORM/GEN_MAN/net36896
+    0:03:17   55985.1      0.00       0.0       4.8 BM1/NORM/GEN_MAN/net34129
+    0:03:18   55976.2      0.00       0.0       4.8 BM1/NORM/GEN_MAN/net34575
+    0:03:19   55974.3      0.00       0.0       4.8 BM0/PPGAW/PPSESD0/SEXTSHF/net38295
+    0:03:20   55972.9      0.00       0.0       4.8 BM0/PPGAW/PPSESD2/SEXTSHF/net37692
+    0:03:20   55971.5      0.00       0.0       4.8 BM0/PPGAW/PPSESD3/SEXTSHF/net37378
+    0:03:20   55970.6      0.00       0.0       4.8 BM1/PPGAW/PPSESD0/SEXTSHF/n239
+    0:03:22   55968.7      0.00       0.0       4.8 BM0/net38476             
+    0:03:23   55965.9      0.00       0.0       4.8 BM0/PPGAW/PPSESD1/PPG0/net38088
+    0:03:24   55962.6      0.00       0.0       4.8 BM0/PPGAW/PPSESD2/PPG0/net37782
+    0:03:25   55957.9      0.00       0.0       4.8 BM0/PPGAW/PPSESD3/PPG0/net37486
+    0:03:28   55955.1      0.00       0.0       4.8 BM1/PPGAW/PPSESD3/PPG0/net35140
+    0:03:28   55952.3      0.00       0.0       4.8                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:03:28   55952.3      0.00       0.0       4.8                          
+    0:03:28   55952.3      0.00       0.0       4.8                          
+    0:03:30   49672.6      0.08       1.9       4.8                          
+    0:03:32   45152.8      0.06       1.2       4.8                          
+    0:03:33   42723.2      0.06       0.6       4.8                          
+    0:03:34   41517.1      0.05       0.5       4.8                          
+    0:03:34   41090.5      0.05       0.5       4.8                          
+    0:03:34   40880.3      0.05       0.4       4.8                          
+    0:03:34   40759.6      0.05       0.3       4.8                          
+    0:03:35   40684.1      0.05       0.3       4.8                          
+    0:03:35   40605.2      0.05       0.3       4.8                          
+    0:03:35   40565.4      0.05       0.3       4.8                          
+    0:03:35   40556.0      0.05       0.3       4.8                          
+    0:03:35   40544.2      0.05       0.3       4.8                          
+    0:03:35   40544.2      0.05       0.3       4.8                          
+    0:03:35   40546.1      0.03       0.1       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:36   40549.4      0.02       0.1       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:36   40555.0      0.02       0.1       4.8                          
+    0:03:36   40575.7      0.00       0.0       4.8                          
+    0:03:37   40239.7      0.13       1.9       4.8                          
+    0:03:37   40120.9      0.13       1.9       4.8                          
+    0:03:37   40105.4      0.13       1.9       4.8                          
+    0:03:37   40104.5      0.13       1.9       4.8                          
+    0:03:37   40104.5      0.13       1.9       4.8                          
+    0:03:38   40104.5      0.13       1.9       4.8                          
+    0:03:38   40104.5      0.13       1.9       4.8                          
+    0:03:38   40104.5      0.13       1.9       4.8                          
+    0:03:38   40143.5      0.02       0.1       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:38   40149.6      0.00       0.0       4.8 BM1/unbias_exp_res_reg[7]/D
+    0:03:39   40152.4      0.00       0.0       4.8                          
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+report_area 
+ 
+****************************************
+Report : area
+Design : dot_product_32bit
+Version: L-2016.03-SP5
+Date   : Sun Nov 12 00:55:51 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db)
+
+Number of ports:                         6759
+Number of nets:                         22767
+Number of cells:                        16138
+Number of combinational cells:          15799
+Number of sequential cells:               226
+Number of macros/black boxes:               0
+Number of buf/inv:                       7005
+Number of references:                       8
+
+Combinational area:              38653.424409
+Buf/Inv area:                    12636.371471
+Noncombinational area:            1498.944168
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 40152.368577
+Total area:                 undefined
+1
+report_timing
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : dot_product_32bit
+Version: L-2016.03-SP5
+Date   : Sun Nov 12 00:55:52 2017
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: BM0/curr_state_reg[2]
+              (rising edge-triggered flip-flop clocked by my_clock)
+  Endpoint: BM0/unbias_exp_res_reg[7]
+            (rising edge-triggered flip-flop clocked by my_clock)
+  Path Group: my_clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock my_clock (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  BM0/curr_state_reg[2]/CLK (DFFPOSX1)                    0.00       0.00 r
+  BM0/curr_state_reg[2]/Q (DFFPOSX1)                      0.11       0.11 f
+  BM0/U11/Y (OR2X1)                                       0.05       0.16 f
+  BM0/U200/Y (INVX1)                                      0.00       0.16 r
+  BM0/U164/Y (AND2X2)                                     0.04       0.20 r
+  BM0/U42/Y (BUFX2)                                       0.06       0.27 r
+  BM0/U396/Y (AOI22X1)                                    0.03       0.29 f
+  BM0/U63/Y (BUFX2)                                       0.04       0.33 f
+  BM0/U397/Y (OAI21X1)                                    0.03       0.36 r
+  BM0/PPGAW/booth_sel3[1] (ppg_adders_wrapper_0)          0.00       0.36 r
+  BM0/PPGAW/PPSESD3/booth_sel[1] (pprod_sgn_extd_shfd_5)
+                                                          0.00       0.36 r
+  BM0/PPGAW/PPSESD3/PPG0/booth_sel[1] (partial_product_generator_5)
+                                                          0.00       0.36 r
+  BM0/PPGAW/PPSESD3/PPG0/U5/Y (INVX1)                     0.04       0.40 f
+  BM0/PPGAW/PPSESD3/PPG0/U139/Y (XNOR2X1)                 0.04       0.45 r
+  BM0/PPGAW/PPSESD3/PPG0/U7/Y (AND2X1)                    0.05       0.49 r
+  BM0/PPGAW/PPSESD3/PPG0/U135/Y (INVX1)                   0.03       0.52 f
+  BM0/PPGAW/PPSESD3/PPG0/U138/Y (INVX1)                   0.03       0.55 r
+  BM0/PPGAW/PPSESD3/PPG0/U12/Y (INVX1)                    0.02       0.57 f
+  BM0/PPGAW/PPSESD3/PPG0/U11/Y (INVX2)                    0.07       0.64 r
+  BM0/PPGAW/PPSESD3/PPG0/U157/Y (AOI22X1)                 0.04       0.67 f
+  BM0/PPGAW/PPSESD3/PPG0/U38/Y (BUFX2)                    0.04       0.71 f
+  BM0/PPGAW/PPSESD3/PPG0/U47/Y (AND2X2)                   0.03       0.74 f
+  BM0/PPGAW/PPSESD3/PPG0/U48/Y (INVX1)                    0.00       0.74 r
+  BM0/PPGAW/PPSESD3/PPG0/partial_prod[5] (partial_product_generator_5)
+                                                          0.00       0.74 r
+  BM0/PPGAW/PPSESD3/SEXTSHF/partial_prod[5] (sgn_ext_shift_5)
+                                                          0.00       0.74 r
+  BM0/PPGAW/PPSESD3/SEXTSHF/U61/Y (BUFX4)                 0.04       0.78 r
+  BM0/PPGAW/PPSESD3/SEXTSHF/U413/Y (INVX1)                0.03       0.82 f
+  BM0/PPGAW/PPSESD3/SEXTSHF/U433/Y (OAI21X1)              0.05       0.87 r
+  BM0/PPGAW/PPSESD3/SEXTSHF/sesd_partial_prod[5] (sgn_ext_shift_5)
+                                                          0.00       0.87 r
+  BM0/PPGAW/PPSESD3/sgn_extd_pprod[5] (pprod_sgn_extd_shfd_5)
+                                                          0.00       0.87 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/A[5] (ppg_adders_wrapper_0_DW01_add_10)
+                                                          0.00       0.87 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U339/Y (OR2X1)
+                                                          0.06       0.93 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U371/Y (INVX1)
+                                                          0.03       0.95 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U268/Y (OAI21X1)
+                                                          0.04       1.00 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U266/Y (AOI21X1)
+                                                          0.02       1.01 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U389/Y (BUFX2)
+                                                          0.04       1.05 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U260/Y (OAI21X1)
+                                                          0.05       1.10 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U252/Y (AOI21X1)
+                                                          0.02       1.12 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U541/Y (INVX1)
+                                                          0.01       1.13 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U543/Y (INVX1)
+                                                          0.01       1.14 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U246/Y (OAI21X1)
+                                                          0.05       1.19 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U238/Y (AOI21X1)
+                                                          0.02       1.22 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U387/Y (BUFX2)
+                                                          0.04       1.25 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U232/Y (OAI21X1)
+                                                          0.06       1.31 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U224/Y (AOI21X1)
+                                                          0.03       1.34 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U569/Y (INVX1)
+                                                          0.01       1.35 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U570/Y (INVX1)
+                                                          0.01       1.36 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U218/Y (OAI21X1)
+                                                          0.06       1.42 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U210/Y (AOI21X1)
+                                                          0.03       1.45 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U572/Y (INVX1)
+                                                          0.01       1.45 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U573/Y (INVX1)
+                                                          0.02       1.47 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U204/Y (OAI21X1)
+                                                          0.04       1.52 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U196/Y (AOI21X1)
+                                                          0.02       1.54 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U575/Y (INVX1)
+                                                          0.00       1.54 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U332/Y (INVX1)
+                                                          0.02       1.56 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U190/Y (OAI21X1)
+                                                          0.06       1.63 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U182/Y (AOI21X1)
+                                                          0.03       1.66 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U388/Y (BUFX2)
+                                                          0.04       1.69 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U176/Y (OAI21X1)
+                                                          0.05       1.74 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U168/Y (AOI21X1)
+                                                          0.02       1.76 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U547/Y (INVX1)
+                                                          0.01       1.77 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U548/Y (INVX1)
+                                                          0.01       1.78 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U162/Y (OAI21X1)
+                                                          0.06       1.85 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U154/Y (AOI21X1)
+                                                          0.03       1.88 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U550/Y (INVX1)
+                                                          0.01       1.88 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U551/Y (INVX1)
+                                                          0.01       1.89 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U148/Y (OAI21X1)
+                                                          0.06       1.96 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U140/Y (AOI21X1)
+                                                          0.03       1.99 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U553/Y (BUFX2)
+                                                          0.04       2.03 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U134/Y (OAI21X1)
+                                                          0.06       2.09 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U126/Y (AOI21X1)
+                                                          0.03       2.12 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U554/Y (INVX1)
+                                                          0.01       2.12 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U555/Y (INVX1)
+                                                          0.01       2.14 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U120/Y (OAI21X1)
+                                                          0.06       2.20 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U112/Y (AOI21X1)
+                                                          0.03       2.23 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U557/Y (BUFX2)
+                                                          0.04       2.27 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U106/Y (OAI21X1)
+                                                          0.05       2.31 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U98/Y (AOI21X1)
+                                                          0.02       2.34 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U558/Y (INVX1)
+                                                          0.00       2.34 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U559/Y (INVX1)
+                                                          0.02       2.36 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U92/Y (OAI21X1)
+                                                          0.07       2.43 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U84/Y (AOI21X1)
+                                                          0.03       2.46 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U560/Y (INVX1)
+                                                          0.01       2.46 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U561/Y (INVX1)
+                                                          0.01       2.48 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U78/Y (OAI21X1)
+                                                          0.06       2.54 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U513/Y (AOI21X1)
+                                                          0.03       2.57 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U392/Y (INVX1)
+                                                          0.00       2.57 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U393/Y (INVX1)
+                                                          0.02       2.59 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U64/Y (OAI21X1)
+                                                          0.07       2.66 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U56/Y (AOI21X1)
+                                                          0.03       2.69 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U563/Y (INVX1)
+                                                          0.01       2.69 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U564/Y (INVX1)
+                                                          0.01       2.71 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U50/Y (OAI21X1)
+                                                          0.06       2.77 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U42/Y (AOI21X1)
+                                                          0.03       2.80 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U566/Y (INVX1)
+                                                          0.01       2.80 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U567/Y (INVX1)
+                                                          0.01       2.82 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U36/Y (OAI21X1)
+                                                          0.06       2.88 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U28/Y (AOI21X1)
+                                                          0.04       2.92 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U588/Y (BUFX2)
+                                                          0.04       2.96 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U22/Y (OAI21X1)
+                                                          0.06       3.02 r
+  BM0/PPGAW/add_1_root_add_0_root_add_94/U13/Y (XNOR2X1)
+                                                          0.04       3.06 f
+  BM0/PPGAW/add_1_root_add_0_root_add_94/SUM[41] (ppg_adders_wrapper_0_DW01_add_10)
+                                                          0.00       3.06 f
+  BM0/PPGAW/add_0_root_add_0_root_add_94/B[41] (ppg_adders_wrapper_0_DW01_add_11)
+                                                          0.00       3.06 f
+  BM0/PPGAW/add_0_root_add_0_root_add_94/U332/Y (OR2X2)
+                                                          0.05       3.11 f
+  BM0/PPGAW/add_0_root_add_0_root_add_94/U10/Y (AOI21X1)
+                                                          0.03       3.14 r
+  BM0/PPGAW/add_0_root_add_0_root_add_94/U382/Y (BUFX2)
+                                                          0.03       3.18 r
+  BM0/PPGAW/add_0_root_add_0_root_add_94/U333/Y (INVX2)
+                                                          0.03       3.21 f
+  BM0/PPGAW/add_0_root_add_0_root_add_94/U7/YC (FAX1)     0.08       3.28 f
+  BM0/PPGAW/add_0_root_add_0_root_add_94/U6/YC (FAX1)     0.08       3.36 f
+  BM0/PPGAW/add_0_root_add_0_root_add_94/U5/YC (FAX1)     0.08       3.45 f
+  BM0/PPGAW/add_0_root_add_0_root_add_94/U4/YC (FAX1)     0.08       3.53 f
+  BM0/PPGAW/add_0_root_add_0_root_add_94/U3/YC (FAX1)     0.08       3.60 f
+  BM0/PPGAW/add_0_root_add_0_root_add_94/U373/Y (XNOR2X1)
+                                                          0.06       3.66 r
+  BM0/PPGAW/add_0_root_add_0_root_add_94/SUM[47] (ppg_adders_wrapper_0_DW01_add_11)
+                                                          0.00       3.66 r
+  BM0/PPGAW/sum[47] (ppg_adders_wrapper_0)                0.00       3.66 r
+  BM0/NORM/product[47] (normalize_32bit_0)                0.00       3.66 r
+  BM0/NORM/LZA/X[47] (leading_zeros_counter_64bit_0)      0.00       3.66 r
+  BM0/NORM/LZA/LZC_H/X[15] (leading_zeros_counter_4)      0.00       3.66 r
+  BM0/NORM/LZA/LZC_H/NLC4/xin[3] (nibble_local_count_28)
+                                                          0.00       3.66 r
+  BM0/NORM/LZA/LZC_H/NLC4/U1/Y (OR2X2)                    0.05       3.71 r
+  BM0/NORM/LZA/LZC_H/NLC4/U6/Y (NOR3X1)                   0.03       3.73 f
+  BM0/NORM/LZA/LZC_H/NLC4/a (nibble_local_count_28)       0.00       3.73 f
+  BM0/NORM/LZA/LZC_H/BNE/ain[4] (binary_nibble_encoder_4)
+                                                          0.00       3.73 f
+  BM0/NORM/LZA/LZC_H/BNE/U1/Y (OAI21X1)                   0.03       3.76 r
+  BM0/NORM/LZA/LZC_H/BNE/U2/Y (INVX1)                     0.02       3.78 f
+  BM0/NORM/LZA/LZC_H/BNE/U17/Y (OAI21X1)                  0.04       3.83 r
+  BM0/NORM/LZA/LZC_H/BNE/U18/Y (AOI21X1)                  0.02       3.85 f
+  BM0/NORM/LZA/LZC_H/BNE/U13/Y (BUFX2)                    0.04       3.89 f
+  BM0/NORM/LZA/LZC_H/BNE/y[0] (binary_nibble_encoder_4)
+                                                          0.00       3.89 f
+  BM0/NORM/LZA/LZC_H/U4/Y (INVX1)                         0.00       3.89 r
+  BM0/NORM/LZA/LZC_H/U19/Y (AND2X2)                       0.04       3.93 r
+  BM0/NORM/LZA/LZC_H/U25/Y (AOI22X1)                      0.03       3.96 f
+  BM0/NORM/LZA/LZC_H/U10/Y (BUFX2)                        0.04       3.99 f
+  BM0/NORM/LZA/LZC_H/U26/Y (AND2X2)                       0.04       4.03 f
+  BM0/NORM/LZA/LZC_H/U27/Y (MUX2X1)                       0.04       4.07 r
+  BM0/NORM/LZA/LZC_H/zeros[0] (leading_zeros_counter_4)
+                                                          0.00       4.07 r
+  BM0/NORM/LZA/U7/Y (MUX2X1)                              0.03       4.09 f
+  BM0/NORM/LZA/U6/Y (INVX1)                               0.02       4.11 r
+  BM0/NORM/LZA/zeros[0] (leading_zeros_counter_64bit_0)
+                                                          0.00       4.11 r
+  BM0/NORM/U5/Y (INVX1)                                   0.02       4.13 f
+  BM0/NORM/cin[0] (normalize_32bit_0)                     0.00       4.13 f
+  BM0/add_238/B[0] (booth_multiplier_32bit_0_DW01_add_4)
+                                                          0.00       4.13 f
+  BM0/add_238/U23/Y (AND2X2)                              0.05       4.18 f
+  BM0/add_238/U7/YC (FAX1)                                0.08       4.26 f
+  BM0/add_238/U6/YC (FAX1)                                0.09       4.35 f
+  BM0/add_238/U5/YC (FAX1)                                0.08       4.43 f
+  BM0/add_238/U4/YC (FAX1)                                0.08       4.51 f
+  BM0/add_238/U3/YC (FAX1)                                0.07       4.59 f
+  BM0/add_238/U2/YC (HAX1)                                0.05       4.64 f
+  BM0/add_238/U22/Y (XNOR2X1)                             0.03       4.67 f
+  BM0/add_238/SUM[7] (booth_multiplier_32bit_0_DW01_add_4)
+                                                          0.00       4.67 f
+  BM0/U194/Y (AND2X1)                                     0.03       4.70 f
+  BM0/U195/Y (INVX1)                                      0.00       4.70 r
+  BM0/U191/Y (AND2X2)                                     0.03       4.73 r
+  BM0/U192/Y (INVX1)                                      0.01       4.74 f
+  BM0/unbias_exp_res_reg[7]/D (DFFPOSX1)                  0.00       4.74 f
+  data arrival time                                                  4.74
+
+  clock my_clock (rise edge)                              5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  clock uncertainty                                      -0.20       4.80
+  BM0/unbias_exp_res_reg[7]/CLK (DFFPOSX1)                0.00       4.80 r
+  library setup time                                     -0.06       4.74
+  data required time                                                 4.74
+  --------------------------------------------------------------------------
+  data required time                                                 4.74
+  data arrival time                                                 -4.74
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
+report_power
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : dot_product_32bit
+Version: L-2016.03-SP5
+Date   : Sun Nov 12 00:55:54 2017
+****************************************
+
+
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db)
+
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   2.1084 mW   (58%)
+  Net Switching Power  =   1.5396 mW   (42%)
+                         ---------
+Total Dynamic Power    =   3.6480 mW  (100%)
+
+Cell Leakage Power     = 187.2591 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.6262        2.1819e-02        1.0116e+04            0.6581  (  17.16%)
+sequential     1.2433e-03        3.1492e-04          147.0198        1.7052e-03  (   0.04%)
+combinational      1.4809            1.5175        1.7700e+05            3.1754  (  82.80%)
+--------------------------------------------------------------------------------------------------
+Total              2.1084 mW         1.5396 mW     1.8726e+05 nW         3.8353 mW
+1
+quit
+
+Thank you...

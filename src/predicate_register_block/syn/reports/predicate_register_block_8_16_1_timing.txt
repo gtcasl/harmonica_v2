@@ -1,0 +1,51 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : predicate_register_block_DATA_WIDTH1_NUM_LANES8_NUM_REGS16_LOG2_NUM_REGS4
+Version: L-2016.03-SP5
+Date   : Fri Feb  2 18:54:36 2018
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: RBLOCK/RBANK_0/RF_LANE_0/RF_reg[0][0]
+              (rising edge-triggered flip-flop clocked by my_clock)
+  Endpoint: RBLOCK/RBANK_0/RF_LANE_0/RF_reg[0][0]
+            (rising edge-triggered flip-flop clocked by my_clock)
+  Path Group: my_clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock my_clock (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  RBLOCK/RBANK_0/RF_LANE_0/RF_reg[0][0]/CLK (DFFPOSX1)
+                                                          0.00 #     0.00 r
+  RBLOCK/RBANK_0/RF_LANE_0/RF_reg[0][0]/Q (DFFPOSX1)      0.11       0.11 f
+  RBLOCK/RBANK_0/RF_LANE_0/U19/Y (AND2X1)                 0.03       0.14 f
+  RBLOCK/RBANK_0/RF_LANE_0/U20/Y (INVX1)                  0.00       0.14 r
+  RBLOCK/RBANK_0/RF_LANE_0/U77/Y (OAI21X1)                0.01       0.15 f
+  RBLOCK/RBANK_0/RF_LANE_0/RF_reg[0][0]/D (DFFPOSX1)      0.00       0.15 f
+  data arrival time                                                  0.15
+
+  clock my_clock (rise edge)                             10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  RBLOCK/RBANK_0/RF_LANE_0/RF_reg[0][0]/CLK (DFFPOSX1)
+                                                          0.00       9.80 r
+  library setup time                                     -0.05       9.75
+  data required time                                                 9.75
+  --------------------------------------------------------------------------
+  data required time                                                 9.75
+  data arrival time                                                 -0.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                        9.59
+
+
+1

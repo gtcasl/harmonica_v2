@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : register_file_DATA_WIDTH32_LOG2_NUM_REGS5_NUM_REGS32
+Version: F-2011.09-SP4-1
+Date   : Wed Jan 31 09:10:05 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    No libraries used.
+
+Number of ports:                          116
+Number of nets:                             0
+Number of cells:                            0
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       0
+
+Combinational area:          0.000000
+Noncombinational area:       0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:             0.000000
+Total area:                 undefined
+1

@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : warp_table_WT_WIDTH44_FIFO_DEPTH128_LOG2_FIFO_DEPTH7
+Version: F-2011.09-SP4-1
+Date   : Fri Feb 16 08:29:53 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'warp_table_WT_WIDTH44_FIFO_DEPTH128_LOG2_FIFO_DEPTH7' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/harmonica_v2.0/src/warp_table/syn/gscl45nm.db)
+
+Number of ports:                           94
+Number of nets:                         31073
+Number of cells:                        31014
+Number of combinational cells:          25322
+Number of sequential cells:              5690
+Number of macros:                           0
+Number of buf/inv:                       7524
+Number of references:                      12
+
+Combinational area:       63498.635572
+Noncombinational area:    45395.387993
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          108894.023565
+Total area:                 undefined
+1

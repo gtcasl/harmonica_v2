@@ -1,0 +1,114 @@
+4        
+0 register_block_param_ovrd.v
+0 /tools/synopsys/vcs/i201403/etc/systemverilog/register_block_param_ovrd.v
+0 register_block_cfg.v
+0 /tools/synopsys/vcs/i201403/etc/systemverilog/register_block_cfg.v
+34
++cli+4
++define+DATA_WIDTH_IS_32+NUM_LANES_IS_16+NUMBER_OF_REGISTERS_IS_32
++incdir+/nethome/pdas36/harmonica_v2.0/src/include/
++itf+/tools/synopsys/vcs/i201403/linux/lib/vcsd.tab
++memcbk
++v2k
++vcsd
++vpi
++vpi
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -fPIC -O -I/tools/synopsys/vcs/i201403/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=-m32 -m32
+-Mobjects= /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl -lm
+-Mvcsaceobjs=
+-debug=3
+-gen_obj
+-gui
+-picarchive
+-sverilog
+-ucli
+../../register_file/rtl/register_file.v
+../rtl/register_bank.v
+../rtl/register_block.v
+/tools/synopsys/vcs/i201403/linux/bin/vcs1
+warp_8_write_read_test_all_lanes_16_32_32.sv
+58
+sysc_uni_pwd=/nethome/pdas36/harmonica_v2.0/src/register_block/tb
+_LMFILES_=/etc/modulefiles/mpich-x86_64
+XILINXD_LICENSE_FILE=2100@winlic.ece.gatech.edu
+VMR_MODE_FLAG=32
+VENDOR=unknown
+VCS_HOME=/tools/synopsys/vcs/i201403
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UNAME=/bin/uname
+TOOL_HOME=/tools/synopsys/vcs/i201403/linux
+SYNOPSYS=/tools/synopsys/vcs/i201403
+SSH_TTY=/dev/pts/7
+SSH_CONNECTION=143.215.153.116 57192 130.207.232.24 22
+SSH_CLIENT=143.215.153.116 57192 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPSLMD_LICENSE_FILE=1910@ecewinsrv1.ece.gatech.edu:/tools/synopsys/vcs/i201403/flexlm//license.dat
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=kl2305-07.ece.gatech.edu
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PROJ_ROOT=/nethome/pdas36/harmonica_v2.0
+OVA_UUM=0
+OSTYPE=linux
+MPI_SYSCONFIG=/etc
+MPI_SUFFIX=_mpich
+MPI_PYTHON_SITEARCH=/usr/lib64/python2.6/site-packages/mpich
+MPI_MAN=/usr/share/man/mpich
+MPI_LIB=/usr/lib64/mpich/lib
+MPI_INCLUDE=/usr/include/mpich-x86_64
+MPI_HOME=/usr/lib64/mpich
+MPI_FORTRAN_MOD_DIR=/usr/lib64/gfortran/modules/mpich-x86_64
+MPI_COMPILER=mpich-x86_64
+MPI_BIN=/usr/lib64/mpich/bin
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+MLM_LICENSE_FILE=1711@matlablic.ecs.gatech.edu
+MGLS_LICENSE_FILE=1717@ecelinsvcs.ece.gatech.edu
+MALLOC_PERTURB_=2
+MALLOC_CHECK_=1
+LOADEDMODULES=mpich-x86_64
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+INCLUDE_DIR=/tools/synopsys/vcs/i201403/include
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+G_SLICE=debug-blocks
+G_BROKEN_FILENAMES=1
+GROUP=2626-ece
+CVS_RSH=ssh
+COBBLER_SERVER=rhn-56.oit.gatech.edu
+CDS_LIC_FILE=5280@ecelinsvcs.ece.gatech.edu
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+AGILEESOFD_LICENSE_FILE=1812@ecelinsvcs.ece.gatech.edu
+0
+7
+1517530637 /nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v
+1517578443 /nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v
+1517531660 warp_8_write_read_test_all_lanes_16_32_32.sv
+1517607439 ../rtl/register_block.v
+1517497372 ../rtl/register_bank.v
+1517606537 ../../register_file/rtl/register_file.v
+1393560725 /tools/synopsys/vcs/i201403/linux/lib/vcsd.tab
+4
+0 
+1393563123 /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so
+1393562941 /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so
+1393562829 /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so
+1524773528 simv.daidir

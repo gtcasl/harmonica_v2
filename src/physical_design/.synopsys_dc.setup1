@@ -1,0 +1,5 @@
+search_path = {synopsys} + search_path
+link_library = {class.db}; 
+target_library = {class.db};
+symbol_library = {class.sdb};
+define_design_lib work -path work;

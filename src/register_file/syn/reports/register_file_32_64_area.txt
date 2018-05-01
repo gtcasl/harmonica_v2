@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : register_file_DATA_WIDTH64_LOG2_NUM_REGS5_NUM_REGS32
+Version: F-2011.09-SP4-1
+Date   : Tue Mar 20 13:25:58 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'register_file_DATA_WIDTH64_LOG2_NUM_REGS5_NUM_REGS32' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/harmonica_v2.0/src/register_file/syn/gscl45nm.db)
+
+Number of ports:                          212
+Number of nets:                         13122
+Number of cells:                        13038
+Number of combinational cells:          10990
+Number of sequential cells:              2048
+Number of macros:                           0
+Number of buf/inv:                       2689
+Number of references:                       7
+
+Combinational area:       29838.093712
+Noncombinational area:    16339.148438
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          46177.242149
+Total area:                 undefined
+1

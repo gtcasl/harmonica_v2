@@ -1,0 +1,286 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Feb  2 17:51 2018
+VCD+ Writer I-2014.03 Copyright (c) 1991-2014 by Synopsys Inc.
+The file '/nethome/pdas36/harmonica_v2.0/src/predicate_register_block/tb/inter.vpd' was opened successfully.
+dve> dump -add { tb }  -depth 0 -aggregates -scope "."
+1
+ ========================================= WARP Num :           0 ====================================================
+
+Testing for Register           0, Addr: 0
+
+Testing for Register           1, Addr: 1
+
+Testing for Register           2, Addr: 2
+
+Testing for Register           3, Addr: 3
+
+Testing for Register           4, Addr: 4
+
+Testing for Register           5, Addr: 5
+
+Testing for Register           6, Addr: 6
+
+Testing for Register           7, Addr: 7
+
+Testing for Register           8, Addr: 8
+
+Testing for Register           9, Addr: 9
+
+Testing for Register          10, Addr: a
+
+Testing for Register          11, Addr: b
+
+Testing for Register          12, Addr: c
+
+Testing for Register          13, Addr: d
+
+Testing for Register          14, Addr: e
+
+Testing for Register          15, Addr: f
+
+ ========================================= WARP Num :           1 ====================================================
+
+Testing for Register           0, Addr: 0
+
+Testing for Register           1, Addr: 1
+
+Testing for Register           2, Addr: 2
+
+Testing for Register           3, Addr: 3
+
+Testing for Register           4, Addr: 4
+
+Testing for Register           5, Addr: 5
+
+Testing for Register           6, Addr: 6
+
+Testing for Register           7, Addr: 7
+
+Testing for Register           8, Addr: 8
+
+Testing for Register           9, Addr: 9
+
+Testing for Register          10, Addr: a
+
+Testing for Register          11, Addr: b
+
+Testing for Register          12, Addr: c
+
+Testing for Register          13, Addr: d
+
+Testing for Register          14, Addr: e
+
+Testing for Register          15, Addr: f
+
+ ========================================= WARP Num :           2 ====================================================
+
+Testing for Register           0, Addr: 0
+
+Testing for Register           1, Addr: 1
+
+Testing for Register           2, Addr: 2
+
+Testing for Register           3, Addr: 3
+
+Testing for Register           4, Addr: 4
+
+Testing for Register           5, Addr: 5
+
+Testing for Register           6, Addr: 6
+
+Testing for Register           7, Addr: 7
+
+Testing for Register           8, Addr: 8
+
+Testing for Register           9, Addr: 9
+
+Testing for Register          10, Addr: a
+
+Testing for Register          11, Addr: b
+
+Testing for Register          12, Addr: c
+
+Testing for Register          13, Addr: d
+
+Testing for Register          14, Addr: e
+
+Testing for Register          15, Addr: f
+
+ ========================================= WARP Num :           3 ====================================================
+
+Testing for Register           0, Addr: 0
+
+Testing for Register           1, Addr: 1
+
+Testing for Register           2, Addr: 2
+
+Testing for Register           3, Addr: 3
+
+Testing for Register           4, Addr: 4
+
+Testing for Register           5, Addr: 5
+
+Testing for Register           6, Addr: 6
+
+Testing for Register           7, Addr: 7
+
+Testing for Register           8, Addr: 8
+
+Testing for Register           9, Addr: 9
+
+Testing for Register          10, Addr: a
+
+Testing for Register          11, Addr: b
+
+Testing for Register          12, Addr: c
+
+Testing for Register          13, Addr: d
+
+Testing for Register          14, Addr: e
+
+Testing for Register          15, Addr: f
+
+ ========================================= WARP Num :           4 ====================================================
+
+Testing for Register           0, Addr: 0
+
+Testing for Register           1, Addr: 1
+
+Testing for Register           2, Addr: 2
+
+Testing for Register           3, Addr: 3
+
+Testing for Register           4, Addr: 4
+
+Testing for Register           5, Addr: 5
+
+Testing for Register           6, Addr: 6
+
+Testing for Register           7, Addr: 7
+
+Testing for Register           8, Addr: 8
+
+Testing for Register           9, Addr: 9
+
+Testing for Register          10, Addr: a
+
+Testing for Register          11, Addr: b
+
+Testing for Register          12, Addr: c
+
+Testing for Register          13, Addr: d
+
+Testing for Register          14, Addr: e
+
+Testing for Register          15, Addr: f
+
+ ========================================= WARP Num :           5 ====================================================
+
+Testing for Register           0, Addr: 0
+
+Testing for Register           1, Addr: 1
+
+Testing for Register           2, Addr: 2
+
+Testing for Register           3, Addr: 3
+
+Testing for Register           4, Addr: 4
+
+Testing for Register           5, Addr: 5
+
+Testing for Register           6, Addr: 6
+
+Testing for Register           7, Addr: 7
+
+Testing for Register           8, Addr: 8
+
+Testing for Register           9, Addr: 9
+
+Testing for Register          10, Addr: a
+
+Testing for Register          11, Addr: b
+
+Testing for Register          12, Addr: c
+
+Testing for Register          13, Addr: d
+
+Testing for Register          14, Addr: e
+
+Testing for Register          15, Addr: f
+
+ ========================================= WARP Num :           6 ====================================================
+
+Testing for Register           0, Addr: 0
+
+Testing for Register           1, Addr: 1
+
+Testing for Register           2, Addr: 2
+
+Testing for Register           3, Addr: 3
+
+Testing for Register           4, Addr: 4
+
+Testing for Register           5, Addr: 5
+
+Testing for Register           6, Addr: 6
+
+Testing for Register           7, Addr: 7
+
+Testing for Register           8, Addr: 8
+
+Testing for Register           9, Addr: 9
+
+Testing for Register          10, Addr: a
+
+Testing for Register          11, Addr: b
+
+Testing for Register          12, Addr: c
+
+Testing for Register          13, Addr: d
+
+Testing for Register          14, Addr: e
+
+Testing for Register          15, Addr: f
+
+ ========================================= WARP Num :           7 ====================================================
+
+Testing for Register           0, Addr: 0
+
+Testing for Register           1, Addr: 1
+
+Testing for Register           2, Addr: 2
+
+Testing for Register           3, Addr: 3
+
+Testing for Register           4, Addr: 4
+
+Testing for Register           5, Addr: 5
+
+Testing for Register           6, Addr: 6
+
+Testing for Register           7, Addr: 7
+
+Testing for Register           8, Addr: 8
+
+Testing for Register           9, Addr: 9
+
+Testing for Register          10, Addr: a
+
+Testing for Register          11, Addr: b
+
+Testing for Register          12, Addr: c
+
+Testing for Register          13, Addr: d
+
+Testing for Register          14, Addr: e
+
+Testing for Register          15, Addr: f
+
+$finish called from file "warp_8_write_read_test_all_lanes_8_16.sv", line 179.
+$finish at simulation time                 3952
+Simulation complete, time is 3952.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3952
+CPU Time:      0.110 seconds;       Data structure size:   0.0Mb
+Fri Feb  2 17:51:50 2018

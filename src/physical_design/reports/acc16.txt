@@ -1,0 +1,430 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+               Version L-2016.03-SP5 for linux64 - Oct 14, 2016 
+
+                    Copyright (c) 1988 - 2016 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /nethome/pdas36/.synopsys_dv_prefs.tcl
+# Read the verilog design files
+#read_verilog ../verilog/common/rtl_v/half_precision_queue.v
+#read_verilog ../verilog/common/rtl_v/single_precision_queue.v
+#read_verilog ../verilog/common/rtl_v/decision_making_circuit.v
+#read_verilog ../verilog/common/rtl_v/ram_decision_queue_wrapper.v
+#read_verilog ../verilog/common/stub_v/ram_module.v
+#read_verilog ../verilog/top/rtl_v/control_unit.v
+#read_verilog ../verilog/booth_32bit/rtl_v/partial_product_generator.v
+#read_verilog ../verilog/booth_32bit/rtl_v/sign_ext_shift.v
+#read_verilog ../verilog/booth_32bit/rtl_v/pprod_sgn_extd_shfd.v
+#read_verilog ../verilog/booth_32bit/rtl_v/ppg_adders_wrapper.v
+#read_verilog ../verilog/booth_32bit/rtl_v/normalize_32bit.v
+#read_verilog ../verilog/booth_32bit/rtl_v/compute_mantissa.v
+#read_verilog ../verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v
+#read_verilog ../verilog/common/rtl_v/twos_comp_24bit.v
+#read_verilog ../verilog/adder/rtl_v/align_and_add_32bit.v
+#read_verilog ../verilog/dot_product/rtl_v/dot_product_32bit.v
+#read_verilog ../verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder.v
+#read_verilog ../verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.v
+#read_verilog ../verilog/common/rtl_v/extract_mantissa_32bit.v
+#read_verilog ../verilog/common/rtl_v/one_queue.v
+#read_verilog ../verilog/accumulator/rtl_v/accumulator_32bit.v
+read_verilog ../verilog/accumulator/rtl_v/accumulator_16bit.v
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/dw_foundation.sldb'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/gtech.db'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/standard.sldb'
+  Loading link library 'gscl45nm'
+  Loading link library 'gtech'
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/accumulator/rtl_v/accumulator_16bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/accumulator/rtl_v/accumulator_16bit.v
+
+Inferred memory devices in process
+	in routine accumulator_16bit line 90 in file
+		'/nethome/pdas36/cs7290_f17/project_work/design/verilog/accumulator/rtl_v/accumulator_16bit.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     man_sum_reg     | Flip-flop |  10   |  Y  | N  | N  | N  | N  | N  | N  |
+|     msb_sum_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     sgn_sum_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     exp_sum_reg     | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/accumulator/rtl_v/accumulator_16bit.db:accumulator_16bit'
+Loaded 1 design.
+Current design is 'accumulator_16bit'.
+accumulator_16bit
+#read_verilog ../verilog/booth_16bit/rtl_v/partial_product_generator_16bit.v
+#read_verilog ../verilog/booth_16bit/rtl_v/sign_ext_shift_unit_16bit.v
+#read_verilog ../verilog/booth_16bit/rtl_v/partial_product_sgn_extd_shifter_wrapper.v
+#read_verilog ../verilog/booth_16bit/rtl_v/pprod_adders_wrapper.v
+#read_verilog ../verilog/booth_16bit/rtl_v/normalize_16bit.v
+#read_verilog ../verilog/booth_16bit/rtl_v/booth_multiplier_16bit.v
+#read_verilog ../verilog/booth_16bit/rtl_v/compute_mantissa_16bit.v
+#read_verilog ../verilog/common/rtl_v/twos_comp_11bit.v
+read_verilog ../verilog/adder/rtl_v/align_and_add_16bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/adder/rtl_v/align_and_add_16bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/adder/rtl_v/align_and_add_16bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/adder/rtl_v/align_and_add_16bit.db:align_and_add_16bit'
+Loaded 1 design.
+Current design is 'align_and_add_16bit'.
+align_and_add_16bit
+#read_verilog ../verilog/dot_product/rtl_v/dot_product_16bit.v
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.db:nibble_local_count'
+Loaded 1 design.
+Current design is 'nibble_local_count'.
+nibble_local_count
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder_16bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder_16bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder_16bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/binary_nibble_encoder_16bit.db:binary_nibble_encoder_16bit'
+Loaded 1 design.
+Current design is 'binary_nibble_encoder_16bit'.
+binary_nibble_encoder_16bit
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_16bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_16bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_16bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_16bit.db:leading_zeros_counter_16bit'
+Loaded 1 design.
+Current design is 'leading_zeros_counter_16bit'.
+leading_zeros_counter_16bit
+#read_verilog ../verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_64bit.v
+read_verilog ../verilog/common/rtl_v/extract_mantissa_16bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_16bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_16bit.v
+Warning:  /nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_16bit.v:24: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+
+Statistics for case statements in always block at line 18 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_16bit.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            20            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_16bit.db:extract_mantissa_16bit'
+Loaded 1 design.
+Current design is 'extract_mantissa_16bit'.
+extract_mantissa_16bit
+#read_verilog ../verilog/common/rtl_v/extract_mantissa_final_sum.v
+#read_verilog ../verilog/common/rtl_v/post_normalize_32bit.v
+#read_verilog ../verilog/top/rtl_v/top_wrapper.v
+# Create user defined variables 
+set CLK_PORT [get_ports clk]
+Warning: Can't find port 'clk' in design 'extract_mantissa_16bit'. (UID-95)
+set CLK_PERIOD 5.00 
+5.00
+set CLK_SKEW 0.20
+0.20
+#set WC_OP_CONDS typ_0_1.98
+#set WIRELOAD_MODEL 10KGATES
+#fanout of 4
+#set DRIVE_CELL buf1a4
+#set DRIVE_PIN {Y}
+#set MAX_OUTPUT_LOAD [load_of ssc_core/buf1a2/A]
+#set INPUT_DELAY 2.0
+#set OUTPUT_DELAY 0.5
+#set MAX_AREA 380000
+# Time Budget 
+create_clock -period $CLK_PERIOD -name my_clock $CLK_PORT
+Error: Value for list 'source_objects' must have 1 elements. (CMD-036)
+0
+#set_dont_touch_network my_clock
+set_clock_uncertainty $CLK_SKEW [get_clocks my_clock]
+Warning: Can't find clock 'my_clock' in design 'extract_mantissa_16bit'. (UID-95)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+#set_input_delay $INPUT_DELAY -max -clock my_clock [remove_from_collection [all_inputs] $CLK_PORT]
+#set_output_delay $OUTPUT_DELAY -max -clock my_clock [all_outputs]
+#  Area Constraint
+#set_max_area $MAX_AREA
+# Operating Environment 
+#set_operating_conditions -max $WC_OP_CONDS
+#set_wire_load_model -name $WIRELOAD_MODEL 
+#set_driving_cell -cell $DRIVE_CELL -pin $DRIVE_PIN [remove_from_collection [all_inputs] $CLK_PORT]
+#set_load  $MAX_OUTPUT_LOAD [all_outputs]
+link
+
+  Linking design 'extract_mantissa_16bit'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  gscl45nm (library)          /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db
+  dw_foundation.sldb (library) /tools/synopsys/synthesis/l201603sp5/libraries/syn/dw_foundation.sldb
+
+1
+#set_flatten true -effort high
+compile -map_effort high 
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | L-2016.03-DWBB_201603.5 |     *     |
+| Licensed DW Building Blocks        | L-2016.03-DWBB_201603.5 |           |
+============================================================================
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'extract_mantissa_16bit'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Design 'extract_mantissa_16bit' has no optimization constraints set. (OPT-108)
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+  Structuring 'extract_mantissa_16bit'
+  Mapping 'extract_mantissa_16bit'
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     219.2      0.00       0.0       0.1                          
+    0:00:01     219.2      0.00       0.0       0.1                          
+    0:00:01     219.2      0.00       0.0       0.1                          
+    0:00:01     219.2      0.00       0.0       0.1                          
+    0:00:01     219.2      0.00       0.0       0.1                          
+    0:00:01     219.2      0.00       0.0       0.1                          
+    0:00:01     219.2      0.00       0.0       0.1                          
+    0:00:01     219.2      0.00       0.0       0.1                          
+    0:00:01     219.2      0.00       0.0       0.1                          
+    0:00:01     221.0      0.00       0.0       0.1                          
+    0:00:01     223.4      0.00       0.0       0.1                          
+    0:00:01     227.6      0.00       0.0       0.1                          
+    0:00:01     227.6      0.00       0.0       0.1                          
+    0:00:01     227.6      0.00       0.0       0.1                          
+    0:00:01     227.6      0.00       0.0       0.1                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     227.6      0.00       0.0       0.1                          
+    0:00:01     227.6      0.00       0.0       0.1                          
+    0:00:01     227.6      0.00       0.0       0.1                          
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     227.6      0.00       0.0       0.1                          
+    0:00:02     378.3      0.00       0.0       0.1 net307                   
+    0:00:02     452.4      0.00       0.0       0.1                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     452.4      0.00       0.0       0.1                          
+    0:00:02     452.4      0.00       0.0       0.1                          
+    0:00:02     401.7      0.00       0.0       0.1                          
+    0:00:02     370.7      0.00       0.0       0.1                          
+    0:00:02     351.0      0.00       0.0       0.1                          
+    0:00:02     337.0      0.00       0.0       0.1                          
+    0:00:02     335.5      0.00       0.0       0.1                          
+    0:00:02     335.5      0.00       0.0       0.1                          
+    0:00:02     335.5      0.00       0.0       0.1                          
+    0:00:02     334.1      0.00       0.0       0.1                          
+    0:00:02     334.1      0.00       0.0       0.1                          
+    0:00:02     334.1      0.00       0.0       0.1                          
+    0:00:02     334.1      0.00       0.0       0.1                          
+    0:00:02     334.1      0.00       0.0       0.1                          
+    0:00:02     334.1      0.00       0.0       0.1                          
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+#-incremental_mapping
+report_area 
+ 
+****************************************
+Report : area
+Design : extract_mantissa_16bit
+Version: L-2016.03-SP5
+Date   : Thu Nov 30 11:26:32 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db)
+
+Number of ports:                           27
+Number of nets:                           157
+Number of cells:                          141
+Number of combinational cells:            141
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         67
+Number of references:                      11
+
+Combinational area:                334.141592
+Buf/Inv area:                      131.873296
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   334.141592
+Total area:                 undefined
+1
+report_timing
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : extract_mantissa_16bit
+Version: L-2016.03-SP5
+Date   : Thu Nov 30 11:26:32 2017
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: offset[2] (input port)
+  Endpoint: mantissa_out[9]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  offset[2] (in)                           0.00       0.00 f
+  U229/Y (INVX1)                           0.02       0.02 r
+  U228/Y (AND2X1)                          0.07       0.09 r
+  U227/Y (NAND3X1)                         0.02       0.12 f
+  U155/Y (BUFX2)                           0.04       0.15 f
+  U220/Y (INVX1)                           0.08       0.24 r
+  U169/Y (AOI22X1)                         0.05       0.29 f
+  U147/Y (BUFX2)                           0.04       0.33 f
+  U168/Y (NAND3X1)                         0.03       0.35 r
+  U113/Y (BUFX2)                           0.04       0.39 r
+  U167/Y (OR2X1)                           0.04       0.43 r
+  mantissa_out[9] (out)                    0.00       0.43 r
+  data arrival time                                   0.43
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
+#compile_ultra -retime
+report_power
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : extract_mantissa_16bit
+Version: L-2016.03-SP5
+Date   : Thu Nov 30 11:26:32 2017
+****************************************
+
+
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db)
+
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =  31.8418 uW   (63%)
+  Net Switching Power  =  18.5676 uW   (37%)
+                         ---------
+Total Dynamic Power    =  50.4094 uW  (100%)
+
+Cell Leakage Power     =   1.5008 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  3.1842e-02        1.8568e-02        1.5008e+03        5.1910e-02  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total          3.1842e-02 mW     1.8568e-02 mW     1.5008e+03 nW     5.1910e-02 mW
+1
+quit
+
+Thank you...

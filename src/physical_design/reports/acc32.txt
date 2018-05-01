@@ -1,0 +1,733 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+               Version L-2016.03-SP5 for linux64 - Oct 14, 2016 
+
+                    Copyright (c) 1988 - 2016 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /nethome/pdas36/.synopsys_dv_prefs.tcl
+# Read the verilog design files
+#read_verilog ../verilog/common/rtl_v/half_precision_queue.v
+#read_verilog ../verilog/common/rtl_v/single_precision_queue.v
+#read_verilog ../verilog/common/rtl_v/decision_making_circuit.v
+#read_verilog ../verilog/common/rtl_v/ram_decision_queue_wrapper.v
+#read_verilog ../verilog/common/stub_v/ram_module.v
+#read_verilog ../verilog/top/rtl_v/control_unit.v
+#read_verilog ../verilog/booth_32bit/rtl_v/partial_product_generator.v
+#read_verilog ../verilog/booth_32bit/rtl_v/sign_ext_shift.v
+#read_verilog ../verilog/booth_32bit/rtl_v/pprod_sgn_extd_shfd.v
+#read_verilog ../verilog/booth_32bit/rtl_v/ppg_adders_wrapper.v
+#read_verilog ../verilog/booth_32bit/rtl_v/normalize_32bit.v
+#read_verilog ../verilog/booth_32bit/rtl_v/compute_mantissa.v
+#read_verilog ../verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v
+read_verilog ../verilog/common/rtl_v/twos_comp_24bit.v
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/dw_foundation.sldb'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/gtech.db'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/standard.sldb'
+  Loading link library 'gscl45nm'
+  Loading link library 'gtech'
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/twos_comp_24bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/twos_comp_24bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/twos_comp_24bit.db:twos_comp_24bit'
+Loaded 1 design.
+Current design is 'twos_comp_24bit'.
+twos_comp_24bit
+read_verilog ../verilog/adder/rtl_v/align_and_add_32bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/adder/rtl_v/align_and_add_32bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/adder/rtl_v/align_and_add_32bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/adder/rtl_v/align_and_add_32bit.db:align_and_add_32bit'
+Loaded 1 design.
+Current design is 'align_and_add_32bit'.
+align_and_add_32bit
+#read_verilog ../verilog/dot_product/rtl_v/dot_product_32bit.v
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/binary_nibble_encoder.db:binary_nibble_encoder'
+Loaded 1 design.
+Current design is 'binary_nibble_encoder'.
+binary_nibble_encoder
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.db:leading_zeros_counter'
+Loaded 1 design.
+Current design is 'leading_zeros_counter'.
+leading_zeros_counter
+read_verilog ../verilog/common/rtl_v/extract_mantissa_32bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_32bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_32bit.v
+
+Statistics for case statements in always block at line 18 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_32bit.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            20            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_32bit.db:extract_mantissa_32bit'
+Loaded 1 design.
+Current design is 'extract_mantissa_32bit'.
+extract_mantissa_32bit
+read_verilog ../verilog/common/rtl_v/one_queue.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/one_queue.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/one_queue.v
+
+Inferred memory devices in process
+	in routine one_queue line 46 in file
+		'/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/one_queue.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    data_out_reg     | Flip-flop |  33   |  Y  | N  | N  | N  | N  | N  | N  |
+|   data_valid_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|      head_reg       | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|      tail_reg       | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|      queue_reg      | Flip-flop |  272  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+======================================================
+| block name/line  | Inputs | Outputs | # sel inputs |
+======================================================
+|   one_queue/70   |   8    |   34    |      3       |
+======================================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/one_queue.db:one_queue'
+Loaded 1 design.
+Current design is 'one_queue'.
+one_queue
+#read_verilog ../verilog/accumulator/rtl_v/accumulator_16bit.v
+#read_verilog ../verilog/booth_16bit/rtl_v/partial_product_generator_16bit.v
+#read_verilog ../verilog/booth_16bit/rtl_v/sign_ext_shift_unit_16bit.v
+#read_verilog ../verilog/booth_16bit/rtl_v/partial_product_sgn_extd_shifter_wrapper.v
+#read_verilog ../verilog/booth_16bit/rtl_v/pprod_adders_wrapper.v
+#read_verilog ../verilog/booth_16bit/rtl_v/normalize_16bit.v
+#read_verilog ../verilog/booth_16bit/rtl_v/booth_multiplier_16bit.v
+#read_verilog ../verilog/booth_16bit/rtl_v/compute_mantissa_16bit.v
+#read_verilog ../verilog/common/rtl_v/twos_comp_11bit.v
+#read_verilog ../verilog/adder/rtl_v/align_and_add_16bit.v
+#read_verilog ../verilog/dot_product/rtl_v/dot_product_16bit.v
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.db:nibble_local_count'
+Loaded 1 design.
+Current design is 'nibble_local_count'.
+nibble_local_count
+#read_verilog ../verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder_16bit.v
+#read_verilog ../verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_16bit.v
+#read_verilog ../verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_64bit.v
+read_verilog ../verilog/common/rtl_v/extract_mantissa_16bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_16bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_16bit.v
+Warning:  /nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_16bit.v:24: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+
+Statistics for case statements in always block at line 18 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_16bit.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            20            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/common/rtl_v/extract_mantissa_16bit.db:extract_mantissa_16bit'
+Loaded 1 design.
+Current design is 'extract_mantissa_16bit'.
+extract_mantissa_16bit
+read_verilog ../verilog/accumulator/rtl_v/accumulator_32bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/accumulator/rtl_v/accumulator_32bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/accumulator/rtl_v/accumulator_32bit.v
+Warning:  /nethome/pdas36/cs7290_f17/project_work/design/verilog/accumulator/rtl_v/accumulator_32bit.v:83: the undeclared symbol 'store_queue' assumed to have the default net type, which is 'wire'. (VER-936)
+
+Inferred memory devices in process
+	in routine accumulator_32bit line 176 in file
+		'/nethome/pdas36/cs7290_f17/project_work/design/verilog/accumulator/rtl_v/accumulator_32bit.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     man_sum_reg     | Flip-flop |  23   |  Y  | N  | N  | N  | N  | N  | N  |
+|     msb_sum_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     sgn_sum_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     exp_sum_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/accumulator/rtl_v/accumulator_32bit.db:accumulator_32bit'
+Loaded 1 design.
+Current design is 'accumulator_32bit'.
+accumulator_32bit
+#read_verilog ../verilog/common/rtl_v/extract_mantissa_final_sum.v
+#read_verilog ../verilog/common/rtl_v/post_normalize_32bit.v
+#read_verilog ../verilog/top/rtl_v/top_wrapper.v
+set_design_top accumulator_32bit 
+1
+# Create user defined variables 
+set CLK_PORT [get_ports clk]
+{clk}
+set CLK_PERIOD 5.00 
+5.00
+set CLK_SKEW 0.20
+0.20
+#set WC_OP_CONDS typ_0_1.98
+#set WIRELOAD_MODEL 10KGATES
+#fanout of 4
+#set DRIVE_CELL buf1a4
+#set DRIVE_PIN {Y}
+#set MAX_OUTPUT_LOAD [load_of ssc_core/buf1a2/A]
+#set INPUT_DELAY 2.0
+#set OUTPUT_DELAY 0.5
+#set MAX_AREA 380000
+# Time Budget 
+create_clock -period $CLK_PERIOD -name my_clock $CLK_PORT
+1
+#set_dont_touch_network my_clock
+set_clock_uncertainty $CLK_SKEW [get_clocks my_clock]
+1
+#set_input_delay $INPUT_DELAY -max -clock my_clock [remove_from_collection [all_inputs] $CLK_PORT]
+#set_output_delay $OUTPUT_DELAY -max -clock my_clock [all_outputs]
+#  Area Constraint
+#set_max_area $MAX_AREA
+# Operating Environment 
+#set_operating_conditions -max $WC_OP_CONDS
+#set_wire_load_model -name $WIRELOAD_MODEL 
+#set_driving_cell -cell $DRIVE_CELL -pin $DRIVE_PIN [remove_from_collection [all_inputs] $CLK_PORT]
+#set_load  $MAX_OUTPUT_LOAD [all_outputs]
+link
+
+  Linking design 'accumulator_32bit'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  gscl45nm (library)          /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db
+  dw_foundation.sldb (library) /tools/synopsys/synthesis/l201603sp5/libraries/syn/dw_foundation.sldb
+
+1
+#set_flatten true -effort high
+compile -map_effort high 
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | L-2016.03-DWBB_201603.5 |     *     |
+| Licensed DW Building Blocks        | L-2016.03-DWBB_201603.5 |     *     |
+============================================================================
+
+
+Information: There are 55 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'extract_mantissa_32bit'
+  Processing 'binary_nibble_encoder'
+  Processing 'nibble_local_count_0'
+  Processing 'leading_zeros_counter'
+  Processing 'twos_comp_24bit_0'
+  Processing 'align_and_add_32bit'
+Information: Added key list 'DesignWare' to design 'align_and_add_32bit'. (DDB-72)
+  Processing 'one_queue'
+Information: Added key list 'DesignWare' to design 'one_queue'. (DDB-72)
+Information: The register 'queue_reg[0][33]' is a constant and will be removed. (OPT-1206)
+Information: The register 'queue_reg[1][33]' is a constant and will be removed. (OPT-1206)
+Information: The register 'queue_reg[2][33]' is a constant and will be removed. (OPT-1206)
+Information: The register 'queue_reg[3][33]' is a constant and will be removed. (OPT-1206)
+Information: The register 'queue_reg[4][33]' is a constant and will be removed. (OPT-1206)
+Information: The register 'queue_reg[5][33]' is a constant and will be removed. (OPT-1206)
+Information: The register 'queue_reg[6][33]' is a constant and will be removed. (OPT-1206)
+Information: The register 'queue_reg[7][33]' is a constant and will be removed. (OPT-1206)
+  Processing 'accumulator_32bit'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'align_and_add_32bit_DW01_sub_0'
+  Processing 'align_and_add_32bit_DW01_add_0'
+  Mapping 'DW_rightsh'
+  Mapping 'align_and_add_32bit_DW_cmp_0'
+  Processing 'align_and_add_32bit_DW01_sub_1'
+  Processing 'align_and_add_32bit_DW01_sub_2'
+  Processing 'align_and_add_32bit_DW01_inc_0'
+  Processing 'align_and_add_32bit_DW01_sub_3'
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:08    9254.6      0.00       0.0       3.5                          
+    0:00:08    9254.6      0.00       0.0       3.5                          
+    0:00:08    9254.6      0.00       0.0       3.5                          
+    0:00:08    9254.6      0.00       0.0       3.5                          
+    0:00:08    9254.6      0.00       0.0       3.5                          
+    0:00:09    8611.7      0.21       3.4       3.1                          
+    0:00:09    8636.5      0.00       0.0       3.0                          
+    0:00:09    8620.1      0.09       0.5       3.0                          
+    0:00:09    8632.3      0.00       0.0       3.0                          
+    0:00:09    8628.5      0.00       0.0       3.0                          
+    0:00:09    8628.5      0.00       0.0       3.0                          
+    0:00:09    8628.5      0.00       0.0       3.0                          
+    0:00:09    8628.5      0.00       0.0       3.0                          
+    0:00:09    8628.5      0.00       0.0       3.0                          
+    0:00:11    8719.6      0.02       0.1       2.7                          
+    0:00:13    8790.9      0.00       0.0       2.5                          
+    0:00:14    8851.9      0.07       0.9       2.3                          
+    0:00:14    8915.3      0.13       2.2       2.2                          
+    0:00:15    8962.7      0.13       2.1       2.2                          
+    0:00:15    8990.8      0.14       2.1       2.1                          
+    0:00:16    9018.5      0.14       2.1       2.1                          
+    0:00:16    9035.4      0.14       2.1       2.1                          
+    0:00:16    9054.7      0.14       2.1       2.1                          
+    0:00:16    9054.7      0.14       2.1       2.1                          
+    0:00:16    9046.2      0.00       0.0       2.1                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:16    9046.2      0.00       0.0       2.1                          
+    0:00:16    9046.2      0.00       0.0       2.1                          
+    0:00:16    9046.2      0.00       0.0       2.1                          
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:16    9046.2      0.00       0.0       2.1                          
+    0:00:16    9141.5      0.00       0.0       1.9 ACC/sub_71/n11           
+    0:00:17    9281.3      0.00       0.0       1.7 ACC/net11932             
+    0:00:17    9463.9      0.00       0.0       1.5 ACC/EXM/net11652         
+    0:00:17    9593.9      0.00       0.0       1.5 ACC/net11999             
+    0:00:17    9960.0      0.00       0.0       1.4 QUEUE/N38                
+    0:00:17   10220.9      0.00       0.0       1.3 ACC/n216                 
+    0:00:17   10360.3      0.00       0.0       1.3 ACC/EXM/net11556         
+    0:00:17   10480.4      0.00       0.0       1.3 ACC/net11961             
+    0:00:18   10556.9      0.00       0.0       1.2 ACC/EXM/mantissa_out[20] 
+    0:00:18   10641.8      0.00       0.0       1.2 ACC/EXM/n219             
+    0:00:18   10754.9      0.00       0.0       1.2 ACC/EXM/net11500         
+    0:00:18   10890.1      0.00       0.0       1.2 ACC/EXM/net11746         
+    0:00:18   10981.2      0.00       0.0       1.1 ACC/EXM/net11714         
+    0:00:18   11120.5      0.00       0.0       1.1 QUEUE/C704/net5702       
+    0:00:18   11218.6      0.00       0.0       1.1 QUEUE/C704/net5563       
+    0:00:19   11325.6      0.00       0.0       1.1 QUEUE/C704/net5631       
+    0:00:19   11465.0      0.00       0.0       1.1 ACC/net11976             
+    0:00:19   11528.4      0.00       0.0       1.1 ACC/EXM/net11516         
+    0:00:19   11577.2      0.00       0.0       1.1 QUEUE/net15484           
+    0:00:19   11635.8      0.00       0.0       1.0 ACC/net12092             
+    0:00:19   11640.0      0.00       0.0       1.0 ACC/EXM/net11744         
+    0:00:20   11639.1      0.00       0.0       1.0 ACC/EXM/mantissa_out[6]  
+    0:00:21   11637.7      0.00       0.0       1.0 exp_add2_in[1]           
+    0:00:21   11766.8      0.00       0.0       0.9 net12570                 
+    0:00:22   11856.4      0.00       0.0       0.9 ACC/net12137             
+    0:00:22   11885.0      0.00       0.0       0.9 ACC/EXM/net11659         
+    0:00:22   11911.8      0.00       0.0       0.9 ACC/EXM/net15091         
+    0:00:22   11929.6      0.00       0.0       0.9 ACC/EXM/net11771         
+    0:00:22   11951.2      0.00       0.0       0.9 ACC/EXM/net11615         
+    0:00:22   12016.0      0.00       0.0       0.9 QUEUE/n406               
+    0:00:22   12091.0      0.00       0.0       0.9 QUEUE/C704/net5613       
+    0:00:23   12166.1      0.00       0.0       0.9 QUEUE/C704/net5693       
+    0:00:23   12205.6      0.00       0.0       0.9 ACC/EXM/net11587         
+    0:00:24   12209.8      0.00       0.0       0.9 ACC/exp_b[0]             
+    0:00:25   12220.6      0.00       0.0       0.9 ACC/net12100             
+    0:00:27   12225.3      0.03       0.3       0.9 ACC/n217                 
+    0:00:27   12328.0      0.35       8.2       0.9 ACC/EXM/mantissa_out[16] 
+    0:00:28   12426.6      0.54      13.3       0.8 ACC/EXM/net11495         
+    0:00:28   12518.1      0.58      13.8       0.8 ACC/net12153             
+    0:00:28   12547.2      0.58      13.3       0.8 ACC/EXM/net11777         
+    0:00:28   12547.7      0.58      13.3       0.8 ACC/EXM/net11495         
+    0:00:30   12548.1      0.58      13.3       0.8 ACC/net11940             
+    0:00:30   12551.9      0.58      13.2       0.8 ACC/net12104             
+    0:00:30   12570.2      0.61      14.3       0.8 net12538                 
+    0:00:30   12570.7      0.61      14.3       0.8 man_sum_reg[21]/D        
+    0:00:31   12547.7      0.52      12.1       0.8 man_sum_reg[21]/D        
+    0:00:31   12543.9      0.49      11.5       0.8 man_sum_reg[21]/D        
+    0:00:31   12535.0      0.45      10.3       0.8 man_sum_reg[21]/D        
+    0:00:31   12527.5      0.35       7.3       0.8 man_sum_reg[21]/D        
+    0:00:32   12593.2      0.31       6.3       0.8 man_sum_reg[21]/D        
+    0:00:32   12589.9      0.29       5.8       0.8 man_sum_reg[21]/D        
+    0:00:32   12589.9      0.22       4.2       0.8 man_sum_reg[21]/D        
+    0:00:32   12598.4      0.18       3.3       0.8 man_sum_reg[21]/D        
+    0:00:32   12594.6      0.17       3.1       0.8 man_sum_reg[21]/D        
+    0:00:33   12579.6      0.17       3.0       0.8 man_sum_reg[21]/D        
+    0:00:33   12553.8      0.16       2.8       0.8 man_sum_reg[22]/D        
+    0:00:33   12569.3      0.11       1.7       0.8 man_sum_reg[21]/D        
+    0:00:33   12563.2      0.10       1.4       0.8 man_sum_reg[21]/D        
+    0:00:33   12565.0      0.09       1.0       0.8 man_sum_reg[21]/D        
+    0:00:34   12579.6      0.06       0.6       0.8 man_sum_reg[21]/D        
+    0:00:34   12566.4      0.04       0.4       0.8 man_sum_reg[18]/D        
+    0:00:34   12566.4      0.03       0.2       0.8 man_sum_reg[18]/D        
+    0:00:34   12560.8      0.02       0.1       0.8 man_sum_reg[14]/D        
+    0:00:34   12540.6      0.01       0.1       0.8 man_sum_reg[18]/D        
+    0:00:35   12542.0      0.01       0.0       0.8 exp_sum_reg[7]/D         
+    0:00:35   12543.0      0.00       0.0       0.8 exp_sum_reg[7]/D         
+    0:00:35   12545.8      0.00       0.0       0.8 exp_sum_reg[7]/D         
+    0:00:35   12554.2      0.03       0.4       0.8 ACC/EXM/net11549         
+    0:00:36   12553.8      0.03       0.4       0.8 ACC/net11925             
+    0:00:36   12552.8      0.03       0.4       0.8 ACC/net12041             
+    0:00:37   12550.5      0.03       0.4       0.8 net12523                 
+    0:00:37   12550.5      0.03       0.4       0.8 exp_sum_reg[7]/D         
+    0:00:37   12553.8      0.00       0.0       0.8 exp_sum_reg[7]/D         
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:37   12553.8      0.00       0.0       0.8                          
+    0:00:37   12553.8      0.00       0.0       0.8                          
+    0:00:38   11727.3      0.00       0.0       0.8                          
+    0:00:38   11072.2      0.01       0.0       0.8                          
+    0:00:38   10851.6      0.01       0.0       0.8                          
+    0:00:38   10754.0      0.02       0.1       0.8                          
+    0:00:38   10694.4      0.02       0.0       0.8                          
+    0:00:38   10694.4      0.02       0.0       0.8                          
+    0:00:38   10700.5      0.00       0.0       0.8                          
+    0:00:38   10621.2      0.11       1.2       0.8                          
+    0:00:38   10616.0      0.12       1.4       0.8                          
+    0:00:38   10612.8      0.12       1.4       0.8                          
+    0:00:38   10611.8      0.12       1.4       0.8                          
+    0:00:38   10611.8      0.12       1.4       0.8                          
+    0:00:38   10611.8      0.12       1.4       0.8                          
+    0:00:38   10611.8      0.12       1.4       0.8                          
+    0:00:38   10611.8      0.12       1.4       0.8                          
+    0:00:39   10659.2      0.00       0.0       0.8                          
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+#-incremental_mapping
+report_area 
+ 
+****************************************
+Report : area
+Design : accumulator_32bit
+Version: L-2016.03-SP5
+Date   : Thu Nov 30 11:41:19 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db)
+
+Number of ports:                          724
+Number of nets:                          4317
+Number of cells:                         3674
+Number of combinational cells:           3308
+Number of sequential cells:               346
+Number of macros/black boxes:               0
+Number of buf/inv:                       1686
+Number of references:                      13
+
+Combinational area:               7970.591075
+Buf/Inv area:                     2910.129229
+Noncombinational area:            2688.619640
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 10659.210715
+Total area:                 undefined
+1
+report_timing
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : accumulator_32bit
+Version: L-2016.03-SP5
+Date   : Thu Nov 30 11:41:20 2017
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: QUEUE/tail_reg[1]
+              (rising edge-triggered flip-flop clocked by my_clock)
+  Endpoint: exp_sum_reg[7]
+            (rising edge-triggered flip-flop clocked by my_clock)
+  Path Group: my_clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock my_clock (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  QUEUE/tail_reg[1]/CLK (DFFPOSX1)                        0.00       0.00 r
+  QUEUE/tail_reg[1]/Q (DFFPOSX1)                          0.11       0.11 f
+  QUEUE/U455/Y (AND2X2)                                   0.04       0.16 f
+  QUEUE/U50/Y (XOR2X1)                                    0.05       0.20 r
+  QUEUE/U56/Y (XNOR2X1)                                   0.05       0.25 r
+  QUEUE/U55/Y (XNOR2X1)                                   0.04       0.30 r
+  QUEUE/U1265/Y (NAND3X1)                                 0.02       0.31 f
+  QUEUE/U459/Y (BUFX2)                                    0.04       0.35 f
+  QUEUE/empty (one_queue)                                 0.00       0.35 f
+  U575/Y (OAI21X1)                                        0.06       0.41 r
+  U327/Y (AND2X2)                                         0.05       0.46 r
+  U284/Y (INVX1)                                          0.03       0.49 f
+  U286/Y (INVX1)                                          0.01       0.50 r
+  U625/Y (AOI22X1)                                        0.02       0.52 f
+  U332/Y (BUFX2)                                          0.04       0.56 f
+  U250/Y (AND2X1)                                         0.03       0.59 f
+  U325/Y (INVX1)                                          0.01       0.60 r
+  ACC/exp_b[0] (align_and_add_32bit)                      0.00       0.60 r
+  ACC/U227/Y (INVX1)                                      0.01       0.61 f
+  ACC/U218/Y (AND2X2)                                     0.03       0.65 f
+  ACC/U219/Y (INVX1)                                      0.00       0.64 r
+  ACC/U145/Y (AND2X2)                                     0.03       0.67 r
+  ACC/U286/Y (INVX1)                                      0.02       0.69 f
+  ACC/U255/Y (AOI22X1)                                    0.05       0.73 r
+  ACC/U222/Y (BUFX2)                                      0.04       0.77 r
+  ACC/U250/Y (AOI22X1)                                    0.03       0.80 f
+  ACC/U223/Y (BUFX2)                                      0.04       0.84 f
+  ACC/U249/Y (NAND3X1)                                    0.03       0.87 r
+  ACC/U224/Y (BUFX2)                                      0.04       0.90 r
+  ACC/U248/Y (NAND3X1)                                    0.01       0.91 f
+  ACC/U209/Y (BUFX2)                                      0.03       0.95 f
+  ACC/U220/Y (AND2X2)                                     0.03       0.98 f
+  ACC/U95/Y (OAI21X1)                                     0.01       0.99 r
+  ACC/U96/Y (INVX1)                                       0.02       1.02 f
+  ACC/U221/Y (OR2X2)                                      0.04       1.06 f
+  ACC/U121/Y (MUX2X1)                                     0.04       1.09 r
+  ACC/U122/Y (INVX2)                                      0.03       1.12 f
+  ACC/U120/Y (INVX1)                                      0.01       1.13 r
+  ACC/U508/Y (AOI22X1)                                    0.02       1.15 f
+  ACC/U375/Y (BUFX2)                                      0.04       1.19 f
+  ACC/U367/Y (AND2X2)                                     0.05       1.25 f
+  ACC/U92/Y (INVX1)                                       0.01       1.26 r
+  ACC/U71/Y (INVX2)                                       0.05       1.30 f
+  ACC/U529/Y (AOI22X1)                                    0.05       1.36 r
+  ACC/U196/Y (BUFX2)                                      0.04       1.39 r
+  ACC/U51/Y (AND2X1)                                      0.03       1.42 r
+  ACC/U97/Y (INVX1)                                       0.04       1.46 f
+  ACC/U531/Y (AOI22X1)                                    0.04       1.50 r
+  ACC/U208/Y (BUFX2)                                      0.04       1.54 r
+  ACC/U126/Y (AND2X2)                                     0.03       1.57 r
+  ACC/U63/Y (AND2X1)                                      0.04       1.61 r
+  ACC/U264/Y (INVX1)                                      0.02       1.63 f
+  ACC/U620/Y (OAI21X1)                                    0.03       1.66 r
+  ACC/ADDIN0_2C/a[0] (twos_comp_24bit_0)                  0.00       1.66 r
+  ACC/ADDIN0_2C/U12/Y (NOR3X1)                            0.05       1.71 f
+  ACC/ADDIN0_2C/U3/Y (AND2X1)                             0.05       1.76 f
+  ACC/ADDIN0_2C/U13/Y (NAND3X1)                           0.03       1.79 r
+  ACC/ADDIN0_2C/U6/Y (BUFX2)                              0.04       1.83 r
+  ACC/ADDIN0_2C/U19/Y (OR2X2)                             0.04       1.86 r
+  ACC/ADDIN0_2C/U8/Y (INVX1)                              0.02       1.88 f
+  ACC/ADDIN0_2C/a2c[1] (twos_comp_24bit_0)                0.00       1.88 f
+  ACC/U614/Y (MUX2X1)                                     0.04       1.92 r
+  ACC/U144/Y (INVX2)                                      0.02       1.94 f
+  ACC/add_104/A[1] (align_and_add_32bit_DW01_add_1)       0.00       1.94 f
+  ACC/add_104/U68/Y (OR2X1)                               0.04       1.98 f
+  ACC/add_104/U96/Y (INVX1)                               0.00       1.99 r
+  ACC/add_104/U49/Y (OAI21X1)                             0.02       2.01 f
+  ACC/add_104/U41/Y (AOI21X1)                             0.04       2.04 r
+  ACC/add_104/U71/Y (BUFX2)                               0.04       2.08 r
+  ACC/add_104/U35/Y (OAI21X1)                             0.02       2.11 f
+  ACC/add_104/U27/Y (AOI21X1)                             0.04       2.14 r
+  ACC/add_104/U72/Y (BUFX2)                               0.04       2.18 r
+  ACC/add_104/U21/Y (OAI21X1)                             0.02       2.20 f
+  ACC/add_104/U19/YC (FAX1)                               0.08       2.28 f
+  ACC/add_104/U18/YC (FAX1)                               0.08       2.36 f
+  ACC/add_104/U17/YC (FAX1)                               0.08       2.45 f
+  ACC/add_104/U16/YC (FAX1)                               0.08       2.53 f
+  ACC/add_104/U15/YC (FAX1)                               0.08       2.61 f
+  ACC/add_104/U14/YC (FAX1)                               0.08       2.69 f
+  ACC/add_104/U13/YC (FAX1)                               0.08       2.77 f
+  ACC/add_104/U12/YC (FAX1)                               0.08       2.85 f
+  ACC/add_104/U11/YC (FAX1)                               0.08       2.93 f
+  ACC/add_104/U10/YC (FAX1)                               0.08       3.02 f
+  ACC/add_104/U9/YC (FAX1)                                0.08       3.10 f
+  ACC/add_104/U8/YC (FAX1)                                0.08       3.18 f
+  ACC/add_104/U7/YC (FAX1)                                0.08       3.26 f
+  ACC/add_104/U6/YC (FAX1)                                0.08       3.34 f
+  ACC/add_104/U5/YC (FAX1)                                0.08       3.42 f
+  ACC/add_104/U4/YC (FAX1)                                0.08       3.50 f
+  ACC/add_104/U3/YC (FAX1)                                0.08       3.59 f
+  ACC/add_104/U2/YS (FAX1)                                0.09       3.67 f
+  ACC/add_104/SUM[23] (align_and_add_32bit_DW01_add_1)
+                                                          0.00       3.67 f
+  ACC/LZA/X[23] (leading_zeros_counter)                   0.00       3.67 f
+  ACC/LZA/NLC2/xin[3] (nibble_local_count_6)              0.00       3.67 f
+  ACC/LZA/NLC2/U2/Y (OR2X2)                               0.04       3.71 f
+  ACC/LZA/NLC2/U7/Y (NOR3X1)                              0.03       3.75 r
+  ACC/LZA/NLC2/a (nibble_local_count_6)                   0.00       3.75 r
+  ACC/LZA/BNE/ain[2] (binary_nibble_encoder)              0.00       3.75 r
+  ACC/LZA/BNE/U1/Y (AND2X1)                               0.04       3.78 r
+  ACC/LZA/BNE/U22/Y (AOI21X1)                             0.03       3.81 f
+  ACC/LZA/BNE/U9/Y (BUFX2)                                0.04       3.85 f
+  ACC/LZA/BNE/y[1] (binary_nibble_encoder)                0.00       3.85 f
+  ACC/LZA/U6/Y (INVX1)                                    0.00       3.85 r
+  ACC/LZA/U15/Y (AND2X2)                                  0.05       3.90 r
+  ACC/LZA/U30/Y (AOI22X1)                                 0.03       3.93 f
+  ACC/LZA/U12/Y (BUFX2)                                   0.04       3.97 f
+  ACC/LZA/U32/Y (AND2X2)                                  0.04       4.00 f
+  ACC/LZA/U7/Y (MUX2X1)                                   0.07       4.07 r
+  ACC/LZA/zeros[1] (leading_zeros_counter)                0.00       4.07 r
+  ACC/U404/Y (XNOR2X1)                                    0.08       4.16 r
+  ACC/sub_1_root_add_129/B[1] (align_and_add_32bit_DW01_sub_7)
+                                                          0.00       4.16 r
+  ACC/sub_1_root_add_129/U21/Y (INVX2)                    0.03       4.18 f
+  ACC/sub_1_root_add_129/U9/YC (FAX1)                     0.08       4.26 f
+  ACC/sub_1_root_add_129/U8/YC (FAX1)                     0.08       4.35 f
+  ACC/sub_1_root_add_129/U7/YC (FAX1)                     0.08       4.43 f
+  ACC/sub_1_root_add_129/U6/YS (FAX1)                     0.08       4.51 f
+  ACC/sub_1_root_add_129/DIFF[4] (align_and_add_32bit_DW01_sub_7)
+                                                          0.00       4.51 f
+  ACC/add_0_root_add_129/A[4] (align_and_add_32bit_DW01_inc_2)
+                                                          0.00       4.51 f
+  ACC/add_0_root_add_129/U4/YC (HAX1)                     0.05       4.56 f
+  ACC/add_0_root_add_129/U3/YC (HAX1)                     0.05       4.61 f
+  ACC/add_0_root_add_129/U2/YC (HAX1)                     0.05       4.66 f
+  ACC/add_0_root_add_129/U1/Y (XOR2X1)                    0.03       4.69 f
+  ACC/add_0_root_add_129/SUM[7] (align_and_add_32bit_DW01_inc_2)
+                                                          0.00       4.69 f
+  ACC/exp_sum[7] (align_and_add_32bit)                    0.00       4.69 f
+  U436/Y (AND2X1)                                         0.03       4.72 f
+  U437/Y (INVX1)                                          0.00       4.72 r
+  U655/Y (OAI21X1)                                        0.01       4.73 f
+  exp_sum_reg[7]/D (DFFPOSX1)                             0.00       4.73 f
+  data arrival time                                                  4.73
+
+  clock my_clock (rise edge)                              5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  clock uncertainty                                      -0.20       4.80
+  exp_sum_reg[7]/CLK (DFFPOSX1)                           0.00       4.80 r
+  library setup time                                     -0.07       4.73
+  data required time                                                 4.73
+  --------------------------------------------------------------------------
+  data required time                                                 4.73
+  data arrival time                                                 -4.73
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
+#compile_ultra -retime
+report_power
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : accumulator_32bit
+Version: L-2016.03-SP5
+Date   : Thu Nov 30 11:41:21 2017
+****************************************
+
+
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db)
+
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   1.1069 mW   (89%)
+  Net Switching Power  = 142.4956 uW   (11%)
+                         ---------
+Total Dynamic Power    =   1.2494 mW  (100%)
+
+Cell Leakage Power     =  53.2453 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.9636        2.0294e-03        1.8527e+04            0.9842  (  75.55%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.1433            0.1405        3.4718e+04            0.3185  (  24.45%)
+--------------------------------------------------------------------------------------------------
+Total              1.1069 mW         0.1425 mW     5.3245e+04 nW         1.3027 mW
+1
+quit
+
+Thank you...

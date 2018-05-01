@@ -1,0 +1,785 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+               Version L-2016.03-SP5 for linux64 - Oct 14, 2016 
+
+                    Copyright (c) 1988 - 2016 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /nethome/pdas36/.synopsys_dv_prefs.tcl
+# Read the verilog design files
+read_verilog ../verilog/booth_32bit/rtl_v/partial_product_generator.v
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/dw_foundation.sldb'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/gtech.db'
+Loading db file '/tools/synopsys/synthesis/l201603sp5/libraries/syn/standard.sldb'
+  Loading link library 'gscl45nm'
+  Loading link library 'gtech'
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/partial_product_generator.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/partial_product_generator.v
+Warning:  /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/partial_product_generator.v:33: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 31 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/partial_product_generator.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            33            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/partial_product_generator.db:partial_product_generator'
+Loaded 1 design.
+Current design is 'partial_product_generator'.
+partial_product_generator
+read_verilog ../verilog/booth_32bit/rtl_v/sign_ext_shift.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/sign_ext_shift.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/sign_ext_shift.v
+
+Statistics for case statements in always block at line 30 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/sign_ext_shift.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            32            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/sgn_ext_shift.db:sgn_ext_shift'
+Loaded 1 design.
+Current design is 'sgn_ext_shift'.
+sgn_ext_shift
+read_verilog ../verilog/booth_32bit/rtl_v/pprod_sgn_extd_shfd.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/pprod_sgn_extd_shfd.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/pprod_sgn_extd_shfd.v
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/pprod_sgn_extd_shfd.db:pprod_sgn_extd_shfd'
+Loaded 1 design.
+Current design is 'pprod_sgn_extd_shfd'.
+pprod_sgn_extd_shfd
+read_verilog ../verilog/booth_32bit/rtl_v/ppg_adders_wrapper.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/ppg_adders_wrapper.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/ppg_adders_wrapper.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/ppg_adders_wrapper.db:ppg_adders_wrapper'
+Loaded 1 design.
+Current design is 'ppg_adders_wrapper'.
+ppg_adders_wrapper
+read_verilog ../verilog/booth_32bit/rtl_v/normalize_32bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/normalize_32bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/normalize_32bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/normalize_32bit.db:normalize_32bit'
+Loaded 1 design.
+Current design is 'normalize_32bit'.
+normalize_32bit
+read_verilog ../verilog/booth_32bit/rtl_v/compute_mantissa.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/compute_mantissa.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/compute_mantissa.v
+
+Statistics for case statements in always block at line 18 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/compute_mantissa.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            20            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/compute_mantissa.db:compute_mantissa'
+Loaded 1 design.
+Current design is 'compute_mantissa'.
+compute_mantissa
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/nibble_local_count.db:nibble_local_count'
+Loaded 1 design.
+Current design is 'nibble_local_count'.
+nibble_local_count
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/boundary_nibble_encoder.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/binary_nibble_encoder.db:binary_nibble_encoder'
+Loaded 1 design.
+Current design is 'binary_nibble_encoder'.
+binary_nibble_encoder
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_64bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_64bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_64bit.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter_64bit.db:leading_zeros_counter_64bit'
+Loaded 1 design.
+Current design is 'leading_zeros_counter_64bit'.
+leading_zeros_counter_64bit
+read_verilog ../verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.v
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/leading_zero_anticipator/rtl_v/leading_zeros_counter.db:leading_zeros_counter'
+Loaded 1 design.
+Current design is 'leading_zeros_counter'.
+leading_zeros_counter
+read_verilog ../verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v
+Loading verilog file '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v
+
+Statistics for case statements in always block at line 123 in file
+	'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           125            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine booth_multiplier_32bit line 95 in file
+		'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| unbias_exp_res_reg  | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|     sgn_res_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   curr_state_reg    | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|    adder_ff_reg     | Flip-flop |  48   |  Y  | N  | N  | N  | N  | N  | N  |
+|   sfcand_res_reg    | Flip-flop |  23   |  Y  | N  | N  | N  | N  | N  | N  |
+|   leading_bit_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     exp_res_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine booth_multiplier_32bit line 123 in file
+		'/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|   next_state_reg    | Latch |   3   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Current design is now '/nethome/pdas36/cs7290_f17/project_work/design/verilog/booth_32bit/rtl_v/booth_multiplier_32bit.db:booth_multiplier_32bit'
+Loaded 1 design.
+Current design is 'booth_multiplier_32bit'.
+booth_multiplier_32bit
+#set_currect_design booth_multiplier_32bit
+# Create user defined variables 
+set CLK_PORT [get_ports clk]
+{clk}
+set CLK_PERIOD 5.00 
+5.00
+set CLK_SKEW 0.20
+0.20
+#set WC_OP_CONDS typ_0_1.98
+#set WIRELOAD_MODEL 10KGATES
+#fanout of 4
+#set DRIVE_CELL buf1a4
+#set DRIVE_PIN {Y}
+#set MAX_OUTPUT_LOAD [load_of ssc_core/buf1a2/A]
+#set INPUT_DELAY 2.0
+#set OUTPUT_DELAY 0.5
+#set MAX_AREA 380000
+# Time Budget 
+create_clock -period $CLK_PERIOD -name my_clock $CLK_PORT
+1
+#set_dont_touch_network my_clock
+set_clock_uncertainty $CLK_SKEW [get_clocks my_clock]
+1
+#set_input_delay $INPUT_DELAY -max -clock my_clock [remove_from_collection [all_inputs] $CLK_PORT]
+#set_output_delay $OUTPUT_DELAY -max -clock my_clock [all_outputs]
+#  Area Constraint
+#set_max_area $MAX_AREA
+# Operating Environment 
+#set_operating_conditions -max $WC_OP_CONDS
+#set_wire_load_model -name $WIRELOAD_MODEL 
+#set_driving_cell -cell $DRIVE_CELL -pin $DRIVE_PIN [remove_from_collection [all_inputs] $CLK_PORT]
+#set_load  $MAX_OUTPUT_LOAD [all_outputs]
+link
+
+  Linking design 'booth_multiplier_32bit'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  gscl45nm (library)          /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db
+  dw_foundation.sldb (library) /tools/synopsys/synthesis/l201603sp5/libraries/syn/dw_foundation.sldb
+
+1
+set_cost_priority -delay
+1
+compile -map_effort high
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | L-2016.03-DWBB_201603.5 |     *     |
+| Licensed DW Building Blocks        | L-2016.03-DWBB_201603.5 |     *     |
+============================================================================
+
+
+Information: There are 51 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'compute_mantissa'
+  Processing 'binary_nibble_encoder_0'
+  Processing 'nibble_local_count_0'
+  Processing 'leading_zeros_counter_0'
+  Processing 'leading_zeros_counter_64bit'
+  Processing 'normalize_32bit'
+  Processing 'sgn_ext_shift_0'
+  Processing 'partial_product_generator_0'
+  Processing 'pprod_sgn_extd_shfd_0'
+  Processing 'ppg_adders_wrapper'
+  Processing 'booth_multiplier_32bit'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'booth_multiplier_32bit_DW01_add_0'
+  Processing 'booth_multiplier_32bit_DW01_add_1'
+  Processing 'booth_multiplier_32bit_DW01_inc_0'
+  Processing 'booth_multiplier_32bit_DW01_sub_0'
+  Processing 'normalize_32bit_DW01_sub_0'
+  Processing 'normalize_32bit_DW01_sub_1'
+  Processing 'booth_multiplier_32bit_DW01_add_2'
+  Processing 'booth_multiplier_32bit_DW01_sub_1'
+  Processing 'booth_multiplier_32bit_DW01_sub_2'
+  Processing 'ppg_adders_wrapper_DW01_add_0'
+  Processing 'ppg_adders_wrapper_DW01_add_1'
+  Processing 'ppg_adders_wrapper_DW01_add_2'
+  Processing 'ppg_adders_wrapper_DW01_add_3'
+  Processing 'booth_multiplier_32bit_DW01_add_3'
+  Processing 'booth_multiplier_32bit_DW01_sub_3'
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:12   14798.0      0.03       0.1      10.1                          
+    0:00:12   14798.0      0.03       0.1      10.1                          
+    0:00:12   14798.0      0.03       0.1      10.1                          
+    0:00:12   14798.0      0.03       0.1      10.1                          
+    0:00:12   14798.0      0.03       0.1      10.1                          
+    0:00:13   13667.9      0.24       5.6       8.8                          
+    0:00:14   13698.9      0.02       0.2       8.8                          
+    0:00:14   13673.5      0.05       0.3       8.8                          
+    0:00:14   13682.4      0.00       0.0       8.8                          
+    0:00:14   13672.6      0.05       0.7       8.8                          
+    0:00:14   13677.7      0.03       0.1       8.8                          
+    0:00:15   13683.4      0.00       0.0       8.8                          
+    0:00:15   13686.2      0.00       0.0       8.8                          
+    0:00:15   13686.2      0.00       0.0       8.8                          
+    0:00:15   13686.2      0.00       0.0       8.8                          
+    0:00:15   13686.2      0.00       0.0       8.8                          
+    0:00:15   13686.2      0.00       0.0       8.8                          
+    0:00:18   13875.3      0.12       2.0       8.2                          
+    0:00:22   14044.3      0.16       2.7       7.7                          
+    0:00:25   14183.7      0.21       4.0       7.4                          
+    0:00:28   14297.7      0.26       5.7       7.1                          
+    0:00:30   14380.8      0.26       5.6       7.0                          
+    0:00:31   14434.3      0.27       5.7       6.9                          
+    0:00:32   14476.0      0.27       5.7       6.8                          
+    0:00:32   14496.2      0.29       5.7       6.8                          
+    0:00:33   14507.0      0.29       5.7       6.8                          
+    0:00:33   14507.0      0.29       5.7       6.8                          
+    0:00:33   14526.7      0.09       0.3       6.8 unbias_exp_res_reg[7]/D  
+    0:00:34   14533.8      0.03       0.0       6.8 unbias_exp_res_reg[7]/D  
+    0:00:34   14531.4      0.00       0.0       6.8                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:34   14531.4      0.00       0.0       6.8                          
+    0:00:34   14531.4      0.00       0.0       6.8                          
+    0:00:34   14531.4      0.00       0.0       6.8                          
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:34   14531.4      0.00       0.0       6.8                          
+    0:00:34   14615.4      0.00       0.0       6.7 PPGAW/add_0_root_add_0_root_add_94/n158
+    0:00:35   14695.2      0.00       0.0       6.5 PPGAW/add_2_root_add_0_root_add_94/n108
+    0:00:35   14770.3      0.00       0.0       6.4 PPGAW/add_3_root_add_0_root_add_94/n172
+    0:00:35   14939.7      0.00       0.0       6.3 add_0_root_sub_0_root_sub_237/n10
+    0:00:36   14997.0      0.00       0.0       6.2 PPGAW/add_1_root_add_0_root_add_94/n156
+    0:00:36   15081.4      0.00       0.0       6.2 PPGAW/PPSESD1/SEXTSHF/sesd_partial_prod[20]
+    0:00:36   15233.0      0.00       0.0       6.0 PPGAW/add_0_root_add_0_root_add_94/n68
+    0:00:36   15344.2      0.00       0.0       5.9 PPGAW/PPSESD2/SEXTSHF/sesd_partial_prod[23]
+    0:00:37   15503.8      0.00       0.0       5.8 PPGAW/add_1_root_add_0_root_add_94/n83
+    0:00:37   15661.9      0.00       0.0       5.7 PPGAW/add_0_root_add_0_root_add_94/n149
+    0:00:37   15794.3      0.00       0.0       5.6 PPGAW/add_1_root_add_0_root_add_94/n136
+    0:00:37   15921.5      0.00       0.0       5.5 PPGAW/add_1_root_add_0_root_add_94/n95
+    0:00:37   16072.1      0.00       0.0       5.3 PPGAW/add_2_root_add_0_root_add_94/n18
+    0:00:37   16242.9      0.00       0.0       5.1 PPGAW/add_2_root_add_0_root_add_94/n5
+    0:00:37   16416.6      0.00       0.0       4.9 PPGAW/add_1_root_add_0_root_add_94/n6
+    0:00:37   16567.7      0.00       0.0       4.7 PPGAW/add_0_root_add_0_root_add_94/n5
+    0:00:37   16751.7      0.00       0.0       4.6 NORM/GEN_MAN/net18081    
+    0:00:37   16998.0      0.00       0.0       4.5 NORM/GEN_MAN/net17608    
+    0:00:38   17197.5      0.00       0.0       4.5 NORM/GEN_MAN/net18213    
+    0:00:38   17436.4      0.00       0.0       4.4 PPGAW/PPSESD1/SEXTSHF/net19279
+    0:00:38   17715.6      0.00       0.0       4.3 PPGAW/PPSESD2/SEXTSHF/n81
+    0:00:38   17844.7      0.00       0.0       4.3 NORM/GEN_MAN/net18038    
+    0:00:38   17973.7      0.00       0.0       4.3 PPGAW/PPSESD0/SEXTSHF/net19712
+    0:00:38   18102.8      0.00       0.0       4.2 PPGAW/PPSESD2/SEXTSHF/n300
+    0:00:38   18242.2      0.00       0.0       4.2 PPGAW/PPSESD0/SEXTSHF/n312
+    0:00:38   18528.4      0.00       0.0       4.1 NORM/GEN_MAN/net17950    
+    0:00:38   18697.4      0.00       0.0       4.0 PPGAW/PPSESD0/SEXTSHF/n80
+    0:00:39   18866.3      0.00       0.0       3.9 PPGAW/PPSESD3/SEXTSHF/n150
+    0:00:39   19008.1      0.00       0.0       3.9 NORM/GEN_MAN/net18325    
+    0:00:39   19157.8      0.00       0.0       3.8 NORM/LZA/LZC_L/NLC0/z[0] 
+    0:00:39   19286.8      0.00       0.0       3.8 PPGAW/PPSESD2/SEXTSHF/n144
+    0:00:39   19428.6      0.00       0.0       3.7 NORM/LZA/LZC_L/n17       
+    0:00:39   19563.7      0.00       0.0       3.7 PPGAW/PPSESD1/SEXTSHF/n158
+    0:00:39   19690.4      0.00       0.0       3.7 NORM/GEN_MAN/net18063    
+    0:00:39   19819.5      0.00       0.0       3.6 PPGAW/PPSESD0/SEXTSHF/net19556
+    0:00:39   19948.5      0.00       0.0       3.6 PPGAW/PPSESD1/SEXTSHF/n136
+    0:00:39   20077.6      0.00       0.0       3.6 PPGAW/PPSESD2/SEXTSHF/net19122
+    0:00:40   20225.0      0.00       0.0       3.5 NORM/LZA/LZC_L/n14       
+    0:00:40   20375.1      0.00       0.0       3.5 NORM/GEN_MAN/net18164    
+    0:00:40   20506.5      0.00       0.0       3.5 NORM/GEN_MAN/net17621    
+    0:00:40   20643.6      0.00       0.0       3.5 NORM/GEN_MAN/net17896    
+    0:00:40   20783.0      0.00       0.0       3.4 NORM/GEN_MAN/net18443    
+    0:00:40   20910.1      0.00       0.0       3.4 PPGAW/PPSESD1/PPG0/net19483
+    0:00:40   21042.0      0.00       0.0       3.4 PPGAW/PPSESD2/PPG0/net19174
+    0:00:40   21161.2      0.00       0.0       3.4 PPGAW/PPSESD3/PPG0/net18872
+    0:00:40   21306.7      0.00       0.0       3.4 NORM/GEN_MAN/net17907    
+    0:00:41   21454.0      0.00       0.0       3.3 PPGAW/PPSESD0/PPG0/net19793
+    0:00:41   21565.7      0.00       0.0       3.3 PPGAW/PPSESD1/PPG0/net19514
+    0:00:41   21695.3      0.00       0.0       3.3 PPGAW/PPSESD2/PPG0/net19201
+    0:00:41   21830.0      0.00       0.0       3.3 PPGAW/PPSESD3/PPG0/net18895
+    0:00:41   21953.9      0.00       0.0       3.3 NORM/GEN_MAN/net17634    
+    0:00:41   22098.4      0.00       0.0       3.2 NORM/GEN_MAN/net17819    
+    0:00:41   22238.2      0.00       0.0       3.2 NORM/GEN_MAN/net18385    
+    0:00:42   22382.8      0.00       0.0       3.2 PPGAW/PPSESD0/SEXTSHF/net19641
+    0:00:42   22517.5      0.00       0.0       3.2 PPGAW/PPSESD1/SEXTSHF/net19374
+    0:00:42   22659.2      0.00       0.0       3.2 PPGAW/PPSESD2/SEXTSHF/net19062
+    0:00:42   22793.4      0.00       0.0       3.2 PPGAW/PPSESD3/SEXTSHF/net18737
+    0:00:42   22923.0      0.00       0.0       3.2 NORM/GEN_MAN/net18067    
+    0:00:42   23053.0      0.00       0.0       3.2 NORM/GEN_MAN/net18258    
+    0:00:42   23187.2      0.00       0.0       3.1 PPGAW/PPSESD0/SEXTSHF/net19634
+    0:00:42   23321.9      0.00       0.0       3.1 PPGAW/PPSESD1/SEXTSHF/net19445
+    0:00:42   23458.4      0.00       0.0       3.1 PPGAW/PPSESD3/SEXTSHF/net18609
+    0:00:43   23550.9      0.00       0.0       3.1 NORM/GEN_MAN/mantissa_out[12]
+    0:00:43   23680.9      0.00       0.0       3.1 PPGAW/PPSESD1/SEXTSHF/n107
+    0:00:43   23820.3      0.00       0.0       3.1 PPGAW/PPSESD3/SEXTSHF/n82
+    0:00:43   23944.6      0.00       0.0       3.1 NORM/GEN_MAN/net18139    
+    0:00:43   24077.0      0.00       0.0       3.1 NORM/GEN_MAN/net18294    
+    0:00:43   24208.8      0.00       0.0       3.1 PPGAW/PPSESD1/SEXTSHF/n117
+    0:00:43   24345.4      0.00       0.0       3.1 PPGAW/PPSESD2/SEXTSHF/net19132
+    0:00:43   24452.4      0.00       0.0       3.1 NORM/GEN_MAN/mantissa_out[2]
+    0:00:43   24495.6      0.00       0.0       3.0 NORM/GEN_MAN/net26931    
+    0:00:44   24539.7      0.00       0.0       3.0 PPGAW/PPSESD0/SEXTSHF/net27266
+    0:00:44   24597.9      0.00       0.0       2.9 PPGAW/PPSESD1/SEXTSHF/net27397
+    0:00:44   24655.6      0.00       0.0       2.9 PPGAW/PPSESD2/SEXTSHF/net28495
+    0:00:44   24717.6      0.00       0.0       2.8 PPGAW/add_2_root_add_0_root_add_94/n36
+    0:00:45   24725.1      0.00       0.0       2.8 NORM/GEN_MAN/net18381    
+    0:00:45   24778.1      0.00       0.0       2.7 PPGAW/PPSESD1/PPG0/partial_prod[13]
+    0:00:45   24838.6      0.00       0.0       2.7 PPGAW/PPSESD3/PPG0/partial_prod[24]
+    0:00:45   24880.4      0.00       0.0       2.7 NORM/GEN_MAN/net18254    
+    0:00:45   24878.1      0.00       0.0       2.7 PPGAW/PPSESD0/SEXTSHF/n113
+    0:00:46   24875.2      0.00       0.0       2.7 PPGAW/PPSESD1/SEXTSHF/n102
+    0:00:46   24871.5      0.00       0.0       2.7 PPGAW/PPSESD2/SEXTSHF/n102
+    0:00:46   24867.7      0.00       0.0       2.7 PPGAW/PPSESD3/SEXTSHF/n102
+    0:00:50   24869.6      0.00       0.0       2.7 n146                     
+    0:00:50   24997.3      0.00       0.0       2.6 net19898                 
+    0:00:50   25048.4      0.00       0.0       2.6 N158                     
+    0:00:51   25050.3      0.00       0.0       2.6 PPGAW/add_1_root_add_0_root_add_94/net24288
+    0:00:51   25054.5      0.00       0.0       2.6 PPGAW/add_3_root_add_0_root_add_94/net25245
+    0:00:51   25068.1      0.00       0.0       2.6 PPGAW/add_0_root_add_0_root_add_94/n153
+    0:00:51   25070.0      0.00       0.0       2.6 PPGAW/PPSESD0/PPG0/net19823
+    0:00:52   25072.4      0.00       0.0       2.6 NORM/GEN_MAN/net17940    
+    0:00:52   25080.8      0.00       0.0       2.6 PPGAW/PPSESD0/PPG0/partial_prod[4]
+    0:00:52   25080.3      0.00       0.0       2.6 NORM/GEN_MAN/net18213    
+    0:00:57   25078.0      0.00       0.0       2.6 net19876                 
+    0:00:57   25078.0      0.00       0.0       2.6 PPGAW/add_3_root_add_0_root_add_94/n92
+    0:00:57   25080.8      0.00       0.0       2.6 PPGAW/PPSESD0/PPG0/net19817
+    0:00:57   25080.3      0.00       0.0       2.6 PPGAW/PPSESD1/PPG0/net19486
+    0:00:58   25075.2      0.00       0.0       2.6 PPGAW/add_1_root_add_0_root_add_94/net23862
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:04   25075.2      0.00       0.0       2.6                          
+    0:01:04   25075.2      0.00       0.0       2.6                          
+    0:01:05   22270.6      0.00       0.0       2.6                          
+    0:01:06   20188.8      0.02       0.0       2.5                          
+    0:01:06   19093.5      0.07       1.1       2.5                          
+    0:01:06   18481.0      0.06       0.6       2.5                          
+    0:01:07   18302.7      0.06       0.5       2.5                          
+    0:01:07   18208.8      0.06       0.4       2.5                          
+    0:01:07   18208.8      0.06       0.4       2.5                          
+    0:01:07   18216.3      0.00       0.0       2.5 unbias_exp_res_reg[7]/D  
+    0:01:07   18210.7      0.00       0.0       2.5                          
+    0:01:08   18096.2      0.06       0.6       2.5                          
+    0:01:08   18071.3      0.06       0.6       2.5                          
+    0:01:08   18067.6      0.06       0.6       2.5                          
+    0:01:08   18067.1      0.06       0.6       2.5                          
+    0:01:08   18067.1      0.06       0.6       2.5                          
+    0:01:08   18067.1      0.06       0.6       2.5                          
+    0:01:08   18067.1      0.06       0.6       2.5                          
+    0:01:08   18067.1      0.06       0.6       2.5                          
+    0:01:08   18085.9      0.01       0.0       2.5 exp_res_reg[7]/D         
+    0:01:09   18090.1      0.00       0.0       2.5                          
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+report_area 
+ 
+****************************************
+Report : area
+Design : booth_multiplier_32bit
+Version: L-2016.03-SP5
+Date   : Sun Nov 12 00:46:38 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db)
+
+Number of ports:                         3030
+Number of nets:                         10267
+Number of cells:                         7297
+Number of combinational cells:           7142
+Number of sequential cells:               109
+Number of macros/black boxes:               0
+Number of buf/inv:                       3159
+Number of references:                      26
+
+Combinational area:              17340.634637
+Buf/Inv area:                     5706.687850
+Noncombinational area:             749.472084
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 18090.106721
+Total area:                 undefined
+1
+report_timing
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : booth_multiplier_32bit
+Version: L-2016.03-SP5
+Date   : Sun Nov 12 00:46:39 2017
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: curr_state_reg[2]
+              (rising edge-triggered flip-flop clocked by my_clock)
+  Endpoint: exp_res_reg[7]
+            (rising edge-triggered flip-flop clocked by my_clock)
+  Path Group: my_clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock my_clock (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  curr_state_reg[2]/CLK (DFFPOSX1)                        0.00       0.00 r
+  curr_state_reg[2]/Q (DFFPOSX1)                          0.11       0.11 f
+  U336/Y (INVX1)                                          0.02       0.13 r
+  U459/Y (AND2X2)                                         0.04       0.17 r
+  U460/Y (INVX1)                                          0.04       0.21 f
+  U302/Y (AND2X1)                                         0.04       0.25 f
+  U481/Y (INVX1)                                          0.09       0.34 r
+  PPGAW/shift3[1] (ppg_adders_wrapper)                    0.00       0.34 r
+  PPGAW/PPSESD3/shift[1] (pprod_sgn_extd_shfd_1)          0.00       0.34 r
+  PPGAW/PPSESD3/SEXTSHF/shift[1] (sgn_ext_shift_1)        0.00       0.34 r
+  PPGAW/PPSESD3/SEXTSHF/U403/Y (INVX1)                    0.05       0.39 f
+  PPGAW/PPSESD3/SEXTSHF/U328/Y (AND2X2)                   0.04       0.43 f
+  PPGAW/PPSESD3/SEXTSHF/U353/Y (AND2X1)                   0.04       0.47 f
+  PPGAW/PPSESD3/SEXTSHF/U354/Y (INVX1)                    0.03       0.50 r
+  PPGAW/PPSESD3/SEXTSHF/U383/Y (INVX1)                    0.07       0.57 f
+  PPGAW/PPSESD3/SEXTSHF/U405/Y (AND2X1)                   0.06       0.63 f
+  PPGAW/PPSESD3/SEXTSHF/U406/Y (INVX1)                    0.09       0.72 r
+  PPGAW/PPSESD3/SEXTSHF/U301/Y (OR2X1)                    0.05       0.77 r
+  PPGAW/PPSESD3/SEXTSHF/U302/Y (INVX1)                    0.02       0.79 f
+  PPGAW/PPSESD3/SEXTSHF/sesd_partial_prod[1] (sgn_ext_shift_1)
+                                                          0.00       0.79 f
+  PPGAW/PPSESD3/sgn_extd_pprod[1] (pprod_sgn_extd_shfd_1)
+                                                          0.00       0.79 f
+  PPGAW/add_1_root_add_0_root_add_94/A[1] (ppg_adders_wrapper_DW01_add_10)
+                                                          0.00       0.79 f
+  PPGAW/add_1_root_add_0_root_add_94/U393/Y (OR2X1)       0.05       0.84 f
+  PPGAW/add_1_root_add_0_root_add_94/U394/Y (INVX1)       0.00       0.85 r
+  PPGAW/add_1_root_add_0_root_add_94/U575/Y (INVX1)       0.01       0.86 f
+  PPGAW/add_1_root_add_0_root_add_94/U295/Y (AOI21X1)     0.03       0.89 r
+  PPGAW/add_1_root_add_0_root_add_94/U517/Y (INVX1)       0.02       0.91 f
+  PPGAW/add_1_root_add_0_root_add_94/U518/Y (INVX1)       0.02       0.93 r
+  PPGAW/add_1_root_add_0_root_add_94/U288/Y (XOR2X1)      0.05       0.99 r
+  PPGAW/add_1_root_add_0_root_add_94/SUM[2] (ppg_adders_wrapper_DW01_add_10)
+                                                          0.00       0.99 r
+  PPGAW/add_0_root_add_0_root_add_94/B[2] (ppg_adders_wrapper_DW01_add_11)
+                                                          0.00       0.99 r
+  PPGAW/add_0_root_add_0_root_add_94/U329/Y (AND2X2)      0.03       1.02 r
+  PPGAW/add_0_root_add_0_root_add_94/U424/Y (INVX1)       0.02       1.04 f
+  PPGAW/add_0_root_add_0_root_add_94/U280/Y (OAI21X1)     0.04       1.08 r
+  PPGAW/add_0_root_add_0_root_add_94/U272/Y (AOI21X1)     0.04       1.12 f
+  PPGAW/add_0_root_add_0_root_add_94/U542/Y (BUFX2)       0.04       1.16 f
+  PPGAW/add_0_root_add_0_root_add_94/U266/Y (OAI21X1)     0.06       1.22 r
+  PPGAW/add_0_root_add_0_root_add_94/U258/Y (AOI21X1)     0.03       1.24 f
+  PPGAW/add_0_root_add_0_root_add_94/U488/Y (INVX1)       0.01       1.25 r
+  PPGAW/add_0_root_add_0_root_add_94/U490/Y (INVX1)       0.01       1.26 f
+  PPGAW/add_0_root_add_0_root_add_94/U252/Y (OAI21X1)     0.06       1.32 r
+  PPGAW/add_0_root_add_0_root_add_94/U244/Y (AOI21X1)     0.03       1.36 f
+  PPGAW/add_0_root_add_0_root_add_94/U238/Y (OAI21X1)     0.06       1.42 r
+  PPGAW/add_0_root_add_0_root_add_94/U230/Y (AOI21X1)     0.03       1.44 f
+  PPGAW/add_0_root_add_0_root_add_94/U492/Y (INVX1)       0.01       1.45 r
+  PPGAW/add_0_root_add_0_root_add_94/U493/Y (INVX1)       0.01       1.46 f
+  PPGAW/add_0_root_add_0_root_add_94/U224/Y (OAI21X1)     0.06       1.52 r
+  PPGAW/add_0_root_add_0_root_add_94/U216/Y (AOI21X1)     0.03       1.55 f
+  PPGAW/add_0_root_add_0_root_add_94/U210/Y (OAI21X1)     0.06       1.61 r
+  PPGAW/add_0_root_add_0_root_add_94/U202/Y (AOI21X1)     0.03       1.64 f
+  PPGAW/add_0_root_add_0_root_add_94/U496/Y (INVX1)       0.01       1.65 r
+  PPGAW/add_0_root_add_0_root_add_94/U497/Y (INVX1)       0.01       1.66 f
+  PPGAW/add_0_root_add_0_root_add_94/U196/Y (OAI21X1)     0.06       1.72 r
+  PPGAW/add_0_root_add_0_root_add_94/U188/Y (AOI21X1)     0.03       1.75 f
+  PPGAW/add_0_root_add_0_root_add_94/U499/Y (INVX1)       0.01       1.76 r
+  PPGAW/add_0_root_add_0_root_add_94/U500/Y (INVX1)       0.01       1.77 f
+  PPGAW/add_0_root_add_0_root_add_94/U182/Y (OAI21X1)     0.06       1.83 r
+  PPGAW/add_0_root_add_0_root_add_94/U174/Y (AOI21X1)     0.03       1.86 f
+  PPGAW/add_0_root_add_0_root_add_94/U168/Y (OAI21X1)     0.06       1.93 r
+  PPGAW/add_0_root_add_0_root_add_94/U160/Y (AOI21X1)     0.04       1.96 f
+  PPGAW/add_0_root_add_0_root_add_94/U503/Y (INVX1)       0.01       1.97 r
+  PPGAW/add_0_root_add_0_root_add_94/U504/Y (INVX1)       0.01       1.98 f
+  PPGAW/add_0_root_add_0_root_add_94/U154/Y (OAI21X1)     0.06       2.04 r
+  PPGAW/add_0_root_add_0_root_add_94/U146/Y (AOI21X1)     0.04       2.08 f
+  PPGAW/add_0_root_add_0_root_add_94/U506/Y (INVX1)       0.01       2.09 r
+  PPGAW/add_0_root_add_0_root_add_94/U507/Y (INVX1)       0.01       2.10 f
+  PPGAW/add_0_root_add_0_root_add_94/U140/Y (OAI21X1)     0.06       2.16 r
+  PPGAW/add_0_root_add_0_root_add_94/U132/Y (AOI21X1)     0.04       2.20 f
+  PPGAW/add_0_root_add_0_root_add_94/U126/Y (OAI21X1)     0.06       2.26 r
+  PPGAW/add_0_root_add_0_root_add_94/U118/Y (AOI21X1)     0.04       2.30 f
+  PPGAW/add_0_root_add_0_root_add_94/U510/Y (INVX1)       0.01       2.31 r
+  PPGAW/add_0_root_add_0_root_add_94/U511/Y (INVX1)       0.01       2.32 f
+  PPGAW/add_0_root_add_0_root_add_94/U112/Y (OAI21X1)     0.06       2.38 r
+  PPGAW/add_0_root_add_0_root_add_94/U104/Y (AOI21X1)     0.04       2.42 f
+  PPGAW/add_0_root_add_0_root_add_94/U98/Y (OAI21X1)      0.06       2.48 r
+  PPGAW/add_0_root_add_0_root_add_94/U90/Y (AOI21X1)      0.04       2.52 f
+  PPGAW/add_0_root_add_0_root_add_94/U514/Y (INVX1)       0.01       2.53 r
+  PPGAW/add_0_root_add_0_root_add_94/U515/Y (INVX1)       0.01       2.54 f
+  PPGAW/add_0_root_add_0_root_add_94/U84/Y (OAI21X1)      0.06       2.60 r
+  PPGAW/add_0_root_add_0_root_add_94/U76/Y (AOI21X1)      0.04       2.64 f
+  PPGAW/add_0_root_add_0_root_add_94/U517/Y (INVX1)       0.01       2.64 r
+  PPGAW/add_0_root_add_0_root_add_94/U518/Y (INVX1)       0.01       2.66 f
+  PPGAW/add_0_root_add_0_root_add_94/U70/Y (OAI21X1)      0.06       2.72 r
+  PPGAW/add_0_root_add_0_root_add_94/U62/Y (AOI21X1)      0.04       2.76 f
+  PPGAW/add_0_root_add_0_root_add_94/U56/Y (OAI21X1)      0.06       2.82 r
+  PPGAW/add_0_root_add_0_root_add_94/U48/Y (AOI21X1)      0.04       2.86 f
+  PPGAW/add_0_root_add_0_root_add_94/U521/Y (INVX1)       0.01       2.86 r
+  PPGAW/add_0_root_add_0_root_add_94/U522/Y (INVX1)       0.01       2.88 f
+  PPGAW/add_0_root_add_0_root_add_94/U42/Y (OAI21X1)      0.06       2.94 r
+  PPGAW/add_0_root_add_0_root_add_94/U34/Y (AOI21X1)      0.04       2.98 f
+  PPGAW/add_0_root_add_0_root_add_94/U28/Y (OAI21X1)      0.06       3.04 r
+  PPGAW/add_0_root_add_0_root_add_94/U20/Y (AOI21X1)      0.04       3.08 f
+  PPGAW/add_0_root_add_0_root_add_94/U572/Y (INVX1)       0.02       3.10 r
+  PPGAW/add_0_root_add_0_root_add_94/U17/YC (FAX1)        0.07       3.17 r
+  PPGAW/add_0_root_add_0_root_add_94/U10/Y (AOI21X1)      0.03       3.21 f
+  PPGAW/add_0_root_add_0_root_add_94/U525/Y (INVX2)       0.02       3.23 r
+  PPGAW/add_0_root_add_0_root_add_94/U7/YC (FAX1)         0.07       3.30 r
+  PPGAW/add_0_root_add_0_root_add_94/U6/YC (FAX1)         0.07       3.37 r
+  PPGAW/add_0_root_add_0_root_add_94/U5/YC (FAX1)         0.07       3.45 r
+  PPGAW/add_0_root_add_0_root_add_94/U4/YC (FAX1)         0.07       3.52 r
+  PPGAW/add_0_root_add_0_root_add_94/U3/YC (FAX1)         0.06       3.59 r
+  PPGAW/add_0_root_add_0_root_add_94/U1/Y (XOR2X1)        0.06       3.65 r
+  PPGAW/add_0_root_add_0_root_add_94/SUM[47] (ppg_adders_wrapper_DW01_add_11)
+                                                          0.00       3.65 r
+  PPGAW/sum[47] (ppg_adders_wrapper)                      0.00       3.65 r
+  NORM/product[47] (normalize_32bit)                      0.00       3.65 r
+  NORM/LZA/X[47] (leading_zeros_counter_64bit)            0.00       3.65 r
+  NORM/LZA/LZC_H/X[15] (leading_zeros_counter_0)          0.00       3.65 r
+  NORM/LZA/LZC_H/NLC4/xin[3] (nibble_local_count_12)      0.00       3.65 r
+  NORM/LZA/LZC_H/NLC4/U1/Y (OR2X2)                        0.05       3.69 r
+  NORM/LZA/LZC_H/NLC4/U6/Y (NOR3X1)                       0.02       3.72 f
+  NORM/LZA/LZC_H/NLC4/a (nibble_local_count_12)           0.00       3.72 f
+  NORM/LZA/LZC_H/BNE/ain[4] (binary_nibble_encoder_0)     0.00       3.72 f
+  NORM/LZA/LZC_H/BNE/U12/Y (INVX1)                        0.02       3.74 r
+  NORM/LZA/LZC_H/BNE/U16/Y (AOI21X1)                      0.01       3.75 f
+  NORM/LZA/LZC_H/BNE/U3/Y (BUFX2)                         0.03       3.78 f
+  NORM/LZA/LZC_H/BNE/U17/Y (OAI21X1)                      0.04       3.82 r
+  NORM/LZA/LZC_H/BNE/U18/Y (AOI21X1)                      0.03       3.85 f
+  NORM/LZA/LZC_H/BNE/U10/Y (BUFX2)                        0.04       3.89 f
+  NORM/LZA/LZC_H/BNE/y[0] (binary_nibble_encoder_0)       0.00       3.89 f
+  NORM/LZA/LZC_H/U12/Y (INVX1)                            0.01       3.90 r
+  NORM/LZA/LZC_H/U10/Y (AND2X2)                           0.05       3.94 r
+  NORM/LZA/LZC_H/U16/Y (AOI22X1)                          0.03       3.97 f
+  NORM/LZA/LZC_H/U17/Y (AND2X2)                           0.04       4.02 f
+  NORM/LZA/LZC_H/U18/Y (MUX2X1)                           0.04       4.06 r
+  NORM/LZA/LZC_H/zeros[0] (leading_zeros_counter_0)       0.00       4.06 r
+  NORM/LZA/U7/Y (MUX2X1)                                  0.03       4.08 f
+  NORM/LZA/U6/Y (INVX1)                                   0.02       4.10 r
+  NORM/LZA/zeros[0] (leading_zeros_counter_64bit)         0.00       4.10 r
+  NORM/U3/Y (INVX2)                                       0.03       4.13 f
+  NORM/cin[0] (normalize_32bit)                           0.00       4.13 f
+  add_0_root_sub_0_root_sub_237/B[0] (booth_multiplier_32bit_DW01_add_5)
+                                                          0.00       4.13 f
+  add_0_root_sub_0_root_sub_237/U13/Y (NAND2X1)           0.01       4.14 r
+  add_0_root_sub_0_root_sub_237/U18/Y (INVX1)             0.03       4.17 f
+  add_0_root_sub_0_root_sub_237/U7/YC (FAX1)              0.09       4.26 f
+  add_0_root_sub_0_root_sub_237/U6/YC (FAX1)              0.09       4.35 f
+  add_0_root_sub_0_root_sub_237/U5/YC (FAX1)              0.08       4.43 f
+  add_0_root_sub_0_root_sub_237/U4/YC (FAX1)              0.08       4.51 f
+  add_0_root_sub_0_root_sub_237/U3/YC (FAX1)              0.07       4.58 f
+  add_0_root_sub_0_root_sub_237/U2/YC (HAX1)              0.05       4.64 f
+  add_0_root_sub_0_root_sub_237/U1/Y (XOR2X1)             0.03       4.67 f
+  add_0_root_sub_0_root_sub_237/SUM[7] (booth_multiplier_32bit_DW01_add_5)
+                                                          0.00       4.67 f
+  U409/Y (AND2X1)                                         0.03       4.70 f
+  U410/Y (INVX1)                                          0.00       4.70 r
+  U406/Y (AND2X2)                                         0.03       4.73 r
+  U407/Y (INVX1)                                          0.01       4.74 f
+  exp_res_reg[7]/D (DFFPOSX1)                             0.00       4.74 f
+  data arrival time                                                  4.74
+
+  clock my_clock (rise edge)                              5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  clock uncertainty                                      -0.20       4.80
+  exp_res_reg[7]/CLK (DFFPOSX1)                           0.00       4.80 r
+  library setup time                                     -0.06       4.74
+  data required time                                                 4.74
+  --------------------------------------------------------------------------
+  data required time                                                 4.74
+  data arrival time                                                 -4.74
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
+report_power
+Loading db file '/nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : booth_multiplier_32bit
+Version: L-2016.03-SP5
+Date   : Sun Nov 12 00:46:40 2017
+****************************************
+
+
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/cs7290_f17/project_work/design/physical_design/gscl45nm.db)
+
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 969.3207 uW   (58%)
+  Net Switching Power  = 691.5795 uW   (42%)
+                         ---------
+Total Dynamic Power    =   1.6609 mW  (100%)
+
+Cell Leakage Power     =  83.5876 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.3107        5.7818e-03        5.0579e+03            0.3215  (  18.43%)
+sequential     5.8646e-04        1.4857e-04           73.5099        8.0854e-04  (   0.05%)
+combinational      0.6581            0.6856        7.8456e+04            1.4222  (  81.52%)
+--------------------------------------------------------------------------------------------------
+Total              0.9693 mW         0.6916 mW     8.3588e+04 nW         1.7445 mW
+1
+quit
+
+Thank you...

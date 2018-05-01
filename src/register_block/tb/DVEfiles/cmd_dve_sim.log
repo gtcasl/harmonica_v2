@@ -1,0 +1,34 @@
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /nethome/pdas36/harmonica_v2.0/src/register_block/tb/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD0
+set ::dve_fid VPD0
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpSshn8O
+synUtils::sendTool -active {_icl_start_rpc -version "I-2014.03" -sync_file /tmp/vcs_dve_rpc.pdas36.64850}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.pdas36.64850}
+ucliGUI::vpdAddHierarchy -scope tb -depth 1 -file /nethome/pdas36/harmonica_v2.0/src/register_block/tb/inter.vpd; synopsys::dump -flush VPD0
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+synopsys::dump -add {tb.RBLOCK.clk tb.RBLOCK.rst_n } -aggregates  -fid VPD0
+synopsys::dump -add {tb.RBLOCK.rdata_0_0 tb.RBLOCK.rdata_0_1 } -aggregates  -fid VPD0
+synopsys::dump -add {tb.RBLOCK.raddr_0 tb.RBLOCK.raddr_1 tb.RBLOCK.read_en_0 tb.RBLOCK.read_en_1 tb.RBLOCK.waddr tb.RBLOCK.wdata_0 tb.RBLOCK.write_en } -aggregates  -fid VPD0
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+synopsys::finish
+set ucliGUI::state
+set ucliGUI::state
+ucli_exit

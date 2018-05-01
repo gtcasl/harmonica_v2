@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : register_file_DATA_WIDTH64_LOG2_NUM_REGS5_NUM_REGS32
+Version: F-2011.09-SP4-1
+Date   : Tue Mar 20 13:25:59 2018
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: RF_reg[1][15]
+              (rising edge-triggered flip-flop clocked by my_clock)
+  Endpoint: RF_reg[1][15]
+            (rising edge-triggered flip-flop clocked by my_clock)
+  Path Group: my_clock
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock my_clock (rise edge)               0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  RF_reg[1][15]/CLK (DFFPOSX1)             0.00 #     0.00 r
+  RF_reg[1][15]/Q (DFFPOSX1)               0.11       0.11 f
+  U6279/Y (AND2X1)                         0.03       0.14 f
+  U6280/Y (INVX1)                          0.00       0.14 r
+  U4078/Y (OAI21X1)                        0.01       0.15 f
+  RF_reg[1][15]/D (DFFPOSX1)               0.00       0.15 f
+  data arrival time                                   0.15
+
+  clock my_clock (rise edge)              10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  RF_reg[1][15]/CLK (DFFPOSX1)             0.00       9.80 r
+  library setup time                      -0.09       9.71
+  data required time                                  9.71
+  -----------------------------------------------------------
+  data required time                                  9.71
+  data arrival time                                  -0.15
+  -----------------------------------------------------------
+  slack (MET)                                         9.56
+
+
+1

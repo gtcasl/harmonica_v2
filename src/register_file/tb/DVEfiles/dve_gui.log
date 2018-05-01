@@ -1,0 +1,80 @@
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09-SP2; Runtime version K-2015.09-SP2;  Jan 29 14:52 2018
+VCD+ Writer K-2015.09-SP2 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/nethome/pdas36/harmonica-vl-master/RTL0.0/src/register_file/tb/inter.vpd' was opened successfully.
+dve> dump -add { tb }  -depth 0 -aggregates -scope "."
+1
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 00
+
+Testing for Register           1, Addr: 01
+
+Testing for Register           2, Addr: 02
+
+Testing for Register           3, Addr: 03
+
+Testing for Register           4, Addr: 04
+
+Testing for Register           5, Addr: 05
+
+Testing for Register           6, Addr: 06
+
+Testing for Register           7, Addr: 07
+
+Testing for Register           8, Addr: 08
+
+Testing for Register           9, Addr: 09
+
+Testing for Register          10, Addr: 0a
+
+Testing for Register          11, Addr: 0b
+
+Testing for Register          12, Addr: 0c
+
+Testing for Register          13, Addr: 0d
+
+Testing for Register          14, Addr: 0e
+
+Testing for Register          15, Addr: 0f
+
+Testing for Register          16, Addr: 10
+
+Testing for Register          17, Addr: 11
+
+Testing for Register          18, Addr: 12
+
+Testing for Register          19, Addr: 13
+
+Testing for Register          20, Addr: 14
+
+Testing for Register          21, Addr: 15
+
+Testing for Register          22, Addr: 16
+
+Testing for Register          23, Addr: 17
+
+Testing for Register          24, Addr: 18
+
+Testing for Register          25, Addr: 19
+
+Testing for Register          26, Addr: 1a
+
+Testing for Register          27, Addr: 1b
+
+Testing for Register          28, Addr: 1c
+
+Testing for Register          29, Addr: 1d
+
+Testing for Register          30, Addr: 1e
+
+Testing for Register          31, Addr: 1f
+
+$finish called from file "random_write_read_32_32.sv", line 131.
+$finish at simulation time                81937
+Simulation complete, time is 81937.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 81937
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Mon Jan 29 14:52:41 2018

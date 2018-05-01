@@ -1,0 +1,75 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : control_divergence_stack
+Version: L-2016.03-SP5
+Date   : Mon Apr 30 13:51:39 2018
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: curr_state_reg[0]
+              (rising edge-triggered flip-flop clocked by my_clock)
+  Endpoint: STACK/data_out_reg[0]
+            (rising edge-triggered flip-flop clocked by my_clock)
+  Path Group: my_clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock my_clock (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  curr_state_reg[0]/CLK (DFFPOSX1)                        0.00       0.00 r
+  curr_state_reg[0]/Q (DFFPOSX1)                          0.07       0.07 r
+  U1320/Y (OR2X1)                                         0.05       0.12 r
+  U1321/Y (INVX1)                                         0.03       0.15 f
+  U1285/Y (AND2X1)                                        0.06       0.21 f
+  U204/Y (NAND3X1)                                        0.04       0.25 r
+  U1203/Y (BUFX2)                                         0.03       0.28 r
+  U762/Y (AND2X1)                                         0.04       0.33 r
+  U1202/Y (INVX1)                                         0.02       0.35 f
+  STACK/pop (stack_STACK_DEPTH8_LOG2_STACK_DEPTH3_STACK_WIDTH72)
+                                                          0.00       0.35 f
+  STACK/U2782/Y (INVX1)                                   0.03       0.37 r
+  STACK/U2606/Y (AND2X1)                                  0.04       0.41 r
+  STACK/U2607/Y (INVX1)                                   0.04       0.46 f
+  STACK/U3/Y (OR2X1)                                      0.05       0.51 f
+  STACK/U2688/Y (INVX1)                                   0.00       0.51 r
+  STACK/U1423/Y (AOI21X1)                                 0.01       0.52 f
+  STACK/U2687/Y (BUFX2)                                   0.04       0.56 f
+  STACK/U2763/Y (INVX1)                                   0.06       0.62 r
+  STACK/U2601/Y (OR2X1)                                   0.05       0.67 r
+  STACK/U2602/Y (INVX1)                                   0.02       0.69 f
+  STACK/U88/Y (AND2X1)                                    0.30       1.00 f
+  STACK/U2723/Y (INVX1)                                   0.12       1.11 r
+  STACK/U2698/Y (INVX1)                                   0.17       1.29 f
+  STACK/U2957/Y (AOI22X1)                                 0.08       1.37 r
+  STACK/U761/Y (BUFX2)                                    0.04       1.41 r
+  STACK/U6/Y (AND2X1)                                     0.04       1.45 r
+  STACK/U1235/Y (INVX1)                                   0.02       1.47 f
+  STACK/U312/Y (OR2X1)                                    0.04       1.51 f
+  STACK/U310/Y (OR2X1)                                    0.05       1.56 f
+  STACK/U1347/Y (AOI22X1)                                 0.05       1.60 r
+  STACK/U292/Y (BUFX2)                                    0.03       1.64 r
+  STACK/U2792/Y (INVX1)                                   0.01       1.65 f
+  STACK/data_out_reg[0]/D (DFFPOSX1)                      0.00       1.65 f
+  data arrival time                                                  1.65
+
+  clock my_clock (rise edge)                             10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  STACK/data_out_reg[0]/CLK (DFFPOSX1)                    0.00       9.80 r
+  library setup time                                     -0.06       9.74
+  data required time                                                 9.74
+  --------------------------------------------------------------------------
+  data required time                                                 9.74
+  data arrival time                                                 -1.65
+  --------------------------------------------------------------------------
+  slack (MET)                                                        8.09
+
+
+1

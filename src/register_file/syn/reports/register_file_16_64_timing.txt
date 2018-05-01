@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : register_file_DATA_WIDTH64
+Version: F-2011.09-SP4-1
+Date   : Wed Jan 31 08:56:11 2018
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: RF_reg[1][16]
+              (rising edge-triggered flip-flop clocked by my_clock)
+  Endpoint: RF_reg[1][16]
+            (rising edge-triggered flip-flop clocked by my_clock)
+  Path Group: my_clock
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock my_clock (rise edge)               0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  RF_reg[1][16]/CLK (DFFPOSX1)             0.00 #     0.00 r
+  RF_reg[1][16]/Q (DFFPOSX1)               0.11       0.11 f
+  U3116/Y (AND2X1)                         0.03       0.14 f
+  U3117/Y (INVX1)                          0.00       0.14 r
+  U1995/Y (OAI21X1)                        0.01       0.15 f
+  RF_reg[1][16]/D (DFFPOSX1)               0.00       0.15 f
+  data arrival time                                   0.15
+
+  clock my_clock (rise edge)              10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  RF_reg[1][16]/CLK (DFFPOSX1)             0.00       9.80 r
+  library setup time                      -0.07       9.73
+  data required time                                  9.73
+  -----------------------------------------------------------
+  data required time                                  9.73
+  data arrival time                                  -0.15
+  -----------------------------------------------------------
+  slack (MET)                                         9.58
+
+
+1

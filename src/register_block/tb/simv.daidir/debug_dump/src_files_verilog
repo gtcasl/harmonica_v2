@@ -1,0 +1,6 @@
+/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v
+/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v
+/nethome/pdas36/harmonica_v2.0/src/register_block/rtl/register_bank.v
+/nethome/pdas36/harmonica_v2.0/src/register_block/rtl/register_block.v
+/nethome/pdas36/harmonica_v2.0/src/register_block/tb/warp_8_write_read_test_all_lanes_16_32_32.sv
+/nethome/pdas36/harmonica_v2.0/src/register_file/rtl/register_file.v

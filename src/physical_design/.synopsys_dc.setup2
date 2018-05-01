@@ -1,0 +1,5 @@
+search_path = {/tools/cadsol/ic446/local/ece3060/stdcell/synopsys/} + search_path
+link_library = {stdcell_v31.db}; 
+target_library = {stdcell_v31.db};
+symbol_library = {stdcell_v31.sdb};
+define_design_lib work -path work;

@@ -1,0 +1,14 @@
+setenv PROJ_ROOT /nethome/pdas36/harmonica_v2.0
+setenv INCLUDE_DIR /nethome/pdas36/harmonica_v2.0/src/include/
+
+
+include
+	Includes all the compile time options and overrides
+register_file
+	Includes the basic register file for general purpose register block
+register_block
+	Includes the register banks and register blocks for the general purpose registers
+physical_design
+	Includes standard libraries for 45 nm synthesis
+predicate_register_block
+	Includes the register block for predicate registers

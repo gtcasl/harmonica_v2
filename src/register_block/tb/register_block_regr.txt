@@ -1,0 +1,862 @@
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:21 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_8_16_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_16_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_16_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file
+recompiling module tb
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .278 seconds to compile + .102 seconds to elab + .233 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:22 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_8_16_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_16_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_16_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .290 seconds to compile + .102 seconds to elab + .229 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:24 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_8_32_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_32_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_32_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .287 seconds to compile + .103 seconds to elab + .223 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:26 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_8_32_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_32_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_32_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .298 seconds to compile + .103 seconds to elab + .227 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:28 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_8_64_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_64_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_64_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .289 seconds to compile + .102 seconds to elab + .229 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:30 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_8_64_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_64_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_8_64_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .305 seconds to compile + .103 seconds to elab + .223 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:32 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_16_16_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_16_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_16_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .360 seconds to compile + .119 seconds to elab + .226 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:34 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_16_16_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_16_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_16_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .335 seconds to compile + .121 seconds to elab + .224 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:36 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_16_32_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_32_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_32_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .344 seconds to compile + .120 seconds to elab + .224 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:38 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_16_32_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_32_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_32_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .367 seconds to compile + .122 seconds to elab + .225 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:40 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_16_64_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_64_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_64_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .348 seconds to compile + .123 seconds to elab + .225 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:41 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_8_write_read_test_all_lanes_16_64_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_64_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_8_write_read_test_all_lanes_16_64_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .377 seconds to compile + .119 seconds to elab + .222 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:43 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_8_16_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_16_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_16_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .364 seconds to compile + .122 seconds to elab + .225 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:45 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_8_16_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_16_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_16_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .346 seconds to compile + .121 seconds to elab + .226 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:47 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_8_32_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_32_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_32_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .362 seconds to compile + .121 seconds to elab + .225 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:49 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_8_32_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_32_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_32_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .381 seconds to compile + .120 seconds to elab + .224 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:51 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_8_64_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_64_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_64_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .365 seconds to compile + .122 seconds to elab + .227 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:53 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_8_64_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_64_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_8_64_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .385 seconds to compile + .123 seconds to elab + .228 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:55 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_16_16_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_16_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_16_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .429 seconds to compile + .156 seconds to elab + .227 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:57 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_16_16_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_16_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_16_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .459 seconds to compile + .156 seconds to elab + .225 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:34:59 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_16_32_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_32_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_32_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .446 seconds to compile + .156 seconds to elab + .228 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:35:01 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_16_32_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_32_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_32_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .483 seconds to compile + .159 seconds to elab + .227 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:35:03 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_16_64_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_64_32.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_64_32.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .456 seconds to compile + .155 seconds to elab + .225 seconds to link
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Fri Feb  2 16:35:06 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../register_file/rtl/register_file.v'
+Parsing design file '../rtl/register_bank.v'
+Parsing design file '../rtl/register_block.v'
+Parsing design file 'warp_16_write_read_test_all_lanes_16_64_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_param_ovrd.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_64_64.sv'.
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_block_cfg.v'.
+Back to file 'warp_16_write_read_test_all_lanes_16_64_64.sv'.
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module register_file because:
+	Module parameters have been changed via defparam.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+All of 3 modules done
+make: Warning: File `filelist.hsopt.objs' has modification time 51 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .489 seconds to compile + .156 seconds to elab + .224 seconds to link

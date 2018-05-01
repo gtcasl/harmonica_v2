@@ -1,0 +1,30 @@
+This module contains the basic block for the overall register block. 
+The Module parameters are:
+	NUM_REGS: Can be 16, 32 or 64
+	LOG2_NUM_REGS: Can be 4, 5 or 6
+	DATA_WIDTH: 1 (FIXED) 
+	NUM_LANES: 8 or 16
+The compile time parameters are:
+	NUMBER_OF_REGISTERS_IS_32
+	NUMBER_OF_REGISTERS_IS_64
+	NUMBER_OF_WARPS_IS_16 
+	NUM_LANES_IS_16
+Directories:
+rtl: contains the verilog implementation
+tb:  contains a set of test cases in the format of test_name.sv
+     The commands to compile each test is in test_list 
+     To run the test post compile
+     ./simv
+     To run all the test cases:
+     For the register bank tests
+     ./runall_predicate_register_block_tests.sh			
+syn: contains the synthesis and timing script
+     area report and timing report is generated in the reports directory
+     the script must be checked and modified for each run to pass the correct value of 
+     compile args and parameter values
+     compile time args must be passed to the analyze -d {options}
+     parameter values must be passed to the elaborate -parameters {param list}
+     To run the script for this module
+     dc_shell -f predicate_register_block.tcl 
+     The script quits the tool automatically. 
+     For the purpose of debug, uncomment the quit command in the last line of the script.

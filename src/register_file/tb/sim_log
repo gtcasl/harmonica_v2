@@ -1,0 +1,1814 @@
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:53:40 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'default_val_test_16_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'default_val_test_16_32.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .167 seconds to compile + .030 seconds to elab + .166 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:53 2018
+========================Testing the default value of all registers: Num of Registers is 16 ======================
+
+Default value of Register           0 is correct
+Default value of Register           1 is correct
+Default value of Register           2 is correct
+Default value of Register           3 is correct
+Default value of Register           4 is correct
+Default value of Register           5 is correct
+Default value of Register           6 is correct
+Default value of Register           7 is correct
+Default value of Register           8 is correct
+Default value of Register           9 is correct
+Default value of Register          10 is correct
+Default value of Register          11 is correct
+Default value of Register          12 is correct
+Default value of Register          13 is correct
+Default value of Register          14 is correct
+Default value of Register          15 is correct
+========================Testing the default value of all registers Done: Test Passed ======================
+
+$finish called from file "default_val_test_16_32.sv", line 44.
+$finish at simulation time                  100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:53:41 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:53:42 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'default_val_test_32_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'default_val_test_32_32.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .164 seconds to compile + .031 seconds to elab + .168 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:53 2018
+========================Testing the default value of all registers: Num of Registers is 32 ======================
+
+Default value of Register           0 is correct
+Default value of Register           1 is correct
+Default value of Register           2 is correct
+Default value of Register           3 is correct
+Default value of Register           4 is correct
+Default value of Register           5 is correct
+Default value of Register           6 is correct
+Default value of Register           7 is correct
+Default value of Register           8 is correct
+Default value of Register           9 is correct
+Default value of Register          10 is correct
+Default value of Register          11 is correct
+Default value of Register          12 is correct
+Default value of Register          13 is correct
+Default value of Register          14 is correct
+Default value of Register          15 is correct
+Default value of Register          16 is correct
+Default value of Register          17 is correct
+Default value of Register          18 is correct
+Default value of Register          19 is correct
+Default value of Register          20 is correct
+Default value of Register          21 is correct
+Default value of Register          22 is correct
+Default value of Register          23 is correct
+Default value of Register          24 is correct
+Default value of Register          25 is correct
+Default value of Register          26 is correct
+Default value of Register          27 is correct
+Default value of Register          28 is correct
+Default value of Register          29 is correct
+Default value of Register          30 is correct
+Default value of Register          31 is correct
+========================Testing the default value of all registers Done: Test Passed ======================
+
+$finish called from file "default_val_test_32_32.sv", line 46.
+$finish at simulation time                  100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:53:43 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:53:44 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'default_val_test_64_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'default_val_test_64_32.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .164 seconds to compile + .031 seconds to elab + .169 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:53 2018
+========================Testing the default value of all registers: Num of Registers is 64 ======================
+
+Default value of Register           0 is correct
+Default value of Register           1 is correct
+Default value of Register           2 is correct
+Default value of Register           3 is correct
+Default value of Register           4 is correct
+Default value of Register           5 is correct
+Default value of Register           6 is correct
+Default value of Register           7 is correct
+Default value of Register           8 is correct
+Default value of Register           9 is correct
+Default value of Register          10 is correct
+Default value of Register          11 is correct
+Default value of Register          12 is correct
+Default value of Register          13 is correct
+Default value of Register          14 is correct
+Default value of Register          15 is correct
+Default value of Register          16 is correct
+Default value of Register          17 is correct
+Default value of Register          18 is correct
+Default value of Register          19 is correct
+Default value of Register          20 is correct
+Default value of Register          21 is correct
+Default value of Register          22 is correct
+Default value of Register          23 is correct
+Default value of Register          24 is correct
+Default value of Register          25 is correct
+Default value of Register          26 is correct
+Default value of Register          27 is correct
+Default value of Register          28 is correct
+Default value of Register          29 is correct
+Default value of Register          30 is correct
+Default value of Register          31 is correct
+Default value of Register          32 is correct
+Default value of Register          33 is correct
+Default value of Register          34 is correct
+Default value of Register          35 is correct
+Default value of Register          36 is correct
+Default value of Register          37 is correct
+Default value of Register          38 is correct
+Default value of Register          39 is correct
+Default value of Register          40 is correct
+Default value of Register          41 is correct
+Default value of Register          42 is correct
+Default value of Register          43 is correct
+Default value of Register          44 is correct
+Default value of Register          45 is correct
+Default value of Register          46 is correct
+Default value of Register          47 is correct
+Default value of Register          48 is correct
+Default value of Register          49 is correct
+Default value of Register          50 is correct
+Default value of Register          51 is correct
+Default value of Register          52 is correct
+Default value of Register          53 is correct
+Default value of Register          54 is correct
+Default value of Register          55 is correct
+Default value of Register          56 is correct
+Default value of Register          57 is correct
+Default value of Register          58 is correct
+Default value of Register          59 is correct
+Default value of Register          60 is correct
+Default value of Register          61 is correct
+Default value of Register          62 is correct
+Default value of Register          63 is correct
+========================Testing the default value of all registers Done: Test Passed ======================
+
+$finish called from file "default_val_test_64_32.sv", line 46.
+$finish at simulation time                  100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:53:45 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:53:46 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'default_val_test_16_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'default_val_test_16_64.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .160 seconds to compile + .031 seconds to elab + .176 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:53 2018
+========================Testing the default value of all registers: Num of Registers is 16 ======================
+
+Default value of Register           0 is correct
+Default value of Register           1 is correct
+Default value of Register           2 is correct
+Default value of Register           3 is correct
+Default value of Register           4 is correct
+Default value of Register           5 is correct
+Default value of Register           6 is correct
+Default value of Register           7 is correct
+Default value of Register           8 is correct
+Default value of Register           9 is correct
+Default value of Register          10 is correct
+Default value of Register          11 is correct
+Default value of Register          12 is correct
+Default value of Register          13 is correct
+Default value of Register          14 is correct
+Default value of Register          15 is correct
+========================Testing the default value of all registers Done: Test Passed ======================
+
+$finish called from file "default_val_test_16_64.sv", line 44.
+$finish at simulation time                  100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:53:47 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:53:48 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'default_val_test_32_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'default_val_test_32_64.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .167 seconds to compile + .030 seconds to elab + .186 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:53 2018
+========================Testing the default value of all registers: Num of Registers is 32 ======================
+
+Default value of Register           0 is correct
+Default value of Register           1 is correct
+Default value of Register           2 is correct
+Default value of Register           3 is correct
+Default value of Register           4 is correct
+Default value of Register           5 is correct
+Default value of Register           6 is correct
+Default value of Register           7 is correct
+Default value of Register           8 is correct
+Default value of Register           9 is correct
+Default value of Register          10 is correct
+Default value of Register          11 is correct
+Default value of Register          12 is correct
+Default value of Register          13 is correct
+Default value of Register          14 is correct
+Default value of Register          15 is correct
+Default value of Register          16 is correct
+Default value of Register          17 is correct
+Default value of Register          18 is correct
+Default value of Register          19 is correct
+Default value of Register          20 is correct
+Default value of Register          21 is correct
+Default value of Register          22 is correct
+Default value of Register          23 is correct
+Default value of Register          24 is correct
+Default value of Register          25 is correct
+Default value of Register          26 is correct
+Default value of Register          27 is correct
+Default value of Register          28 is correct
+Default value of Register          29 is correct
+Default value of Register          30 is correct
+Default value of Register          31 is correct
+========================Testing the default value of all registers Done: Test Passed ======================
+
+$finish called from file "default_val_test_32_64.sv", line 46.
+$finish at simulation time                  100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100
+CPU Time:      0.380 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:53:49 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:53:50 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'default_val_test_64_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'default_val_test_64_64.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .167 seconds to compile + .030 seconds to elab + .165 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:53 2018
+========================Testing the default value of all registers: Num of Registers is 64 ======================
+
+Default value of Register           0 is correct
+Default value of Register           1 is correct
+Default value of Register           2 is correct
+Default value of Register           3 is correct
+Default value of Register           4 is correct
+Default value of Register           5 is correct
+Default value of Register           6 is correct
+Default value of Register           7 is correct
+Default value of Register           8 is correct
+Default value of Register           9 is correct
+Default value of Register          10 is correct
+Default value of Register          11 is correct
+Default value of Register          12 is correct
+Default value of Register          13 is correct
+Default value of Register          14 is correct
+Default value of Register          15 is correct
+Default value of Register          16 is correct
+Default value of Register          17 is correct
+Default value of Register          18 is correct
+Default value of Register          19 is correct
+Default value of Register          20 is correct
+Default value of Register          21 is correct
+Default value of Register          22 is correct
+Default value of Register          23 is correct
+Default value of Register          24 is correct
+Default value of Register          25 is correct
+Default value of Register          26 is correct
+Default value of Register          27 is correct
+Default value of Register          28 is correct
+Default value of Register          29 is correct
+Default value of Register          30 is correct
+Default value of Register          31 is correct
+Default value of Register          32 is correct
+Default value of Register          33 is correct
+Default value of Register          34 is correct
+Default value of Register          35 is correct
+Default value of Register          36 is correct
+Default value of Register          37 is correct
+Default value of Register          38 is correct
+Default value of Register          39 is correct
+Default value of Register          40 is correct
+Default value of Register          41 is correct
+Default value of Register          42 is correct
+Default value of Register          43 is correct
+Default value of Register          44 is correct
+Default value of Register          45 is correct
+Default value of Register          46 is correct
+Default value of Register          47 is correct
+Default value of Register          48 is correct
+Default value of Register          49 is correct
+Default value of Register          50 is correct
+Default value of Register          51 is correct
+Default value of Register          52 is correct
+Default value of Register          53 is correct
+Default value of Register          54 is correct
+Default value of Register          55 is correct
+Default value of Register          56 is correct
+Default value of Register          57 is correct
+Default value of Register          58 is correct
+Default value of Register          59 is correct
+Default value of Register          60 is correct
+Default value of Register          61 is correct
+Default value of Register          62 is correct
+Default value of Register          63 is correct
+========================Testing the default value of all registers Done: Test Passed ======================
+
+$finish called from file "default_val_test_64_64.sv", line 46.
+$finish at simulation time                  100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:53:51 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:53:52 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'write_read_each_bit_16_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'write_read_each_bit_16_32.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .175 seconds to compile + .032 seconds to elab + .172 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:53 2018
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 0
+
+Testing for Register           1, Addr: 1
+
+Testing for Register           2, Addr: 2
+
+Testing for Register           3, Addr: 3
+
+Testing for Register           4, Addr: 4
+
+Testing for Register           5, Addr: 5
+
+Testing for Register           6, Addr: 6
+
+Testing for Register           7, Addr: 7
+
+Testing for Register           8, Addr: 8
+
+Testing for Register           9, Addr: 9
+
+Testing for Register          10, Addr: a
+
+Testing for Register          11, Addr: b
+
+Testing for Register          12, Addr: c
+
+Testing for Register          13, Addr: d
+
+Testing for Register          14, Addr: e
+
+Testing for Register          15, Addr: f
+
+$finish called from file "write_read_each_bit_16_32.sv", line 116.
+$finish at simulation time                35862
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 35862
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:53:53 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:53:54 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'write_read_each_bit_32_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'write_read_each_bit_32_32.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .175 seconds to compile + .032 seconds to elab + .169 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:53 2018
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 00
+
+Testing for Register           1, Addr: 01
+
+Testing for Register           2, Addr: 02
+
+Testing for Register           3, Addr: 03
+
+Testing for Register           4, Addr: 04
+
+Testing for Register           5, Addr: 05
+
+Testing for Register           6, Addr: 06
+
+Testing for Register           7, Addr: 07
+
+Testing for Register           8, Addr: 08
+
+Testing for Register           9, Addr: 09
+
+Testing for Register          10, Addr: 0a
+
+Testing for Register          11, Addr: 0b
+
+Testing for Register          12, Addr: 0c
+
+Testing for Register          13, Addr: 0d
+
+Testing for Register          14, Addr: 0e
+
+Testing for Register          15, Addr: 0f
+
+Testing for Register          16, Addr: 10
+
+Testing for Register          17, Addr: 11
+
+Testing for Register          18, Addr: 12
+
+Testing for Register          19, Addr: 13
+
+Testing for Register          20, Addr: 14
+
+Testing for Register          21, Addr: 15
+
+Testing for Register          22, Addr: 16
+
+Testing for Register          23, Addr: 17
+
+Testing for Register          24, Addr: 18
+
+Testing for Register          25, Addr: 19
+
+Testing for Register          26, Addr: 1a
+
+Testing for Register          27, Addr: 1b
+
+Testing for Register          28, Addr: 1c
+
+Testing for Register          29, Addr: 1d
+
+Testing for Register          30, Addr: 1e
+
+Testing for Register          31, Addr: 1f
+
+$finish called from file "write_read_each_bit_32_32.sv", line 114.
+$finish at simulation time                61462
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 61462
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:53:55 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:53:56 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'write_read_each_bit_64_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'write_read_each_bit_64_32.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .179 seconds to compile + .030 seconds to elab + .172 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:53 2018
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 00
+
+Testing for Register           1, Addr: 01
+
+Testing for Register           2, Addr: 02
+
+Testing for Register           3, Addr: 03
+
+Testing for Register           4, Addr: 04
+
+Testing for Register           5, Addr: 05
+
+Testing for Register           6, Addr: 06
+
+Testing for Register           7, Addr: 07
+
+Testing for Register           8, Addr: 08
+
+Testing for Register           9, Addr: 09
+
+Testing for Register          10, Addr: 0a
+
+Testing for Register          11, Addr: 0b
+
+Testing for Register          12, Addr: 0c
+
+Testing for Register          13, Addr: 0d
+
+Testing for Register          14, Addr: 0e
+
+Testing for Register          15, Addr: 0f
+
+Testing for Register          16, Addr: 10
+
+Testing for Register          17, Addr: 11
+
+Testing for Register          18, Addr: 12
+
+Testing for Register          19, Addr: 13
+
+Testing for Register          20, Addr: 14
+
+Testing for Register          21, Addr: 15
+
+Testing for Register          22, Addr: 16
+
+Testing for Register          23, Addr: 17
+
+Testing for Register          24, Addr: 18
+
+Testing for Register          25, Addr: 19
+
+Testing for Register          26, Addr: 1a
+
+Testing for Register          27, Addr: 1b
+
+Testing for Register          28, Addr: 1c
+
+Testing for Register          29, Addr: 1d
+
+Testing for Register          30, Addr: 1e
+
+Testing for Register          31, Addr: 1f
+
+Testing for Register          32, Addr: 20
+
+Testing for Register          33, Addr: 21
+
+Testing for Register          34, Addr: 22
+
+Testing for Register          35, Addr: 23
+
+Testing for Register          36, Addr: 24
+
+Testing for Register          37, Addr: 25
+
+Testing for Register          38, Addr: 26
+
+Testing for Register          39, Addr: 27
+
+Testing for Register          40, Addr: 28
+
+Testing for Register          41, Addr: 29
+
+Testing for Register          42, Addr: 2a
+
+Testing for Register          43, Addr: 2b
+
+Testing for Register          44, Addr: 2c
+
+Testing for Register          45, Addr: 2d
+
+Testing for Register          46, Addr: 2e
+
+Testing for Register          47, Addr: 2f
+
+Testing for Register          48, Addr: 30
+
+Testing for Register          49, Addr: 31
+
+Testing for Register          50, Addr: 32
+
+Testing for Register          51, Addr: 33
+
+Testing for Register          52, Addr: 34
+
+Testing for Register          53, Addr: 35
+
+Testing for Register          54, Addr: 36
+
+Testing for Register          55, Addr: 37
+
+Testing for Register          56, Addr: 38
+
+Testing for Register          57, Addr: 39
+
+Testing for Register          58, Addr: 3a
+
+Testing for Register          59, Addr: 3b
+
+Testing for Register          60, Addr: 3c
+
+Testing for Register          61, Addr: 3d
+
+Testing for Register          62, Addr: 3e
+
+Testing for Register          63, Addr: 3f
+
+$finish called from file "write_read_each_bit_64_32.sv", line 116.
+$finish at simulation time               143382
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 143382
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:53:57 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:53:58 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'write_read_each_bit_64_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'write_read_each_bit_64_64.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .184 seconds to compile + .031 seconds to elab + .168 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:53 2018
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 00
+
+Testing for Register           1, Addr: 01
+
+Testing for Register           2, Addr: 02
+
+Testing for Register           3, Addr: 03
+
+Testing for Register           4, Addr: 04
+
+Testing for Register           5, Addr: 05
+
+Testing for Register           6, Addr: 06
+
+Testing for Register           7, Addr: 07
+
+Testing for Register           8, Addr: 08
+
+Testing for Register           9, Addr: 09
+
+Testing for Register          10, Addr: 0a
+
+Testing for Register          11, Addr: 0b
+
+Testing for Register          12, Addr: 0c
+
+Testing for Register          13, Addr: 0d
+
+Testing for Register          14, Addr: 0e
+
+Testing for Register          15, Addr: 0f
+
+Testing for Register          16, Addr: 10
+
+Testing for Register          17, Addr: 11
+
+Testing for Register          18, Addr: 12
+
+Testing for Register          19, Addr: 13
+
+Testing for Register          20, Addr: 14
+
+Testing for Register          21, Addr: 15
+
+Testing for Register          22, Addr: 16
+
+Testing for Register          23, Addr: 17
+
+Testing for Register          24, Addr: 18
+
+Testing for Register          25, Addr: 19
+
+Testing for Register          26, Addr: 1a
+
+Testing for Register          27, Addr: 1b
+
+Testing for Register          28, Addr: 1c
+
+Testing for Register          29, Addr: 1d
+
+Testing for Register          30, Addr: 1e
+
+Testing for Register          31, Addr: 1f
+
+Testing for Register          32, Addr: 20
+
+Testing for Register          33, Addr: 21
+
+Testing for Register          34, Addr: 22
+
+Testing for Register          35, Addr: 23
+
+Testing for Register          36, Addr: 24
+
+Testing for Register          37, Addr: 25
+
+Testing for Register          38, Addr: 26
+
+Testing for Register          39, Addr: 27
+
+Testing for Register          40, Addr: 28
+
+Testing for Register          41, Addr: 29
+
+Testing for Register          42, Addr: 2a
+
+Testing for Register          43, Addr: 2b
+
+Testing for Register          44, Addr: 2c
+
+Testing for Register          45, Addr: 2d
+
+Testing for Register          46, Addr: 2e
+
+Testing for Register          47, Addr: 2f
+
+Testing for Register          48, Addr: 30
+
+Testing for Register          49, Addr: 31
+
+Testing for Register          50, Addr: 32
+
+Testing for Register          51, Addr: 33
+
+Testing for Register          52, Addr: 34
+
+Testing for Register          53, Addr: 35
+
+Testing for Register          54, Addr: 36
+
+Testing for Register          55, Addr: 37
+
+Testing for Register          56, Addr: 38
+
+Testing for Register          57, Addr: 39
+
+Testing for Register          58, Addr: 3a
+
+Testing for Register          59, Addr: 3b
+
+Testing for Register          60, Addr: 3c
+
+Testing for Register          61, Addr: 3d
+
+Testing for Register          62, Addr: 3e
+
+Testing for Register          63, Addr: 3f
+
+$finish called from file "write_read_each_bit_64_64.sv", line 116.
+$finish at simulation time               286742
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 286742
+CPU Time:      0.390 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:53:59 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:54:00 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'write_read_each_bit_32_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'write_read_each_bit_32_64.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .177 seconds to compile + .032 seconds to elab + .167 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:54 2018
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 00
+
+Testing for Register           1, Addr: 01
+
+Testing for Register           2, Addr: 02
+
+Testing for Register           3, Addr: 03
+
+Testing for Register           4, Addr: 04
+
+Testing for Register           5, Addr: 05
+
+Testing for Register           6, Addr: 06
+
+Testing for Register           7, Addr: 07
+
+Testing for Register           8, Addr: 08
+
+Testing for Register           9, Addr: 09
+
+Testing for Register          10, Addr: 0a
+
+Testing for Register          11, Addr: 0b
+
+Testing for Register          12, Addr: 0c
+
+Testing for Register          13, Addr: 0d
+
+Testing for Register          14, Addr: 0e
+
+Testing for Register          15, Addr: 0f
+
+Testing for Register          16, Addr: 10
+
+Testing for Register          17, Addr: 11
+
+Testing for Register          18, Addr: 12
+
+Testing for Register          19, Addr: 13
+
+Testing for Register          20, Addr: 14
+
+Testing for Register          21, Addr: 15
+
+Testing for Register          22, Addr: 16
+
+Testing for Register          23, Addr: 17
+
+Testing for Register          24, Addr: 18
+
+Testing for Register          25, Addr: 19
+
+Testing for Register          26, Addr: 1a
+
+Testing for Register          27, Addr: 1b
+
+Testing for Register          28, Addr: 1c
+
+Testing for Register          29, Addr: 1d
+
+Testing for Register          30, Addr: 1e
+
+Testing for Register          31, Addr: 1f
+
+$finish called from file "write_read_each_bit_32_64.sv", line 114.
+$finish at simulation time               122902
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 122902
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:54:01 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:54:02 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'random_write_read_16_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'random_write_read_16_32.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .183 seconds to compile + .030 seconds to elab + .173 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:54 2018
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 0
+
+Testing for Register           1, Addr: 1
+
+Testing for Register           2, Addr: 2
+
+Testing for Register           3, Addr: 3
+
+Testing for Register           4, Addr: 4
+
+Testing for Register           5, Addr: 5
+
+Testing for Register           6, Addr: 6
+
+Testing for Register           7, Addr: 7
+
+Testing for Register           8, Addr: 8
+
+Testing for Register           9, Addr: 9
+
+Testing for Register          10, Addr: a
+
+Testing for Register          11, Addr: b
+
+Testing for Register          12, Addr: c
+
+Testing for Register          13, Addr: d
+
+Testing for Register          14, Addr: e
+
+Testing for Register          15, Addr: f
+
+$finish called from file "random_write_read_16_32.sv", line 116.
+$finish at simulation time                35862
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 35862
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:54:03 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:54:04 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'random_write_read_32_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'random_write_read_32_32.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .176 seconds to compile + .030 seconds to elab + .168 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:54 2018
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 00
+
+Testing for Register           1, Addr: 01
+
+Testing for Register           2, Addr: 02
+
+Testing for Register           3, Addr: 03
+
+Testing for Register           4, Addr: 04
+
+Testing for Register           5, Addr: 05
+
+Testing for Register           6, Addr: 06
+
+Testing for Register           7, Addr: 07
+
+Testing for Register           8, Addr: 08
+
+Testing for Register           9, Addr: 09
+
+Testing for Register          10, Addr: 0a
+
+Testing for Register          11, Addr: 0b
+
+Testing for Register          12, Addr: 0c
+
+Testing for Register          13, Addr: 0d
+
+Testing for Register          14, Addr: 0e
+
+Testing for Register          15, Addr: 0f
+
+Testing for Register          16, Addr: 10
+
+Testing for Register          17, Addr: 11
+
+Testing for Register          18, Addr: 12
+
+Testing for Register          19, Addr: 13
+
+Testing for Register          20, Addr: 14
+
+Testing for Register          21, Addr: 15
+
+Testing for Register          22, Addr: 16
+
+Testing for Register          23, Addr: 17
+
+Testing for Register          24, Addr: 18
+
+Testing for Register          25, Addr: 19
+
+Testing for Register          26, Addr: 1a
+
+Testing for Register          27, Addr: 1b
+
+Testing for Register          28, Addr: 1c
+
+Testing for Register          29, Addr: 1d
+
+Testing for Register          30, Addr: 1e
+
+Testing for Register          31, Addr: 1f
+
+$finish called from file "random_write_read_32_32.sv", line 114.
+$finish at simulation time                61462
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 61462
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:54:05 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:54:05 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'random_write_read_64_32.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'random_write_read_64_32.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .181 seconds to compile + .030 seconds to elab + .169 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:54 2018
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 00
+
+Testing for Register           1, Addr: 01
+
+Testing for Register           2, Addr: 02
+
+Testing for Register           3, Addr: 03
+
+Testing for Register           4, Addr: 04
+
+Testing for Register           5, Addr: 05
+
+Testing for Register           6, Addr: 06
+
+Testing for Register           7, Addr: 07
+
+Testing for Register           8, Addr: 08
+
+Testing for Register           9, Addr: 09
+
+Testing for Register          10, Addr: 0a
+
+Testing for Register          11, Addr: 0b
+
+Testing for Register          12, Addr: 0c
+
+Testing for Register          13, Addr: 0d
+
+Testing for Register          14, Addr: 0e
+
+Testing for Register          15, Addr: 0f
+
+Testing for Register          16, Addr: 10
+
+Testing for Register          17, Addr: 11
+
+Testing for Register          18, Addr: 12
+
+Testing for Register          19, Addr: 13
+
+Testing for Register          20, Addr: 14
+
+Testing for Register          21, Addr: 15
+
+Testing for Register          22, Addr: 16
+
+Testing for Register          23, Addr: 17
+
+Testing for Register          24, Addr: 18
+
+Testing for Register          25, Addr: 19
+
+Testing for Register          26, Addr: 1a
+
+Testing for Register          27, Addr: 1b
+
+Testing for Register          28, Addr: 1c
+
+Testing for Register          29, Addr: 1d
+
+Testing for Register          30, Addr: 1e
+
+Testing for Register          31, Addr: 1f
+
+Testing for Register          32, Addr: 20
+
+Testing for Register          33, Addr: 21
+
+Testing for Register          34, Addr: 22
+
+Testing for Register          35, Addr: 23
+
+Testing for Register          36, Addr: 24
+
+Testing for Register          37, Addr: 25
+
+Testing for Register          38, Addr: 26
+
+Testing for Register          39, Addr: 27
+
+Testing for Register          40, Addr: 28
+
+Testing for Register          41, Addr: 29
+
+Testing for Register          42, Addr: 2a
+
+Testing for Register          43, Addr: 2b
+
+Testing for Register          44, Addr: 2c
+
+Testing for Register          45, Addr: 2d
+
+Testing for Register          46, Addr: 2e
+
+Testing for Register          47, Addr: 2f
+
+Testing for Register          48, Addr: 30
+
+Testing for Register          49, Addr: 31
+
+Testing for Register          50, Addr: 32
+
+Testing for Register          51, Addr: 33
+
+Testing for Register          52, Addr: 34
+
+Testing for Register          53, Addr: 35
+
+Testing for Register          54, Addr: 36
+
+Testing for Register          55, Addr: 37
+
+Testing for Register          56, Addr: 38
+
+Testing for Register          57, Addr: 39
+
+Testing for Register          58, Addr: 3a
+
+Testing for Register          59, Addr: 3b
+
+Testing for Register          60, Addr: 3c
+
+Testing for Register          61, Addr: 3d
+
+Testing for Register          62, Addr: 3e
+
+Testing for Register          63, Addr: 3f
+
+$finish called from file "random_write_read_64_32.sv", line 116.
+$finish at simulation time               143382
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 143382
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:54:07 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:54:07 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'random_write_read_64_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'random_write_read_64_64.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .185 seconds to compile + .032 seconds to elab + .170 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:54 2018
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 00
+
+Testing for Register           1, Addr: 01
+
+Testing for Register           2, Addr: 02
+
+Testing for Register           3, Addr: 03
+
+Testing for Register           4, Addr: 04
+
+Testing for Register           5, Addr: 05
+
+Testing for Register           6, Addr: 06
+
+Testing for Register           7, Addr: 07
+
+Testing for Register           8, Addr: 08
+
+Testing for Register           9, Addr: 09
+
+Testing for Register          10, Addr: 0a
+
+Testing for Register          11, Addr: 0b
+
+Testing for Register          12, Addr: 0c
+
+Testing for Register          13, Addr: 0d
+
+Testing for Register          14, Addr: 0e
+
+Testing for Register          15, Addr: 0f
+
+Testing for Register          16, Addr: 10
+
+Testing for Register          17, Addr: 11
+
+Testing for Register          18, Addr: 12
+
+Testing for Register          19, Addr: 13
+
+Testing for Register          20, Addr: 14
+
+Testing for Register          21, Addr: 15
+
+Testing for Register          22, Addr: 16
+
+Testing for Register          23, Addr: 17
+
+Testing for Register          24, Addr: 18
+
+Testing for Register          25, Addr: 19
+
+Testing for Register          26, Addr: 1a
+
+Testing for Register          27, Addr: 1b
+
+Testing for Register          28, Addr: 1c
+
+Testing for Register          29, Addr: 1d
+
+Testing for Register          30, Addr: 1e
+
+Testing for Register          31, Addr: 1f
+
+Testing for Register          32, Addr: 20
+
+Testing for Register          33, Addr: 21
+
+Testing for Register          34, Addr: 22
+
+Testing for Register          35, Addr: 23
+
+Testing for Register          36, Addr: 24
+
+Testing for Register          37, Addr: 25
+
+Testing for Register          38, Addr: 26
+
+Testing for Register          39, Addr: 27
+
+Testing for Register          40, Addr: 28
+
+Testing for Register          41, Addr: 29
+
+Testing for Register          42, Addr: 2a
+
+Testing for Register          43, Addr: 2b
+
+Testing for Register          44, Addr: 2c
+
+Testing for Register          45, Addr: 2d
+
+Testing for Register          46, Addr: 2e
+
+Testing for Register          47, Addr: 2f
+
+Testing for Register          48, Addr: 30
+
+Testing for Register          49, Addr: 31
+
+Testing for Register          50, Addr: 32
+
+Testing for Register          51, Addr: 33
+
+Testing for Register          52, Addr: 34
+
+Testing for Register          53, Addr: 35
+
+Testing for Register          54, Addr: 36
+
+Testing for Register          55, Addr: 37
+
+Testing for Register          56, Addr: 38
+
+Testing for Register          57, Addr: 39
+
+Testing for Register          58, Addr: 3a
+
+Testing for Register          59, Addr: 3b
+
+Testing for Register          60, Addr: 3c
+
+Testing for Register          61, Addr: 3d
+
+Testing for Register          62, Addr: 3e
+
+Testing for Register          63, Addr: 3f
+
+$finish called from file "random_write_read_64_64.sv", line 116.
+$finish at simulation time               286742
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 286742
+CPU Time:      0.380 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:54:09 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:54:10 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'random_write_read_32_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'random_write_read_32_64.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .183 seconds to compile + .032 seconds to elab + .177 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:54 2018
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 00
+
+Testing for Register           1, Addr: 01
+
+Testing for Register           2, Addr: 02
+
+Testing for Register           3, Addr: 03
+
+Testing for Register           4, Addr: 04
+
+Testing for Register           5, Addr: 05
+
+Testing for Register           6, Addr: 06
+
+Testing for Register           7, Addr: 07
+
+Testing for Register           8, Addr: 08
+
+Testing for Register           9, Addr: 09
+
+Testing for Register          10, Addr: 0a
+
+Testing for Register          11, Addr: 0b
+
+Testing for Register          12, Addr: 0c
+
+Testing for Register          13, Addr: 0d
+
+Testing for Register          14, Addr: 0e
+
+Testing for Register          15, Addr: 0f
+
+Testing for Register          16, Addr: 10
+
+Testing for Register          17, Addr: 11
+
+Testing for Register          18, Addr: 12
+
+Testing for Register          19, Addr: 13
+
+Testing for Register          20, Addr: 14
+
+Testing for Register          21, Addr: 15
+
+Testing for Register          22, Addr: 16
+
+Testing for Register          23, Addr: 17
+
+Testing for Register          24, Addr: 18
+
+Testing for Register          25, Addr: 19
+
+Testing for Register          26, Addr: 1a
+
+Testing for Register          27, Addr: 1b
+
+Testing for Register          28, Addr: 1c
+
+Testing for Register          29, Addr: 1d
+
+Testing for Register          30, Addr: 1e
+
+Testing for Register          31, Addr: 1f
+
+$finish called from file "random_write_read_32_64.sv", line 114.
+$finish at simulation time               122902
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 122902
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:54:11 2018
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Wed Jan 31 09:54:11 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'random_write_read_16_64.sv'
+Parsing included file '/nethome/pdas36/harmonica_v2.0/src/include/register_cfg.v'.
+Back to file 'random_write_read_16_64.sv'.
+Parsing design file '../rtl/register_file.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module tb because:
+	Module parameters have been changed via defparam.
+make: Warning: File `filelist.hsopt' has modification time 47 s in the future
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /tools/synopsys/vcs/i201403/linux/lib/libzerosoft_rt_stubs.so /tools/synopsys/vcs/i201403/linux/lib/libvirsim.so /tools/synopsys/vcs/i201403/linux/lib/librterrorinf.so /tools/synopsys/vcs/i201403/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/i201403/linux/lib/libvcsnew.so /tools/synopsys/vcs/i201403/linux/lib/libuclinative.so   -Wl,-whole-archive /tools/synopsys/vcs/i201403/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /tools/synopsys/vcs/i201403/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/i201403/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .180 seconds to compile + .033 seconds to elab + .175 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 31 09:54 2018
+======================= Writing to each register and reading back test ======================
+
+Testing for Register           0, Addr: 0
+
+Testing for Register           1, Addr: 1
+
+Testing for Register           2, Addr: 2
+
+Testing for Register           3, Addr: 3
+
+Testing for Register           4, Addr: 4
+
+Testing for Register           5, Addr: 5
+
+Testing for Register           6, Addr: 6
+
+Testing for Register           7, Addr: 7
+
+Testing for Register           8, Addr: 8
+
+Testing for Register           9, Addr: 9
+
+Testing for Register          10, Addr: a
+
+Testing for Register          11, Addr: b
+
+Testing for Register          12, Addr: c
+
+Testing for Register          13, Addr: d
+
+Testing for Register          14, Addr: e
+
+Testing for Register          15, Addr: f
+
+$finish called from file "random_write_read_16_64.sv", line 114.
+$finish at simulation time                61462
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 61462
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Wed Jan 31 09:54:13 2018

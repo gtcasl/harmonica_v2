@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : register_bank_NUM_LANES8_DATA_WIDTH32_NUM_REGS16_LOG2_NUM_REGS4
+Version: F-2011.09-SP4-1
+Date   : Wed Jan 31 11:01:36 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'register_bank_NUM_LANES8_DATA_WIDTH32_NUM_REGS16_LOG2_NUM_REGS4' contains 3 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/harmonica_v2.0/src/register_block/syn/gscl45nm.db)
+
+Number of ports:                          806
+Number of nets:                           806
+Number of cells:                            8
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       8
+
+Combinational area:       60408.295354
+Noncombinational area:    32678.296875
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          93086.592229
+Total area:                 undefined
+1

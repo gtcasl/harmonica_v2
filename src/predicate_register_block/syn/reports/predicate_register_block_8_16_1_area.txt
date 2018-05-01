@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : predicate_register_block_DATA_WIDTH1_NUM_LANES8_NUM_REGS16_LOG2_NUM_REGS4
+Version: L-2016.03-SP5
+Date   : Fri Feb  2 18:54:35 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'predicate_register_block_DATA_WIDTH1_NUM_LANES8_NUM_REGS16_LOG2_NUM_REGS4' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    gscl45nm (File: /nethome/pdas36/harmonica_v2.0/src/predicate_register_block/syn/gscl45nm.db)
+
+Number of ports:                         1906
+Number of nets:                         15611
+Number of cells:                        13794
+Number of combinational cells:          12697
+Number of sequential cells:              1024
+Number of macros/black boxes:               0
+Number of buf/inv:                       4977
+Number of references:                       1
+
+Combinational area:              27168.245676
+Buf/Inv area:                     7187.329369
+Noncombinational area:            8169.574219
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 35337.819895
+Total area:                 undefined
+1
